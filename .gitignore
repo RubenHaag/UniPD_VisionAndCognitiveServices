@@ -11,6 +11,9 @@ __pycache__/
 *.tiff
 *.TIFF
 *.tif
+*.TFw
+*.TIF.aux.xml
+*.TIF.ovr
 
 # Distribution / packaging
 .Python
