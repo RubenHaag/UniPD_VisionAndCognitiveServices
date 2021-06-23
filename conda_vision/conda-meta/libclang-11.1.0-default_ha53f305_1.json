@@ -1,0 +1,60 @@
+{
+  "build": "default_ha53f305_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "clang 11.1.0.*",
+    "clang-tools 11.1.0.*",
+    "llvm 11.1.0.*",
+    "llvm-tools 11.1.0.*",
+    "llvmdev 11.1.0.*"
+  ],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libllvm11 >=11.1.0,<11.2.0a0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/libclang-11.1.0-default_ha53f305_1",
+  "features": "",
+  "files": [
+    "lib/libclang.so",
+    "lib/libclang.so.11.1"
+  ],
+  "fn": "libclang-11.1.0-default_ha53f305_1.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/libclang-11.1.0-default_ha53f305_1",
+    "type": 1
+  },
+  "md5": "b9b71585ca4fcb5d442c5a9df5dd7e98",
+  "name": "libclang",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/libclang-11.1.0-default_ha53f305_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.so",
+        "path_type": "hardlink",
+        "sha256": "3a7789192e99028e44d41fecda291c00468702fc2ca7f7d41012a309e78b37a8",
+        "sha256_in_prefix": "3a7789192e99028e44d41fecda291c00468702fc2ca7f7d41012a309e78b37a8",
+        "size_in_bytes": 35233816
+      },
+      {
+        "_path": "lib/libclang.so.11.1",
+        "path_type": "hardlink",
+        "sha256": "3a7789192e99028e44d41fecda291c00468702fc2ca7f7d41012a309e78b37a8",
+        "sha256_in_prefix": "3a7789192e99028e44d41fecda291c00468702fc2ca7f7d41012a309e78b37a8",
+        "size_in_bytes": 35233816
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "47c87f01826793d7ae4d1a89aab1f55740bc797e46fd2fbdea84b6b8be504c08",
+  "size": 20160472,
+  "subdir": "linux-64",
+  "timestamp": 1620641645186,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang-11.1.0-default_ha53f305_1.tar.bz2",
+  "version": "11.1.0"
+}

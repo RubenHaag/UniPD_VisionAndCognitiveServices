@@ -1,0 +1,39 @@
+{
+  "build": "py39hf3d152e_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "pyqt-impl 5.12.3 py39h0fcd23e_7",
+    "pyqt5-sip 4.19.18 py39he80948d_7",
+    "pyqtchart 5.12 py39h0fcd23e_7",
+    "pyqtwebengine 5.12.1 py39h0fcd23e_7",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/pyqt-5.12.3-py39hf3d152e_7",
+  "features": "",
+  "files": [],
+  "fn": "pyqt-5.12.3-py39hf3d152e_7.tar.bz2",
+  "license": "LicenseRef-Commercial or GPL-2.0-only or GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/pyqt-5.12.3-py39hf3d152e_7",
+    "type": 1
+  },
+  "md5": "08e46ad97d4712558a52ae2ea6a92c8d",
+  "name": "pyqt",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/pyqt-5.12.3-py39hf3d152e_7.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9d9d05b1e8934728dcfe30846bd7251a8da646c9506e84e141f0c4fd3b31f59c",
+  "size": 21946,
+  "subdir": "linux-64",
+  "timestamp": 1610495217659,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyqt-5.12.3-py39hf3d152e_7.tar.bz2",
+  "version": "5.12.3"
+}

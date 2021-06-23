@@ -1,0 +1,54 @@
+{
+  "build": "8_mkl",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "blas * mkl",
+    "liblapacke 3.9.0 8_mkl",
+    "libcblas 3.9.0 8_mkl"
+  ],
+  "depends": [
+    "libblas 3.9.0 8_mkl"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/liblapack-3.9.0-8_mkl",
+  "features": "",
+  "files": [
+    "lib/liblapack.so",
+    "lib/liblapack.so.3"
+  ],
+  "fn": "liblapack-3.9.0-8_mkl.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/liblapack-3.9.0-8_mkl",
+    "type": 1
+  },
+  "md5": "2bd1d6d072bcd2e94517a977cd5e3316",
+  "name": "liblapack",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/liblapack-3.9.0-8_mkl.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/liblapack.so",
+        "path_type": "softlink",
+        "sha256": "8421e2644bd5628dbd3f3c58f3a0def258eae6e47797f6c1d4084a8dc4d718da",
+        "size_in_bytes": 7140207
+      },
+      {
+        "_path": "lib/liblapack.so.3",
+        "path_type": "softlink",
+        "sha256": "8421e2644bd5628dbd3f3c58f3a0def258eae6e47797f6c1d4084a8dc4d718da",
+        "size_in_bytes": 7140207
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1aceef2d42a820c222e6be6db975f41921490710fa69c77d83d3133470007239",
+  "size": 11646,
+  "subdir": "linux-64",
+  "timestamp": 1612393948858,
+  "track_features": "blas_mkl",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.9.0-8_mkl.tar.bz2",
+  "version": "3.9.0"
+}

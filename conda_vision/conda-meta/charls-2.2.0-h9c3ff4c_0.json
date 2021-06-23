@@ -1,0 +1,149 @@
+{
+  "build": "h9c3ff4c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/charls-2.2.0-h9c3ff4c_0",
+  "features": "",
+  "files": [
+    "include/charls/annotations.h",
+    "include/charls/api_abi.h",
+    "include/charls/charls.h",
+    "include/charls/charls_jpegls_decoder.h",
+    "include/charls/charls_jpegls_encoder.h",
+    "include/charls/jpegls_error.h",
+    "include/charls/public_types.h",
+    "include/charls/version.h",
+    "lib/cmake/charls/charlsConfig-release.cmake",
+    "lib/cmake/charls/charlsConfig.cmake",
+    "lib/libcharls.so",
+    "lib/libcharls.so.2",
+    "lib/libcharls.so.2.2.0",
+    "lib/pkgconfig/charls.pc"
+  ],
+  "fn": "charls-2.2.0-h9c3ff4c_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/charls-2.2.0-h9c3ff4c_0",
+    "type": 1
+  },
+  "md5": "bc0a1a5c99af57d2821914ab074797f9",
+  "name": "charls",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/charls-2.2.0-h9c3ff4c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/charls/annotations.h",
+        "path_type": "hardlink",
+        "sha256": "11e2f10b42b9209bf3e5564e1d18fbfb93bae39c3ed6e2127a9c6fddce0516a9",
+        "sha256_in_prefix": "11e2f10b42b9209bf3e5564e1d18fbfb93bae39c3ed6e2127a9c6fddce0516a9",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "include/charls/api_abi.h",
+        "path_type": "hardlink",
+        "sha256": "ce667084357c6811e0a022219239228abc6acedefcfab0afac5916e0ce38ff5a",
+        "sha256_in_prefix": "ce667084357c6811e0a022219239228abc6acedefcfab0afac5916e0ce38ff5a",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "include/charls/charls.h",
+        "path_type": "hardlink",
+        "sha256": "fc722ecff738fd6f5617819f25432c7653256df7e8294ee4bb7a7dcd94d17eb9",
+        "sha256_in_prefix": "fc722ecff738fd6f5617819f25432c7653256df7e8294ee4bb7a7dcd94d17eb9",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "include/charls/charls_jpegls_decoder.h",
+        "path_type": "hardlink",
+        "sha256": "c548d7c5ab61e112c1afb3ac033cbe6373327b97ef855d5bde78d9fd8ab42367",
+        "sha256_in_prefix": "c548d7c5ab61e112c1afb3ac033cbe6373327b97ef855d5bde78d9fd8ab42367",
+        "size_in_bytes": 25988
+      },
+      {
+        "_path": "include/charls/charls_jpegls_encoder.h",
+        "path_type": "hardlink",
+        "sha256": "52068d7d5bdd82c4a31e12bc205cf36ea5ed3aca1852b992e8595a5850420f90",
+        "sha256_in_prefix": "52068d7d5bdd82c4a31e12bc205cf36ea5ed3aca1852b992e8595a5850420f90",
+        "size_in_bytes": 23893
+      },
+      {
+        "_path": "include/charls/jpegls_error.h",
+        "path_type": "hardlink",
+        "sha256": "f49a15626f9028246f1c5c1aa5fb286ef9bd2cd7fa3cfcac51bccd72afff75d5",
+        "sha256_in_prefix": "f49a15626f9028246f1c5c1aa5fb286ef9bd2cd7fa3cfcac51bccd72afff75d5",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "include/charls/public_types.h",
+        "path_type": "hardlink",
+        "sha256": "cf42abdd6314ad531dfa570806f05d650ef06c63a0d33c764d18f4f4fab975b5",
+        "sha256_in_prefix": "cf42abdd6314ad531dfa570806f05d650ef06c63a0d33c764d18f4f4fab975b5",
+        "size_in_bytes": 39133
+      },
+      {
+        "_path": "include/charls/version.h",
+        "path_type": "hardlink",
+        "sha256": "0064a69396b79b3a40bf1a8290c022cd2b43dfd7603b5c5bf6cd7ebc87f6f6fa",
+        "sha256_in_prefix": "0064a69396b79b3a40bf1a8290c022cd2b43dfd7603b5c5bf6cd7ebc87f6f6fa",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "lib/cmake/charls/charlsConfig-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "d4be526a9d69215e15a963b4bb20388bdc5808f657e059e31f56b446cb27dfaf",
+        "sha256_in_prefix": "d4be526a9d69215e15a963b4bb20388bdc5808f657e059e31f56b446cb27dfaf",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/cmake/charls/charlsConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "7468452b2635d259825d45cc497e71d5bdda87330bcf31762ccc611780f07afb",
+        "sha256_in_prefix": "7468452b2635d259825d45cc497e71d5bdda87330bcf31762ccc611780f07afb",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "lib/libcharls.so",
+        "path_type": "softlink",
+        "sha256": "d017e461d9423b66d717f4e8da44a0f9087026209cf6cc3dc042fdf3e27f705e",
+        "size_in_bytes": 391984
+      },
+      {
+        "_path": "lib/libcharls.so.2",
+        "path_type": "softlink",
+        "sha256": "d017e461d9423b66d717f4e8da44a0f9087026209cf6cc3dc042fdf3e27f705e",
+        "size_in_bytes": 391984
+      },
+      {
+        "_path": "lib/libcharls.so.2.2.0",
+        "path_type": "hardlink",
+        "sha256": "d017e461d9423b66d717f4e8da44a0f9087026209cf6cc3dc042fdf3e27f705e",
+        "sha256_in_prefix": "d017e461d9423b66d717f4e8da44a0f9087026209cf6cc3dc042fdf3e27f705e",
+        "size_in_bytes": 391984
+      },
+      {
+        "_path": "lib/pkgconfig/charls.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/charls_1610312593661/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "7381796ac077230fa7e06e577f7bda6df15e32216a2d8218237a37856d7c6351",
+        "sha256_in_prefix": "a43b5d3c7427cebcb16a1e25b998cdd6f7d888dd25058b6f1ddc201afb710b94",
+        "size_in_bytes": 533
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "722799542cb8583b15bf7944ab0aa2fd4efac40b6cdd5833f224061262d3da09",
+  "size": 141161,
+  "subdir": "linux-64",
+  "timestamp": 1610312743739,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/charls-2.2.0-h9c3ff4c_0.tar.bz2",
+  "version": "2.2.0"
+}

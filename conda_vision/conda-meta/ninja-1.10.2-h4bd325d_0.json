@@ -1,0 +1,45 @@
+{
+  "build": "h4bd325d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/ninja-1.10.2-h4bd325d_0",
+  "features": "",
+  "files": [
+    "bin/ninja"
+  ],
+  "fn": "ninja-1.10.2-h4bd325d_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/ninja-1.10.2-h4bd325d_0",
+    "type": 1
+  },
+  "md5": "15aa96cc0ff141127a8da4c5bb6486d7",
+  "name": "ninja",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/ninja-1.10.2-h4bd325d_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ninja",
+        "path_type": "hardlink",
+        "sha256": "7e8146311896abe7d6e13436783946aea7817a94d17976c908e3b0ea5ae8663f",
+        "sha256_in_prefix": "7e8146311896abe7d6e13436783946aea7817a94d17976c908e3b0ea5ae8663f",
+        "size_in_bytes": 7795408
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc28e50a6da62100757ca06569ef16d293348af23ef06c1376d40d0ac59e3c7a",
+  "size": 2550276,
+  "subdir": "linux-64",
+  "timestamp": 1606567595894,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ninja-1.10.2-h4bd325d_0.tar.bz2",
+  "version": "1.10.2"
+}

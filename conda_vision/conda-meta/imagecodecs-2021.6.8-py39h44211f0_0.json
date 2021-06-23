@@ -1,0 +1,802 @@
+{
+  "build": "py39h44211f0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "blosc >=1.21.0,<2.0a0",
+    "brotli >=1.0.9,<2.0a0",
+    "brunsli >=0.1,<1.0a0",
+    "bzip2 >=1.0.8,<2.0a0",
+    "cfitsio >=3.470,<3.471.0a0",
+    "charls >=2.2.0,<2.3.0a0",
+    "giflib >=5.2.1,<5.3.0a0",
+    "jpeg >=9d,<10a",
+    "jxrlib >=1.1,<1.2.0a0",
+    "lcms2 >=2.12,<3.0a0",
+    "lerc >=2.2.1,<3.0a0",
+    "libaec >=1.0.5,<2.0a0",
+    "libdeflate >=1.7,<1.8.0a0",
+    "libgcc-ng >=9.3.0",
+    "libpng >=1.6.37,<1.7.0a0",
+    "libstdcxx-ng >=9.3.0",
+    "libtiff >=4.3.0,<5.0a0",
+    "libwebp-base >=1.2.0,<2.0a0",
+    "libzopfli >=1.0.3,<1.1.0a0",
+    "lz4-c >=1.9.3,<1.9.4.0a0",
+    "numpy >=1.19.5,<2.0a0",
+    "openjpeg >=2.4.0,<2.5.0a0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "snappy >=1.1.8,<2.0a0",
+    "xz >=5.2.5,<5.3.0a0",
+    "zfp >=0.5.5,<1.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.5.0,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/imagecodecs-2021.6.8-py39h44211f0_0",
+  "features": "",
+  "files": [
+    "bin/imagecodecs",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/LICENSE",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/METADATA",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/RECORD",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/WHEEL",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/imagecodecs/__init__.py",
+    "lib/python3.9/site-packages/imagecodecs/__main__.py",
+    "lib/python3.9/site-packages/imagecodecs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagecodecs/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagecodecs/__pycache__/_imagecodecs.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagecodecs/__pycache__/imagecodecs.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagecodecs/__pycache__/numcodecs.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagecodecs/_aec.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_bitshuffle.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_blosc.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_brotli.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_brunsli.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_bz2.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_deflate.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_gif.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_imagecodecs.py",
+    "lib/python3.9/site-packages/imagecodecs/_imcd.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_jpeg2k.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_jpeg8.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_jpegls.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_jpegsof3.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_jpegxr.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_lerc.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_ljpeg.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_lz4.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_lz4f.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_lzf.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_lzma.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_pglz.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_png.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_rcomp.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_shared.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_snappy.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_tiff.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_webp.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_zfp.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_zlib.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_zopfli.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/_zstd.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/imagecodecs/imagecodecs.py",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-aom",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-bitshuffle",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-blosc",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-brotli",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-brunsli",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-bzip2",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-cfitsio",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-charls",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-dav1d",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-fastlz",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-giflib",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-highway",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpeg",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpeg-xl",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpg_0xc3",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jxrlib",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lcms2",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lerc",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libaec",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libaivf",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libdeflate",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libjpeg",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libjpeg-turbo",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-liblj92",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-liblzma",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libmng",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libpng",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libtiff",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libwebp",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lz4",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lzf",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-openjpeg",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-postgresql",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-rav1e",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-snappy",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zfp",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zlib",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zlib-ng",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zopfli",
+    "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zstd",
+    "lib/python3.9/site-packages/imagecodecs/licenses/PATENTS-rav1e",
+    "lib/python3.9/site-packages/imagecodecs/numcodecs.py"
+  ],
+  "fn": "imagecodecs-2021.6.8-py39h44211f0_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/imagecodecs-2021.6.8-py39h44211f0_0",
+    "type": 1
+  },
+  "md5": "081b36928c7259d5e87d950f53abff06",
+  "name": "imagecodecs",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/imagecodecs-2021.6.8-py39h44211f0_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/imagecodecs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/imagecodecs_1623996805221/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "bda54d5c48c8f9a1bc9d81fa0c2e7ba4083dc8768d07b0209b1e02535c13d3d9",
+        "sha256_in_prefix": "3169565d0dfce4a338febd206093de74ff2425e1a1a62c562bb3c798e41158df",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "32920c54a77c053480d4f042dec5cee98dc78ba0c168b448a2df1d1abf213b6b",
+        "sha256_in_prefix": "32920c54a77c053480d4f042dec5cee98dc78ba0c168b448a2df1d1abf213b6b",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1554ef554acb6064169334bb7709f41f4d028df8510c59c9c49f9a64150670c6",
+        "sha256_in_prefix": "1554ef554acb6064169334bb7709f41f4d028df8510c59c9c49f9a64150670c6",
+        "size_in_bytes": 14123
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a0e455aade49b629ceb82a7ea08cc93ddbc81323017bc355690f5f17fe5cf337",
+        "sha256_in_prefix": "a0e455aade49b629ceb82a7ea08cc93ddbc81323017bc355690f5f17fe5cf337",
+        "size_in_bytes": 8781
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8d1fc321f87460fad37b3ee2dd8a81cc662e29d56cef916364c74cb6f2308a83",
+        "sha256_in_prefix": "8d1fc321f87460fad37b3ee2dd8a81cc662e29d56cef916364c74cb6f2308a83",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f08dddadf52694a00a56fd14eda84303bc9a0c3fcb30c3fb1ebc9cd45a61e7e3",
+        "sha256_in_prefix": "f08dddadf52694a00a56fd14eda84303bc9a0c3fcb30c3fb1ebc9cd45a61e7e3",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "47ed21718570e8a5909f76e16727960b5824a64300b80672e69fc89d2a11ae84",
+        "sha256_in_prefix": "47ed21718570e8a5909f76e16727960b5824a64300b80672e69fc89d2a11ae84",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs-2021.6.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e3a00e362f7306e4a41425c5ae9839836172705839fd0e05b9f94c55dcfd872d",
+        "sha256_in_prefix": "e3a00e362f7306e4a41425c5ae9839836172705839fd0e05b9f94c55dcfd872d",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac560076223340ffb8c7687fb0bc63084322b0383477de4f71ee167de05544af",
+        "sha256_in_prefix": "ac560076223340ffb8c7687fb0bc63084322b0383477de4f71ee167de05544af",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "4d20c5f2bec8158059cf148bf415a4d514ce3f6b40d73875fbdf3d9c2cf48d2d",
+        "sha256_in_prefix": "4d20c5f2bec8158059cf148bf415a4d514ce3f6b40d73875fbdf3d9c2cf48d2d",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "72e7779fd5a99aa22944626781d21c504eefcfaa78037c6ef1d3b29c9773916a",
+        "sha256_in_prefix": "72e7779fd5a99aa22944626781d21c504eefcfaa78037c6ef1d3b29c9773916a",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b7ba8fa02d5ecfbc9098929eccac8b25f546ae83938c2c60758093c5e61f670",
+        "sha256_in_prefix": "6b7ba8fa02d5ecfbc9098929eccac8b25f546ae83938c2c60758093c5e61f670",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__pycache__/_imagecodecs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "96cad0c515818251b409c26518584cbf040ff5c3960a5f8105680fdd44bc9aa8",
+        "sha256_in_prefix": "96cad0c515818251b409c26518584cbf040ff5c3960a5f8105680fdd44bc9aa8",
+        "size_in_bytes": 22063
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__pycache__/imagecodecs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f89d653b63bd5709f050133b2da61db153930e7048e1d06d62bcb8c36f4e6bed",
+        "sha256_in_prefix": "f89d653b63bd5709f050133b2da61db153930e7048e1d06d62bcb8c36f4e6bed",
+        "size_in_bytes": 27104
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/__pycache__/numcodecs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d9241047306a504297522d2cfa92a1937ee377e8c41355582fd71f9e46cf687",
+        "sha256_in_prefix": "1d9241047306a504297522d2cfa92a1937ee377e8c41355582fd71f9e46cf687",
+        "size_in_bytes": 27232
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_aec.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6fa03fc2130a8aaaacfeefcefbd85e375c622bef6be050c27577e167ef9ec1e4",
+        "sha256_in_prefix": "6fa03fc2130a8aaaacfeefcefbd85e375c622bef6be050c27577e167ef9ec1e4",
+        "size_in_bytes": 272664
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_bitshuffle.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4fba60bc713256295b96148f9c2f0da6de8a81acc8a8b30b5a1c96fc5f39fe7b",
+        "sha256_in_prefix": "4fba60bc713256295b96148f9c2f0da6de8a81acc8a8b30b5a1c96fc5f39fe7b",
+        "size_in_bytes": 277400
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_blosc.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a3b6b721628e1584aa2288f76aa5ffa8da55bb1f7f8f958a3df51aeeca5d9109",
+        "sha256_in_prefix": "a3b6b721628e1584aa2288f76aa5ffa8da55bb1f7f8f958a3df51aeeca5d9109",
+        "size_in_bytes": 236976
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_brotli.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8f5da824a1dc81e01922794690b57a9725cddb484e1b8f13a74f31ad8c6f4cfb",
+        "sha256_in_prefix": "8f5da824a1dc81e01922794690b57a9725cddb484e1b8f13a74f31ad8c6f4cfb",
+        "size_in_bytes": 249648
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_brunsli.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "bcf141a8aff0a2d84c2b2431365c116b9c49eaae5e6c05cbb5e1179416ff11e8",
+        "sha256_in_prefix": "bcf141a8aff0a2d84c2b2431365c116b9c49eaae5e6c05cbb5e1179416ff11e8",
+        "size_in_bytes": 259104
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_bz2.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a70ba0927ed74f8e371176257779923366ff0c0062ec5d939ed1d06bbba25b13",
+        "sha256_in_prefix": "a70ba0927ed74f8e371176257779923366ff0c0062ec5d939ed1d06bbba25b13",
+        "size_in_bytes": 258824
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_deflate.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cea246f98a5371fbcb05d437e51c1bf548d77ec29e126da5482a85b991ab608f",
+        "sha256_in_prefix": "cea246f98a5371fbcb05d437e51c1bf548d77ec29e126da5482a85b991ab608f",
+        "size_in_bytes": 289920
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_gif.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "9c5d51a284a75e299275d8c84a014fa469e14caf0e46c94a850d811d670330bb",
+        "sha256_in_prefix": "9c5d51a284a75e299275d8c84a014fa469e14caf0e46c94a850d811d670330bb",
+        "size_in_bytes": 284640
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_imagecodecs.py",
+        "path_type": "hardlink",
+        "sha256": "deece26e152f42810259075006a4b57ff226ed0b067b17c8d8e46e90d052cc17",
+        "sha256_in_prefix": "deece26e152f42810259075006a4b57ff226ed0b067b17c8d8e46e90d052cc17",
+        "size_in_bytes": 26654
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_imcd.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5b4793172df719d31b44f2eeafd67748d268533762904e202d214953aa3fc214",
+        "sha256_in_prefix": "5b4793172df719d31b44f2eeafd67748d268533762904e202d214953aa3fc214",
+        "size_in_bytes": 481760
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_jpeg2k.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "c779837ce1d8f9bedbe40ee1e7beb544eb4fc9b2b6ff42e48f0a3e33b3a7b658",
+        "sha256_in_prefix": "c779837ce1d8f9bedbe40ee1e7beb544eb4fc9b2b6ff42e48f0a3e33b3a7b658",
+        "size_in_bytes": 315536
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_jpeg8.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fdfa833e57991a60a493b4bc38b17136281a03a8f85e10ab8eb3b5369179db71",
+        "sha256_in_prefix": "fdfa833e57991a60a493b4bc38b17136281a03a8f85e10ab8eb3b5369179db71",
+        "size_in_bytes": 270864
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_jpegls.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "62e5867ec19c6a96f338bd0c0ff1c9660d6568a9e7a5d695197dd3b12912edc5",
+        "sha256_in_prefix": "62e5867ec19c6a96f338bd0c0ff1c9660d6568a9e7a5d695197dd3b12912edc5",
+        "size_in_bytes": 292432
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_jpegsof3.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "03e9926d37f300c5375a2698c20bc4141b8898b3404efa6155499de15984f7ca",
+        "sha256_in_prefix": "03e9926d37f300c5375a2698c20bc4141b8898b3404efa6155499de15984f7ca",
+        "size_in_bytes": 233232
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_jpegxr.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "09fa0ec78797676a6932b797321081b1ea288ae389e2bca830524d8970bdca1c",
+        "sha256_in_prefix": "09fa0ec78797676a6932b797321081b1ea288ae389e2bca830524d8970bdca1c",
+        "size_in_bytes": 324816
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_lerc.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "dde0926b6b843d6b44bb25494ce6ee6982aab588a5785d6e4ba5e849497e5a2e",
+        "sha256_in_prefix": "dde0926b6b843d6b44bb25494ce6ee6982aab588a5785d6e4ba5e849497e5a2e",
+        "size_in_bytes": 275864
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_ljpeg.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "58125215f731d9530f904906334ee5413c54bdcb23ba193030ad98f0ba31f28b",
+        "sha256_in_prefix": "58125215f731d9530f904906334ee5413c54bdcb23ba193030ad98f0ba31f28b",
+        "size_in_bytes": 272800
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_lz4.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "78b5cfadf9ea786815f4d14a4a9c3022e88dfcb6a1d00605e49d679e91660cad",
+        "sha256_in_prefix": "78b5cfadf9ea786815f4d14a4a9c3022e88dfcb6a1d00605e49d679e91660cad",
+        "size_in_bytes": 240704
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_lz4f.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8ab9e999d63f5f2cf825bf10dfc28df8730d847f5bc5931d3b06dfb41379fe9c",
+        "sha256_in_prefix": "8ab9e999d63f5f2cf825bf10dfc28df8730d847f5bc5931d3b06dfb41379fe9c",
+        "size_in_bytes": 276120
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_lzf.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6f2b0b983f927c6960c02853fd6dbea2b8969f36410c34b380f028db7ee4c79c",
+        "sha256_in_prefix": "6f2b0b983f927c6960c02853fd6dbea2b8969f36410c34b380f028db7ee4c79c",
+        "size_in_bytes": 235120
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_lzma.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "efec40b5f56d6f8b6d99cdf95ba8517eb7773618256d467d6e17c513e26c5f98",
+        "sha256_in_prefix": "efec40b5f56d6f8b6d99cdf95ba8517eb7773618256d467d6e17c513e26c5f98",
+        "size_in_bytes": 268888
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_pglz.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "691184b610dfedb271f4bedb763ebc35b9f758c2c9e7139616fc4dd50d2d3870",
+        "sha256_in_prefix": "691184b610dfedb271f4bedb763ebc35b9f758c2c9e7139616fc4dd50d2d3870",
+        "size_in_bytes": 240976
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_png.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d7bf38f8e21c9b97afdbec79c97e2adc8b6a97c715897c4ad75d248b06df71d1",
+        "sha256_in_prefix": "d7bf38f8e21c9b97afdbec79c97e2adc8b6a97c715897c4ad75d248b06df71d1",
+        "size_in_bytes": 258040
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_rcomp.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fe491517ec87d9df7ba5c63976fce33ce5cf5022d5e337ad13f01ae0f47c94be",
+        "sha256_in_prefix": "fe491517ec87d9df7ba5c63976fce33ce5cf5022d5e337ad13f01ae0f47c94be",
+        "size_in_bytes": 259224
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_shared.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "081ce96416eae98dbccb9e3a45cc47c0385b2abdf6940351d0d460c400c6fdc0",
+        "sha256_in_prefix": "081ce96416eae98dbccb9e3a45cc47c0385b2abdf6940351d0d460c400c6fdc0",
+        "size_in_bytes": 283720
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_snappy.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "dea36685d41a01d1f047d076b0f425dd3490fab7fb99910b46a0bc57783f7c36",
+        "sha256_in_prefix": "dea36685d41a01d1f047d076b0f425dd3490fab7fb99910b46a0bc57783f7c36",
+        "size_in_bytes": 248752
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_tiff.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b64836261b9faf0000ca59c7efda7f8b15b45fd79efce9cc554aba49e3b4c71c",
+        "sha256_in_prefix": "b64836261b9faf0000ca59c7efda7f8b15b45fd79efce9cc554aba49e3b4c71c",
+        "size_in_bytes": 326208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_webp.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "2e71a2a12adc7cca0ab699f87c98eb0ee6da72e4823c6dbfaa3901ba856b9741",
+        "sha256_in_prefix": "2e71a2a12adc7cca0ab699f87c98eb0ee6da72e4823c6dbfaa3901ba856b9741",
+        "size_in_bytes": 251912
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_zfp.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6776220522ed1a777e6e867b2a57aac21af636979463337efd3e872b7fa158ba",
+        "sha256_in_prefix": "6776220522ed1a777e6e867b2a57aac21af636979463337efd3e872b7fa158ba",
+        "size_in_bytes": 285424
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_zlib.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "02863b22aa8e9ecb01603f11f68d3cfd6fcf5136a73c83dfcb4eccd9aaee6bbc",
+        "sha256_in_prefix": "02863b22aa8e9ecb01603f11f68d3cfd6fcf5136a73c83dfcb4eccd9aaee6bbc",
+        "size_in_bytes": 268760
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_zopfli.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "c78c698bc8018d4f6b945e7d7fb97f0849c59e573761b86eef39eb35ad6cefdf",
+        "sha256_in_prefix": "c78c698bc8018d4f6b945e7d7fb97f0849c59e573761b86eef39eb35ad6cefdf",
+        "size_in_bytes": 217960
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/_zstd.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "13e754068a710cc911a2f7d8d387fa4831a9018c13d4c882bd5532a1b003de93",
+        "sha256_in_prefix": "13e754068a710cc911a2f7d8d387fa4831a9018c13d4c882bd5532a1b003de93",
+        "size_in_bytes": 252488
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/imagecodecs.py",
+        "path_type": "hardlink",
+        "sha256": "030fd7c081aa94d1ee0d4b12c25a4f108f65a6e82ed430093dc3c618b4f042ab",
+        "sha256_in_prefix": "030fd7c081aa94d1ee0d4b12c25a4f108f65a6e82ed430093dc3c618b4f042ab",
+        "size_in_bytes": 33350
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-aom",
+        "path_type": "hardlink",
+        "sha256": "ce3386408d82f8db6060e47ba199b5b1f7b3ff9f327c29a772621b7eefbc3946",
+        "sha256_in_prefix": "ce3386408d82f8db6060e47ba199b5b1f7b3ff9f327c29a772621b7eefbc3946",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-bitshuffle",
+        "path_type": "hardlink",
+        "sha256": "ef357c2061cf67db298f9f1565572ee229ad9263582a9f9d0ebff5094f5d10ac",
+        "sha256_in_prefix": "ef357c2061cf67db298f9f1565572ee229ad9263582a9f9d0ebff5094f5d10ac",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-blosc",
+        "path_type": "hardlink",
+        "sha256": "d7d6ea3deb4f9b68cf5e327cc554f5b1ffd5eca3cdc9e60f797ec50b6160d66a",
+        "sha256_in_prefix": "d7d6ea3deb4f9b68cf5e327cc554f5b1ffd5eca3cdc9e60f797ec50b6160d66a",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-brotli",
+        "path_type": "hardlink",
+        "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+        "sha256_in_prefix": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-brunsli",
+        "path_type": "hardlink",
+        "sha256": "5e12afa6f28bb5ce6959ab7d48b704ea1228263803cc61bd23966dc3157c4a9d",
+        "sha256_in_prefix": "5e12afa6f28bb5ce6959ab7d48b704ea1228263803cc61bd23966dc3157c4a9d",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-bzip2",
+        "path_type": "hardlink",
+        "sha256": "4919cfb14a73cd64fcef67b107613970cf1659a09aa675dba31314f373bc7204",
+        "sha256_in_prefix": "4919cfb14a73cd64fcef67b107613970cf1659a09aa675dba31314f373bc7204",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-cfitsio",
+        "path_type": "hardlink",
+        "sha256": "61fe78baae038a09d1e7acb7e9a4ba05ee1dbada48f3879bdc6a6dca4ff1f4f6",
+        "sha256_in_prefix": "61fe78baae038a09d1e7acb7e9a4ba05ee1dbada48f3879bdc6a6dca4ff1f4f6",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-charls",
+        "path_type": "hardlink",
+        "sha256": "73b19321a7d74c7b3d0aca858b224f22fe3a4464b55e6b2fbfe846d93ffa5dec",
+        "sha256_in_prefix": "73b19321a7d74c7b3d0aca858b224f22fe3a4464b55e6b2fbfe846d93ffa5dec",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-dav1d",
+        "path_type": "hardlink",
+        "sha256": "b19d87106bf153f6233927d95347b54e7bec089fbfb49e3c36133b56e45b1571",
+        "sha256_in_prefix": "b19d87106bf153f6233927d95347b54e7bec089fbfb49e3c36133b56e45b1571",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-fastlz",
+        "path_type": "hardlink",
+        "sha256": "709981ca7882d4f07861df4306639c9ebe9020157b878f3c473a7d7c19b4f4dc",
+        "sha256_in_prefix": "709981ca7882d4f07861df4306639c9ebe9020157b878f3c473a7d7c19b4f4dc",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-giflib",
+        "path_type": "hardlink",
+        "sha256": "0c9b7990ecdca88b676db232c226548ac408b279f550d424d996f0d83591dd8e",
+        "sha256_in_prefix": "0c9b7990ecdca88b676db232c226548ac408b279f550d424d996f0d83591dd8e",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-highway",
+        "path_type": "hardlink",
+        "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+        "sha256_in_prefix": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+        "size_in_bytes": 11556
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpeg",
+        "path_type": "hardlink",
+        "sha256": "437bdc147ed96e033412a7cd3130ad8cfffe552d2c42c0d790512883a54abe4e",
+        "sha256_in_prefix": "437bdc147ed96e033412a7cd3130ad8cfffe552d2c42c0d790512883a54abe4e",
+        "size_in_bytes": 19348
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpeg-xl",
+        "path_type": "hardlink",
+        "sha256": "f2ffa5942b316849be283deaeb2912e2e5b5b17e91012bede8210210ff3e91e7",
+        "sha256_in_prefix": "f2ffa5942b316849be283deaeb2912e2e5b5b17e91012bede8210210ff3e91e7",
+        "size_in_bytes": 11562
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jpg_0xc3",
+        "path_type": "hardlink",
+        "sha256": "e3accfeda2f4742c7a9960eb1db49695cda887618f18d2ccf91597795e27ac65",
+        "sha256_in_prefix": "e3accfeda2f4742c7a9960eb1db49695cda887618f18d2ccf91597795e27ac65",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-jxrlib",
+        "path_type": "hardlink",
+        "sha256": "223d21eac633788ada036025b083079bbd7b7f62ec82379cc45f75d1380931ce",
+        "sha256_in_prefix": "223d21eac633788ada036025b083079bbd7b7f62ec82379cc45f75d1380931ce",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lcms2",
+        "path_type": "hardlink",
+        "sha256": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a",
+        "sha256_in_prefix": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lerc",
+        "path_type": "hardlink",
+        "sha256": "b5726bddcd8e94536717d7e125a366f163d0b20818b63cd452fd69b0d59bc598",
+        "sha256_in_prefix": "b5726bddcd8e94536717d7e125a366f163d0b20818b63cd452fd69b0d59bc598",
+        "size_in_bytes": 9155
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libaec",
+        "path_type": "hardlink",
+        "sha256": "c96bfa2f9a57727bb46f5b48987c8a540b0831293e1d09c4565ef12644f4b0cd",
+        "sha256_in_prefix": "c96bfa2f9a57727bb46f5b48987c8a540b0831293e1d09c4565ef12644f4b0cd",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libaivf",
+        "path_type": "hardlink",
+        "sha256": "e0ba04d4885bf25b03e20c8078e5f4b241bfe6a941d4a9bcc14cab09e2c27e62",
+        "sha256_in_prefix": "e0ba04d4885bf25b03e20c8078e5f4b241bfe6a941d4a9bcc14cab09e2c27e62",
+        "size_in_bytes": 8517
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libdeflate",
+        "path_type": "hardlink",
+        "sha256": "5d246dd2537307b80fed9ba5fdddf5d0fe7a8f023393a071182b9daed56b40fe",
+        "sha256_in_prefix": "5d246dd2537307b80fed9ba5fdddf5d0fe7a8f023393a071182b9daed56b40fe",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libjpeg",
+        "path_type": "hardlink",
+        "sha256": "f8bdebe9b6c7ae225d2a889b06c98693554afd49c9bb3880ae3fe39ec546df01",
+        "sha256_in_prefix": "f8bdebe9b6c7ae225d2a889b06c98693554afd49c9bb3880ae3fe39ec546df01",
+        "size_in_bytes": 3444
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libjpeg-turbo",
+        "path_type": "hardlink",
+        "sha256": "8412238c5ad95965cf3c3197791e9dea8b5fae505d133449e33ee2fa754fe61e",
+        "sha256_in_prefix": "8412238c5ad95965cf3c3197791e9dea8b5fae505d133449e33ee2fa754fe61e",
+        "size_in_bytes": 6008
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-liblj92",
+        "path_type": "hardlink",
+        "sha256": "03c1c62c95b2b6c821840e05d25da8b51ccfca3a1672662605b30e3f1890294b",
+        "sha256_in_prefix": "03c1c62c95b2b6c821840e05d25da8b51ccfca3a1672662605b30e3f1890294b",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-liblzma",
+        "path_type": "hardlink",
+        "sha256": "23e4a187f21029caaf0bcf20f8441250290893fb5af24c6a154fa31ff150e22b",
+        "sha256_in_prefix": "23e4a187f21029caaf0bcf20f8441250290893fb5af24c6a154fa31ff150e22b",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libmng",
+        "path_type": "hardlink",
+        "sha256": "ba280734838eb3f22a85b92a7e62de357d4d4c325029dce723b0cb125c417c35",
+        "sha256_in_prefix": "ba280734838eb3f22a85b92a7e62de357d4d4c325029dce723b0cb125c417c35",
+        "size_in_bytes": 4622
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libpng",
+        "path_type": "hardlink",
+        "sha256": "f9850940c6606003eea9c8864b2a3f177eb5c963614aba5a3c5a24c47dd043ab",
+        "sha256_in_prefix": "f9850940c6606003eea9c8864b2a3f177eb5c963614aba5a3c5a24c47dd043ab",
+        "size_in_bytes": 4985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libtiff",
+        "path_type": "hardlink",
+        "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7",
+        "sha256_in_prefix": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-libwebp",
+        "path_type": "hardlink",
+        "sha256": "e293d1dddc9785200b1f58a4f5293543cf8566d9e0b8a3c02fad955035b19f42",
+        "sha256_in_prefix": "e293d1dddc9785200b1f58a4f5293543cf8566d9e0b8a3c02fad955035b19f42",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lz4",
+        "path_type": "hardlink",
+        "sha256": "d15d99c8dc6b0ec22174c0e563a95bc40f9363ca7f9d9d793bb5c5a8e8d0af71",
+        "sha256_in_prefix": "d15d99c8dc6b0ec22174c0e563a95bc40f9363ca7f9d9d793bb5c5a8e8d0af71",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-lzf",
+        "path_type": "hardlink",
+        "sha256": "78411e481503fad783a6581bf78946812decae397004caf149639dac84182d4c",
+        "sha256_in_prefix": "78411e481503fad783a6581bf78946812decae397004caf149639dac84182d4c",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-openjpeg",
+        "path_type": "hardlink",
+        "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6",
+        "sha256_in_prefix": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6",
+        "size_in_bytes": 2112
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-postgresql",
+        "path_type": "hardlink",
+        "sha256": "31ccadc0a70e8e0e8a35c5833567b64388dfe34987d962e1911554e271294105",
+        "sha256_in_prefix": "31ccadc0a70e8e0e8a35c5833567b64388dfe34987d962e1911554e271294105",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-rav1e",
+        "path_type": "hardlink",
+        "sha256": "1dc445d0f69bcd5f397c3e307804c13f3fab76aa83626e75d6a9e2e18b2d1e88",
+        "sha256_in_prefix": "1dc445d0f69bcd5f397c3e307804c13f3fab76aa83626e75d6a9e2e18b2d1e88",
+        "size_in_bytes": 1357
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-snappy",
+        "path_type": "hardlink",
+        "sha256": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6",
+        "sha256_in_prefix": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zfp",
+        "path_type": "hardlink",
+        "sha256": "efaf78b45a95b2c4e28bf65090f868d3ebee485926642d5b9a334c9d3995b90e",
+        "sha256_in_prefix": "efaf78b45a95b2c4e28bf65090f868d3ebee485926642d5b9a334c9d3995b90e",
+        "size_in_bytes": 2962
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zlib",
+        "path_type": "hardlink",
+        "sha256": "fefeb20bf292c34f1e8d5114731308aac188d65aa3dc5f85bb2e9b0d007b7ab8",
+        "sha256_in_prefix": "fefeb20bf292c34f1e8d5114731308aac188d65aa3dc5f85bb2e9b0d007b7ab8",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zlib-ng",
+        "path_type": "hardlink",
+        "sha256": "a55f0f9f911b390f8aec8cdf729f643aa8912a603255a5d93866039fb0425339",
+        "sha256_in_prefix": "a55f0f9f911b390f8aec8cdf729f643aa8912a603255a5d93866039fb0425339",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zopfli",
+        "path_type": "hardlink",
+        "sha256": "018b1cb87efdf7a04c2fcc13d57ed63f62149113fb207b27ea13430d64f13513",
+        "sha256_in_prefix": "018b1cb87efdf7a04c2fcc13d57ed63f62149113fb207b27ea13430d64f13513",
+        "size_in_bytes": 11341
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/LICENSE-zstd",
+        "path_type": "hardlink",
+        "sha256": "2c1a7fa704df8f3a606f6fc010b8b5aaebf403f3aeec339a12048f1ba7331a0b",
+        "sha256_in_prefix": "2c1a7fa704df8f3a606f6fc010b8b5aaebf403f3aeec339a12048f1ba7331a0b",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/licenses/PATENTS-rav1e",
+        "path_type": "hardlink",
+        "sha256": "6e8b7ef08e41a079055fa46850dc72fd34f7d9fe300eea316d32555a6f0550bf",
+        "sha256_in_prefix": "6e8b7ef08e41a079055fa46850dc72fd34f7d9fe300eea316d32555a6f0550bf",
+        "size_in_bytes": 5810
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagecodecs/numcodecs.py",
+        "path_type": "hardlink",
+        "sha256": "b1f714be3a9cb5a4fe3fb837551b25ed1a0abf62dd23f0f834785732b8f98bbc",
+        "sha256_in_prefix": "b1f714be3a9cb5a4fe3fb837551b25ed1a0abf62dd23f0f834785732b8f98bbc",
+        "size_in_bytes": 26824
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "acf64f4b2f509b7caecff64396b452e64c2edd4fcf3d206d05f34c5bcf3198e4",
+  "size": 7399061,
+  "subdir": "linux-64",
+  "timestamp": 1623997330501,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/imagecodecs-2021.6.8-py39h44211f0_0.tar.bz2",
+  "version": "2021.6.8"
+}

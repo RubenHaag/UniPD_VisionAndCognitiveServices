@@ -1,0 +1,62 @@
+{
+  "build": "hf817b99_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/libllvm11-11.1.0-hf817b99_2",
+  "features": "",
+  "files": [
+    "lib/libLLVM-11.so",
+    "lib/libLTO.so.11",
+    "lib/libRemarks.so.11"
+  ],
+  "fn": "libllvm11-11.1.0-hf817b99_2.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/libllvm11-11.1.0-hf817b99_2",
+    "type": 1
+  },
+  "md5": "646fa2f7c60b69ee8f918668e9c2fd31",
+  "name": "libllvm11",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/libllvm11-11.1.0-hf817b99_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-11.so",
+        "path_type": "hardlink",
+        "sha256": "f812babd0ee6c85c92091c56a47b9b890316eec9a324dfa4ac1adfe1d68e1000",
+        "sha256_in_prefix": "f812babd0ee6c85c92091c56a47b9b890316eec9a324dfa4ac1adfe1d68e1000",
+        "size_in_bytes": 105929424
+      },
+      {
+        "_path": "lib/libLTO.so.11",
+        "path_type": "hardlink",
+        "sha256": "fee1b08ca0d3d20e2a4daeb1f330180ce407d4a36547dca6b6ccdaa9099b3f0a",
+        "sha256_in_prefix": "fee1b08ca0d3d20e2a4daeb1f330180ce407d4a36547dca6b6ccdaa9099b3f0a",
+        "size_in_bytes": 101744
+      },
+      {
+        "_path": "lib/libRemarks.so.11",
+        "path_type": "hardlink",
+        "sha256": "7a878f095ad45710fec8317cfd6cc38152bf9adaf1c6ed477a5e2f9c8b7a00fa",
+        "sha256_in_prefix": "7a878f095ad45710fec8317cfd6cc38152bf9adaf1c6ed477a5e2f9c8b7a00fa",
+        "size_in_bytes": 16016
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ba08d86163968e877d25fdd83c19321d47e53c1c2fe8036a1df04cec51f21121",
+  "size": 30530285,
+  "subdir": "linux-64",
+  "timestamp": 1617663316561,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libllvm11-11.1.0-hf817b99_2.tar.bz2",
+  "version": "11.1.0"
+}

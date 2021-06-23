@@ -1,0 +1,426 @@
+{
+  "build": "h9c3ff4c_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "_openmp_mutex >=4.5",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/zfp-0.5.5-h9c3ff4c_5",
+  "features": "",
+  "files": [
+    "bin/zfp",
+    "include/bitstream.h",
+    "include/cfparray1d.h",
+    "include/cfparray1f.h",
+    "include/cfparray2d.h",
+    "include/cfparray2f.h",
+    "include/cfparray3d.h",
+    "include/cfparray3f.h",
+    "include/cfparrays.h",
+    "include/zfp.h",
+    "include/zfp/cache.h",
+    "include/zfp/header.h",
+    "include/zfp/headerHelpers.h",
+    "include/zfp/iterator1.h",
+    "include/zfp/iterator2.h",
+    "include/zfp/iterator3.h",
+    "include/zfp/macros.h",
+    "include/zfp/memory.h",
+    "include/zfp/pointer1.h",
+    "include/zfp/pointer2.h",
+    "include/zfp/pointer3.h",
+    "include/zfp/reference1.h",
+    "include/zfp/reference2.h",
+    "include/zfp/reference3.h",
+    "include/zfp/system.h",
+    "include/zfp/types.h",
+    "include/zfp/view1.h",
+    "include/zfp/view2.h",
+    "include/zfp/view3.h",
+    "include/zfparray.h",
+    "include/zfparray1.h",
+    "include/zfparray2.h",
+    "include/zfparray3.h",
+    "include/zfpcodec.h",
+    "include/zfpcodecd.h",
+    "include/zfpcodecf.h",
+    "include/zfpfactory.h",
+    "lib/cmake/zfp/cfp-targets-release.cmake",
+    "lib/cmake/zfp/cfp-targets.cmake",
+    "lib/cmake/zfp/zfp-config-version.cmake",
+    "lib/cmake/zfp/zfp-config.cmake",
+    "lib/cmake/zfp/zfp-targets-release.cmake",
+    "lib/cmake/zfp/zfp-targets.cmake",
+    "lib/libcfp.so",
+    "lib/libcfp.so.0",
+    "lib/libcfp.so.0.5.5",
+    "lib/libzfp.so",
+    "lib/libzfp.so.0",
+    "lib/libzfp.so.0.5.5"
+  ],
+  "fn": "zfp-0.5.5-h9c3ff4c_5.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/zfp-0.5.5-h9c3ff4c_5",
+    "type": 1
+  },
+  "md5": "a48a43fdc002f68cbc17b44681a02d42",
+  "name": "zfp",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/zfp-0.5.5-h9c3ff4c_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/zfp",
+        "path_type": "hardlink",
+        "sha256": "61a82455d95b64893c8073bda4bb98a3b1bde6b136bbbb83a88ed77771602d5e",
+        "sha256_in_prefix": "61a82455d95b64893c8073bda4bb98a3b1bde6b136bbbb83a88ed77771602d5e",
+        "size_in_bytes": 35472
+      },
+      {
+        "_path": "include/bitstream.h",
+        "path_type": "hardlink",
+        "sha256": "9afd0338e600988efe45e1ef11b2571307c9e8b9faf2ae022a8cdadc44d0f118",
+        "sha256_in_prefix": "9afd0338e600988efe45e1ef11b2571307c9e8b9faf2ae022a8cdadc44d0f118",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "include/cfparray1d.h",
+        "path_type": "hardlink",
+        "sha256": "9c73c8ed60a0da903193bdaedfee4a2e203d8af1df4aac84dbd4fa422fb37118",
+        "sha256_in_prefix": "9c73c8ed60a0da903193bdaedfee4a2e203d8af1df4aac84dbd4fa422fb37118",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "include/cfparray1f.h",
+        "path_type": "hardlink",
+        "sha256": "65230518f6a2cd15123d2ce1f42a61967a10634f09910ee643b7f4b7ff16c56d",
+        "sha256_in_prefix": "65230518f6a2cd15123d2ce1f42a61967a10634f09910ee643b7f4b7ff16c56d",
+        "size_in_bytes": 1290
+      },
+      {
+        "_path": "include/cfparray2d.h",
+        "path_type": "hardlink",
+        "sha256": "6eddcfa33d61005b287e7e12af318f2c6eb7ca926e3bcd4e1e99a8cc591570f6",
+        "sha256_in_prefix": "6eddcfa33d61005b287e7e12af318f2c6eb7ca926e3bcd4e1e99a8cc591570f6",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "include/cfparray2f.h",
+        "path_type": "hardlink",
+        "sha256": "fbf7d612e9f7e0a72c423a0dbf9f2100850b2f8b4a7387161ae930b165ed47d9",
+        "sha256_in_prefix": "fbf7d612e9f7e0a72c423a0dbf9f2100850b2f8b4a7387161ae930b165ed47d9",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "include/cfparray3d.h",
+        "path_type": "hardlink",
+        "sha256": "25202332c71d509caf7d92db205d69ea14eb64a7466a7910ef6c493ad16e4c2b",
+        "sha256_in_prefix": "25202332c71d509caf7d92db205d69ea14eb64a7466a7910ef6c493ad16e4c2b",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "include/cfparray3f.h",
+        "path_type": "hardlink",
+        "sha256": "1f56f46d779870e5b98b18d13ac6ddd0efc1ff8553b88a702c76114ea30d0a78",
+        "sha256_in_prefix": "1f56f46d779870e5b98b18d13ac6ddd0efc1ff8553b88a702c76114ea30d0a78",
+        "size_in_bytes": 1489
+      },
+      {
+        "_path": "include/cfparrays.h",
+        "path_type": "hardlink",
+        "sha256": "c69284c24a42b7edeadd72f0cd8864072870c6f367aa911c88c1a89c6f73901b",
+        "sha256_in_prefix": "c69284c24a42b7edeadd72f0cd8864072870c6f367aa911c88c1a89c6f73901b",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "include/zfp.h",
+        "path_type": "hardlink",
+        "sha256": "c04e0b642f035f3a555cd58fcfaaaced3fe24d273da990413cbc871de0a53ade",
+        "sha256_in_prefix": "c04e0b642f035f3a555cd58fcfaaaced3fe24d273da990413cbc871de0a53ade",
+        "size_in_bytes": 33083
+      },
+      {
+        "_path": "include/zfp/cache.h",
+        "path_type": "hardlink",
+        "sha256": "6b3271b944e8da6dd6c74511a35d0dd38e1cead28d587c7311138ff46dd0d398",
+        "sha256_in_prefix": "6b3271b944e8da6dd6c74511a35d0dd38e1cead28d587c7311138ff46dd0d398",
+        "size_in_bytes": 6263
+      },
+      {
+        "_path": "include/zfp/header.h",
+        "path_type": "hardlink",
+        "sha256": "d6e4017d31c4de77df62085ca9c466e0c440e52c7e837c1884a02fe62c0fa3ba",
+        "sha256_in_prefix": "d6e4017d31c4de77df62085ca9c466e0c440e52c7e837c1884a02fe62c0fa3ba",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "include/zfp/headerHelpers.h",
+        "path_type": "hardlink",
+        "sha256": "e4197abb13461099d5c5f973fee296754ddf74426dade8116d123fd67fe7e7a6",
+        "sha256_in_prefix": "e4197abb13461099d5c5f973fee296754ddf74426dade8116d123fd67fe7e7a6",
+        "size_in_bytes": 4693
+      },
+      {
+        "_path": "include/zfp/iterator1.h",
+        "path_type": "hardlink",
+        "sha256": "f52371004c81b3ecda372b50fa4d17b6bbb66304a1da51baebb57c8d0b58778f",
+        "sha256_in_prefix": "f52371004c81b3ecda372b50fa4d17b6bbb66304a1da51baebb57c8d0b58778f",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "include/zfp/iterator2.h",
+        "path_type": "hardlink",
+        "sha256": "8742f34b11df8bb8c7b70cefda7b0685486e853404bfb03f66c64ee57c0c562e",
+        "sha256_in_prefix": "8742f34b11df8bb8c7b70cefda7b0685486e853404bfb03f66c64ee57c0c562e",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "include/zfp/iterator3.h",
+        "path_type": "hardlink",
+        "sha256": "5cd2ece8181e324be90dec8517ceac592f76a3a1abc0aabb563edb0cdb22a06d",
+        "sha256_in_prefix": "5cd2ece8181e324be90dec8517ceac592f76a3a1abc0aabb563edb0cdb22a06d",
+        "size_in_bytes": 1848
+      },
+      {
+        "_path": "include/zfp/macros.h",
+        "path_type": "hardlink",
+        "sha256": "2368ce17696beac2f73b2dd4b5734aa0d4daa106f49bdf59273de0e150bfb18a",
+        "sha256_in_prefix": "2368ce17696beac2f73b2dd4b5734aa0d4daa106f49bdf59273de0e150bfb18a",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "include/zfp/memory.h",
+        "path_type": "hardlink",
+        "sha256": "0d3637857213cb58efa87b33ebb2ed790c23199b462f731de04465183f570275",
+        "sha256_in_prefix": "0d3637857213cb58efa87b33ebb2ed790c23199b462f731de04465183f570275",
+        "size_in_bytes": 2493
+      },
+      {
+        "_path": "include/zfp/pointer1.h",
+        "path_type": "hardlink",
+        "sha256": "ceff9c4f5d2305654fe10c4696a8b98d484aad65af005a7b3cef7c60a2f54310",
+        "sha256_in_prefix": "ceff9c4f5d2305654fe10c4696a8b98d484aad65af005a7b3cef7c60a2f54310",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "include/zfp/pointer2.h",
+        "path_type": "hardlink",
+        "sha256": "0a54cefcd77aec4b166ac3b5fb107ca8cce2fa77e10408a73474da1f2c6d8972",
+        "sha256_in_prefix": "0a54cefcd77aec4b166ac3b5fb107ca8cce2fa77e10408a73474da1f2c6d8972",
+        "size_in_bytes": 1712
+      },
+      {
+        "_path": "include/zfp/pointer3.h",
+        "path_type": "hardlink",
+        "sha256": "e5eea6a654c135f837b9953e10cc93f8edc356545a44cc34463a204e3d816824",
+        "sha256_in_prefix": "e5eea6a654c135f837b9953e10cc93f8edc356545a44cc34463a204e3d816824",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "include/zfp/reference1.h",
+        "path_type": "hardlink",
+        "sha256": "2faed4dbedde78164e6c0b3d52e5f691a50306557730cf1a9e55eb8e30296e4b",
+        "sha256_in_prefix": "2faed4dbedde78164e6c0b3d52e5f691a50306557730cf1a9e55eb8e30296e4b",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "include/zfp/reference2.h",
+        "path_type": "hardlink",
+        "sha256": "8df07e3c7f601578a383f38172b643ac2d7d6f358c30fba3e8b68a4750acbe5b",
+        "sha256_in_prefix": "8df07e3c7f601578a383f38172b643ac2d7d6f358c30fba3e8b68a4750acbe5b",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "include/zfp/reference3.h",
+        "path_type": "hardlink",
+        "sha256": "c0cc50c625965cc705d3acfc156d3949b10bd92133c894f0e0d3b9cedf85752f",
+        "sha256_in_prefix": "c0cc50c625965cc705d3acfc156d3949b10bd92133c894f0e0d3b9cedf85752f",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "include/zfp/system.h",
+        "path_type": "hardlink",
+        "sha256": "07a2df68bc0e9e40c9f8c8bc6d15be93f336de7aa0195f27fe419ace9bc755c2",
+        "sha256_in_prefix": "07a2df68bc0e9e40c9f8c8bc6d15be93f336de7aa0195f27fe419ace9bc755c2",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "include/zfp/types.h",
+        "path_type": "hardlink",
+        "sha256": "d9caebe1e1ce6a8e334d51e4c0078663b108c72778ff676276e1321d136f0dd2",
+        "sha256_in_prefix": "d9caebe1e1ce6a8e334d51e4c0078663b108c72778ff676276e1321d136f0dd2",
+        "size_in_bytes": 2939
+      },
+      {
+        "_path": "include/zfp/view1.h",
+        "path_type": "hardlink",
+        "sha256": "e6ea2f095699e37d003a2ac960e95a9018a280743ce0561a8742f70b75fafcbd",
+        "sha256_in_prefix": "e6ea2f095699e37d003a2ac960e95a9018a280743ce0561a8742f70b75fafcbd",
+        "size_in_bytes": 8470
+      },
+      {
+        "_path": "include/zfp/view2.h",
+        "path_type": "hardlink",
+        "sha256": "f19887ffb60fa654aee298f435940040d6f79bf5362daca278da7e3376c1f3be",
+        "sha256_in_prefix": "f19887ffb60fa654aee298f435940040d6f79bf5362daca278da7e3376c1f3be",
+        "size_in_bytes": 11805
+      },
+      {
+        "_path": "include/zfp/view3.h",
+        "path_type": "hardlink",
+        "sha256": "f5a5f7214ff9978b32fc06da06b9efc4872cf371f19a91a7799e03d5b316a3c5",
+        "sha256_in_prefix": "f5a5f7214ff9978b32fc06da06b9efc4872cf371f19a91a7799e03d5b316a3c5",
+        "size_in_bytes": 14018
+      },
+      {
+        "_path": "include/zfparray.h",
+        "path_type": "hardlink",
+        "sha256": "4cae4ab598514001c3baa4d17e473e968ab14f8e19e1b31b26d1972205d1d094",
+        "sha256_in_prefix": "4cae4ab598514001c3baa4d17e473e968ab14f8e19e1b31b26d1972205d1d094",
+        "size_in_bytes": 7770
+      },
+      {
+        "_path": "include/zfparray1.h",
+        "path_type": "hardlink",
+        "sha256": "09461e3f07d8ddd35b8ef9e1b4e6885baed840126b584081988e5540595a0576",
+        "sha256_in_prefix": "09461e3f07d8ddd35b8ef9e1b4e6885baed840126b584081988e5540595a0576",
+        "size_in_bytes": 7590
+      },
+      {
+        "_path": "include/zfparray2.h",
+        "path_type": "hardlink",
+        "sha256": "43ccbb342856cb7af4f14af85c586bb239b59b88f484ed9e2d2f8344dfb3bcd2",
+        "sha256_in_prefix": "43ccbb342856cb7af4f14af85c586bb239b59b88f484ed9e2d2f8344dfb3bcd2",
+        "size_in_bytes": 8713
+      },
+      {
+        "_path": "include/zfparray3.h",
+        "path_type": "hardlink",
+        "sha256": "c2e7e34d4f8d4c1e47f8274bee21d64020db77071e70ec6758876cef4b86bd6b",
+        "sha256_in_prefix": "c2e7e34d4f8d4c1e47f8274bee21d64020db77071e70ec6758876cef4b86bd6b",
+        "size_in_bytes": 9814
+      },
+      {
+        "_path": "include/zfpcodec.h",
+        "path_type": "hardlink",
+        "sha256": "e19bc9c99ad9dabe2e63ab6207449b73152b1b1381e2d043af9bd6538501685d",
+        "sha256_in_prefix": "e19bc9c99ad9dabe2e63ab6207449b73152b1b1381e2d043af9bd6538501685d",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "include/zfpcodecd.h",
+        "path_type": "hardlink",
+        "sha256": "cfc58ffdcf3a548eb5370c742c83ef95efdf538250ff901498295319767a9461",
+        "sha256_in_prefix": "cfc58ffdcf3a548eb5370c742c83ef95efdf538250ff901498295319767a9461",
+        "size_in_bytes": 4704
+      },
+      {
+        "_path": "include/zfpcodecf.h",
+        "path_type": "hardlink",
+        "sha256": "20cadf21177384814f698e6ad84efac76c22321391d09b2e37b7e35452cb722e",
+        "sha256_in_prefix": "20cadf21177384814f698e6ad84efac76c22321391d09b2e37b7e35452cb722e",
+        "size_in_bytes": 4666
+      },
+      {
+        "_path": "include/zfpfactory.h",
+        "path_type": "hardlink",
+        "sha256": "119c23b2d00afce48ce28fa97743edb042ec2c9fb43179de2dac347274629ff1",
+        "sha256_in_prefix": "119c23b2d00afce48ce28fa97743edb042ec2c9fb43179de2dac347274629ff1",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "lib/cmake/zfp/cfp-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "be196fe04079b544e3c08f2e1fbeeafeb5829584d1223c811794c40bac685ba3",
+        "sha256_in_prefix": "be196fe04079b544e3c08f2e1fbeeafeb5829584d1223c811794c40bac685ba3",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/cmake/zfp/cfp-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "1bf83921c2356189878b8be6fc299b362b45ec70a8c127b5218bd897433c2a76",
+        "sha256_in_prefix": "1bf83921c2356189878b8be6fc299b362b45ec70a8c127b5218bd897433c2a76",
+        "size_in_bytes": 4209
+      },
+      {
+        "_path": "lib/cmake/zfp/zfp-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "5b50aaa7544b626061553741016ae7ee435b36ecf4dfeef9d255f30c3c4645a0",
+        "sha256_in_prefix": "5b50aaa7544b626061553741016ae7ee435b36ecf4dfeef9d255f30c3c4645a0",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "lib/cmake/zfp/zfp-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "e44ee20336c377f38d715278b851444a08b87e3e7cd7c06ae3f15a46359341ac",
+        "sha256_in_prefix": "e44ee20336c377f38d715278b851444a08b87e3e7cd7c06ae3f15a46359341ac",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "lib/cmake/zfp/zfp-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "c727a61c62081be5f0d2255009f2cef20e54177d9cac45a4c9c0eddf9ea58c3c",
+        "sha256_in_prefix": "c727a61c62081be5f0d2255009f2cef20e54177d9cac45a4c9c0eddf9ea58c3c",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/cmake/zfp/zfp-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "50e63f49181970bc93a1ad3c2cda104424089b8fb9312c69f321bc152473b4e6",
+        "sha256_in_prefix": "50e63f49181970bc93a1ad3c2cda104424089b8fb9312c69f321bc152473b4e6",
+        "size_in_bytes": 3232
+      },
+      {
+        "_path": "lib/libcfp.so",
+        "path_type": "softlink",
+        "sha256": "e6b5d8daefb82a00ad3ce4de4ae4dbd035e88e416e503e8222dcb9e19630f5d5",
+        "size_in_bytes": 134200
+      },
+      {
+        "_path": "lib/libcfp.so.0",
+        "path_type": "softlink",
+        "sha256": "e6b5d8daefb82a00ad3ce4de4ae4dbd035e88e416e503e8222dcb9e19630f5d5",
+        "size_in_bytes": 134200
+      },
+      {
+        "_path": "lib/libcfp.so.0.5.5",
+        "path_type": "hardlink",
+        "sha256": "e6b5d8daefb82a00ad3ce4de4ae4dbd035e88e416e503e8222dcb9e19630f5d5",
+        "sha256_in_prefix": "e6b5d8daefb82a00ad3ce4de4ae4dbd035e88e416e503e8222dcb9e19630f5d5",
+        "size_in_bytes": 134200
+      },
+      {
+        "_path": "lib/libzfp.so",
+        "path_type": "softlink",
+        "sha256": "f6ed23c011d4f45e9b326f22d34d0252ef4f5238c6eb82fd2edf7e37d2e97a1f",
+        "size_in_bytes": 357112
+      },
+      {
+        "_path": "lib/libzfp.so.0",
+        "path_type": "softlink",
+        "sha256": "f6ed23c011d4f45e9b326f22d34d0252ef4f5238c6eb82fd2edf7e37d2e97a1f",
+        "size_in_bytes": 357112
+      },
+      {
+        "_path": "lib/libzfp.so.0.5.5",
+        "path_type": "hardlink",
+        "sha256": "f6ed23c011d4f45e9b326f22d34d0252ef4f5238c6eb82fd2edf7e37d2e97a1f",
+        "sha256_in_prefix": "f6ed23c011d4f45e9b326f22d34d0252ef4f5238c6eb82fd2edf7e37d2e97a1f",
+        "size_in_bytes": 357112
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e55b647ed802a89c3975ef035745a4dfa0af766a269e9d48b3c1e081bbe4bd52",
+  "size": 194481,
+  "subdir": "linux-64",
+  "timestamp": 1617295931514,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zfp-0.5.5-h9c3ff4c_5.tar.bz2",
+  "version": "0.5.5"
+}

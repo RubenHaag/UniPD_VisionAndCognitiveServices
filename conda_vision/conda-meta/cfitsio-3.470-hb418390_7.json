@@ -1,0 +1,152 @@
+{
+  "build": "hb418390_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libcurl >=7.71.1,<8.0a0",
+    "libgcc-ng >=9.3.0",
+    "libgfortran-ng",
+    "libgfortran5 >=9.3.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/cfitsio-3.470-hb418390_7",
+  "features": "",
+  "files": [
+    "bin/fitscopy",
+    "bin/fpack",
+    "bin/funpack",
+    "bin/imcopy",
+    "bin/smem",
+    "include/drvrsmem.h",
+    "include/fitsio.h",
+    "include/fitsio2.h",
+    "include/longnam.h",
+    "lib/libcfitsio.a",
+    "lib/libcfitsio.so",
+    "lib/libcfitsio.so.8",
+    "lib/libcfitsio.so.8.3.47",
+    "lib/pkgconfig/cfitsio.pc"
+  ],
+  "fn": "cfitsio-3.470-hb418390_7.tar.bz2",
+  "license": "LicenseRef-fitsio",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/cfitsio-3.470-hb418390_7",
+    "type": 1
+  },
+  "md5": "5bda2e5ca5edb0c207c3ec76f57f8ecc",
+  "name": "cfitsio",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/cfitsio-3.470-hb418390_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/fitscopy",
+        "path_type": "hardlink",
+        "sha256": "9095299e08c4add321fbd35e43e35f4e1346fa49ea653163bd48477848921565",
+        "sha256_in_prefix": "9095299e08c4add321fbd35e43e35f4e1346fa49ea653163bd48477848921565",
+        "size_in_bytes": 17024
+      },
+      {
+        "_path": "bin/fpack",
+        "path_type": "hardlink",
+        "sha256": "0d21061417b29d50de292a676d25972d17ef809f12406172c4e77576954a76a6",
+        "sha256_in_prefix": "0d21061417b29d50de292a676d25972d17ef809f12406172c4e77576954a76a6",
+        "size_in_bytes": 70976
+      },
+      {
+        "_path": "bin/funpack",
+        "path_type": "hardlink",
+        "sha256": "8296fa607ca2d491584a18ffcbbf34386d9fb1122fd6cc74c73f1b8a5534bebc",
+        "sha256_in_prefix": "8296fa607ca2d491584a18ffcbbf34386d9fb1122fd6cc74c73f1b8a5534bebc",
+        "size_in_bytes": 66880
+      },
+      {
+        "_path": "bin/imcopy",
+        "path_type": "hardlink",
+        "sha256": "3cd585b12ff8e7cab45438477d37187a0860341c0d009135870e12b9a812d1f8",
+        "sha256_in_prefix": "3cd585b12ff8e7cab45438477d37187a0860341c0d009135870e12b9a812d1f8",
+        "size_in_bytes": 21696
+      },
+      {
+        "_path": "bin/smem",
+        "path_type": "hardlink",
+        "sha256": "575a6b08764a08421bf6c611021d86a16a70b242f5e921471befda2d530f296b",
+        "sha256_in_prefix": "575a6b08764a08421bf6c611021d86a16a70b242f5e921471befda2d530f296b",
+        "size_in_bytes": 17064
+      },
+      {
+        "_path": "include/drvrsmem.h",
+        "path_type": "hardlink",
+        "sha256": "c7280cfe29e2c2c1a35d6b08a8c39dd802eb824c71917ef905063fae7881bcf2",
+        "sha256_in_prefix": "c7280cfe29e2c2c1a35d6b08a8c39dd802eb824c71917ef905063fae7881bcf2",
+        "size_in_bytes": 6536
+      },
+      {
+        "_path": "include/fitsio.h",
+        "path_type": "hardlink",
+        "sha256": "5d5f88edc38649e878566f5575b113ef4f7857bfeceb2e7632de50a6ea08b805",
+        "sha256_in_prefix": "5d5f88edc38649e878566f5575b113ef4f7857bfeceb2e7632de50a6ea08b805",
+        "size_in_bytes": 119089
+      },
+      {
+        "_path": "include/fitsio2.h",
+        "path_type": "hardlink",
+        "sha256": "5be2969f863572a2e3f75239335231b4960a3c394e386515ff5dc6026b72cf1a",
+        "sha256_in_prefix": "5be2969f863572a2e3f75239335231b4960a3c394e386515ff5dc6026b72cf1a",
+        "size_in_bytes": 62930
+      },
+      {
+        "_path": "include/longnam.h",
+        "path_type": "hardlink",
+        "sha256": "f8c18c44e68a4178f9f8c91e53ba5f101747002aa21221fc36eb13b93d8f3c7b",
+        "sha256_in_prefix": "f8c18c44e68a4178f9f8c91e53ba5f101747002aa21221fc36eb13b93d8f3c7b",
+        "size_in_bytes": 21749
+      },
+      {
+        "_path": "lib/libcfitsio.a",
+        "path_type": "hardlink",
+        "sha256": "9c9868fc83a0b30e70c125d75523eb7d415b8c2395f05319b580fde2d6baf92e",
+        "sha256_in_prefix": "9c9868fc83a0b30e70c125d75523eb7d415b8c2395f05319b580fde2d6baf92e",
+        "size_in_bytes": 2865078
+      },
+      {
+        "_path": "lib/libcfitsio.so",
+        "path_type": "softlink",
+        "sha256": "889c99cc3d01eaab71592297c4daf014f4d651d5d615d7b3da5af15ed962dd5d",
+        "size_in_bytes": 1687768
+      },
+      {
+        "_path": "lib/libcfitsio.so.8",
+        "path_type": "softlink",
+        "sha256": "889c99cc3d01eaab71592297c4daf014f4d651d5d615d7b3da5af15ed962dd5d",
+        "size_in_bytes": 1687768
+      },
+      {
+        "_path": "lib/libcfitsio.so.8.3.47",
+        "path_type": "hardlink",
+        "sha256": "889c99cc3d01eaab71592297c4daf014f4d651d5d615d7b3da5af15ed962dd5d",
+        "sha256_in_prefix": "889c99cc3d01eaab71592297c4daf014f4d651d5d615d7b3da5af15ed962dd5d",
+        "size_in_bytes": 1687768
+      },
+      {
+        "_path": "lib/pkgconfig/cfitsio.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/cfitsio_1605060255195/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "f78292d53efd702e779ec2e623dfea9610dbce19d56822814278974b0b98cad6",
+        "sha256_in_prefix": "e62d948be3ef2b852d9d2178f8b1e7d6532394e45e807ea0929841e6f29796fa",
+        "size_in_bytes": 548
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9dc12137ba09b60aa3539cb79ba0039e416b5cfd2fd9b7db21d5df37adc4de5b",
+  "size": 1354562,
+  "subdir": "linux-64",
+  "timestamp": 1605060407888,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cfitsio-3.470-hb418390_7.tar.bz2",
+  "version": "3.470"
+}

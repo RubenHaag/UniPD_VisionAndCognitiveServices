@@ -1,0 +1,126 @@
+{
+  "build": "h780b84a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/openh264-2.1.1-h780b84a_0",
+  "features": "",
+  "files": [
+    "bin/h264dec",
+    "bin/h264enc",
+    "include/wels/codec_api.h",
+    "include/wels/codec_app_def.h",
+    "include/wels/codec_def.h",
+    "include/wels/codec_ver.h",
+    "lib/libopenh264.a",
+    "lib/libopenh264.so",
+    "lib/libopenh264.so.2.1.1",
+    "lib/libopenh264.so.6",
+    "lib/pkgconfig/openh264.pc"
+  ],
+  "fn": "openh264-2.1.1-h780b84a_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/openh264-2.1.1-h780b84a_0",
+    "type": 1
+  },
+  "md5": "034a6f90f1bbc7ba11d04b84ec9d74c8",
+  "name": "openh264",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/openh264-2.1.1-h780b84a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/h264dec",
+        "path_type": "hardlink",
+        "sha256": "2e5f53cc3c6f878ff6a7da9fb6ac3460d794bf875af736f86a91af5e6ab897ff",
+        "sha256_in_prefix": "2e5f53cc3c6f878ff6a7da9fb6ac3460d794bf875af736f86a91af5e6ab897ff",
+        "size_in_bytes": 573344
+      },
+      {
+        "_path": "bin/h264enc",
+        "path_type": "hardlink",
+        "sha256": "58cc29e58bf2a41f83a3b75a3a287c9f2da68de188e1b2b6f0c3014abd20218c",
+        "sha256_in_prefix": "58cc29e58bf2a41f83a3b75a3a287c9f2da68de188e1b2b6f0c3014abd20218c",
+        "size_in_bytes": 822112
+      },
+      {
+        "_path": "include/wels/codec_api.h",
+        "path_type": "hardlink",
+        "sha256": "21f29b20c24f7c7946f2e243d0bc2532fb3542f6c28af338209477e70d9036c9",
+        "sha256_in_prefix": "21f29b20c24f7c7946f2e243d0bc2532fb3542f6c28af338209477e70d9036c9",
+        "size_in_bytes": 21178
+      },
+      {
+        "_path": "include/wels/codec_app_def.h",
+        "path_type": "hardlink",
+        "sha256": "2536a902664c22d264ff87ab554ad3f9f859495b712c4c1f022fa67b68f928ae",
+        "sha256_in_prefix": "2536a902664c22d264ff87ab554ad3f9f859495b712c4c1f022fa67b68f928ae",
+        "size_in_bytes": 32652
+      },
+      {
+        "_path": "include/wels/codec_def.h",
+        "path_type": "hardlink",
+        "sha256": "f974d269b5935e8dc7265b8bfc02f60e5185b4d6165d30541d2758a4506f1979",
+        "sha256_in_prefix": "f974d269b5935e8dc7265b8bfc02f60e5185b4d6165d30541d2758a4506f1979",
+        "size_in_bytes": 7630
+      },
+      {
+        "_path": "include/wels/codec_ver.h",
+        "path_type": "hardlink",
+        "sha256": "d1efa783462b8cc6466a00079681475d7eb63a3fe6e5db1e7f7b5e8c00ce85f3",
+        "sha256_in_prefix": "d1efa783462b8cc6466a00079681475d7eb63a3fe6e5db1e7f7b5e8c00ce85f3",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/libopenh264.a",
+        "path_type": "hardlink",
+        "sha256": "1e06c90ff8856203cc8ccb6f5b8b06c9984c75a3b83383bebf1f78726789442a",
+        "sha256_in_prefix": "1e06c90ff8856203cc8ccb6f5b8b06c9984c75a3b83383bebf1f78726789442a",
+        "size_in_bytes": 2124380
+      },
+      {
+        "_path": "lib/libopenh264.so",
+        "path_type": "softlink",
+        "sha256": "c7f9e2bd6b167c9dc53cecc3a52625a369e80a8d7e284e9d5e25ff708926376b",
+        "size_in_bytes": 1384488
+      },
+      {
+        "_path": "lib/libopenh264.so.2.1.1",
+        "path_type": "hardlink",
+        "sha256": "c7f9e2bd6b167c9dc53cecc3a52625a369e80a8d7e284e9d5e25ff708926376b",
+        "sha256_in_prefix": "c7f9e2bd6b167c9dc53cecc3a52625a369e80a8d7e284e9d5e25ff708926376b",
+        "size_in_bytes": 1384488
+      },
+      {
+        "_path": "lib/libopenh264.so.6",
+        "path_type": "softlink",
+        "sha256": "c7f9e2bd6b167c9dc53cecc3a52625a369e80a8d7e284e9d5e25ff708926376b",
+        "size_in_bytes": 1384488
+      },
+      {
+        "_path": "lib/pkgconfig/openh264.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openh264_1609582937370/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "328139ec43ec4fc78e4200d50600bc806a1f9b0572752235bb01bcb3ba007189",
+        "sha256_in_prefix": "91d91306149f579b1fd81e382f9d399e1ed656d4cb9d834ea7a6a2d11f65ab5b",
+        "size_in_bytes": 831
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2ce3df1edb23541595443c7697e5568ae6426fa4d365dede45b16b0310bd6a06",
+  "size": 1585354,
+  "subdir": "linux-64",
+  "timestamp": 1609583081716,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openh264-2.1.1-h780b84a_0.tar.bz2",
+  "version": "2.1.1"
+}

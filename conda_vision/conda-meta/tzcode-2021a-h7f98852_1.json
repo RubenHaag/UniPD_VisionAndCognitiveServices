@@ -1,0 +1,68 @@
+{
+  "build": "h7f98852_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/tzcode-2021a-h7f98852_1",
+  "features": "",
+  "files": [
+    "bin/tzselect",
+    "bin/zdump",
+    "bin/zic",
+    "lib/libtz.a"
+  ],
+  "fn": "tzcode-2021a-h7f98852_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/tzcode-2021a-h7f98852_1",
+    "type": 1
+  },
+  "md5": "69cffb84da3d06a78925fe3c5fa51646",
+  "name": "tzcode",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/tzcode-2021a-h7f98852_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tzselect",
+        "path_type": "hardlink",
+        "sha256": "b7d7156df36b0ff4632f3bd89fe0f5e22162ac291b3c12b2c133f10644e44662",
+        "sha256_in_prefix": "b7d7156df36b0ff4632f3bd89fe0f5e22162ac291b3c12b2c133f10644e44662",
+        "size_in_bytes": 15306
+      },
+      {
+        "_path": "bin/zdump",
+        "path_type": "hardlink",
+        "sha256": "43d6e8cf787c3736ccce35be7f9ad5905363a54948a127d207afba39177457a2",
+        "sha256_in_prefix": "43d6e8cf787c3736ccce35be7f9ad5905363a54948a127d207afba39177457a2",
+        "size_in_bytes": 53840
+      },
+      {
+        "_path": "bin/zic",
+        "path_type": "hardlink",
+        "sha256": "9fe4b9c9fdbe67fca56451430648c5f26a20b30b1b4646430c4571717ab3f50a",
+        "sha256_in_prefix": "9fe4b9c9fdbe67fca56451430648c5f26a20b30b1b4646430c4571717ab3f50a",
+        "size_in_bytes": 63272
+      },
+      {
+        "_path": "lib/libtz.a",
+        "path_type": "hardlink",
+        "sha256": "48cd278e0b2345bb71c7e87fa49bcfdb9dd0ede1c7317a6d79977cd87a1dce83",
+        "sha256_in_prefix": "48cd278e0b2345bb71c7e87fa49bcfdb9dd0ede1c7317a6d79977cd87a1dce83",
+        "size_in_bytes": 50234
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "868e67eccbf57c5accc708229e0b9cdbf25a36b69ec397785a6aeacc54fb6e60",
+  "size": 69779,
+  "subdir": "linux-64",
+  "timestamp": 1614689884829,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tzcode-2021a-h7f98852_1.tar.bz2",
+  "version": "2021a"
+}

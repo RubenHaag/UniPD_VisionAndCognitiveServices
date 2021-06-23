@@ -1,0 +1,83 @@
+{
+  "build": "h9c3ff4c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libglib 2.68.3 h3e27bee_0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/glib-tools-2.68.3-h9c3ff4c_0",
+  "features": "",
+  "files": [
+    "bin/gio",
+    "bin/gio-querymodules",
+    "bin/glib-compile-resources",
+    "bin/glib-compile-schemas",
+    "share/bash-completion/completions/gio"
+  ],
+  "fn": "glib-tools-2.68.3-h9c3ff4c_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/glib-tools-2.68.3-h9c3ff4c_0",
+    "type": 1
+  },
+  "md5": "2e9275303dd09a2e245faf31770a1416",
+  "name": "glib-tools",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/glib-tools-2.68.3-h9c3ff4c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gio",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/glib-split_1623370056560/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "2ad446c05f289099a5d294cade9407d483f5962d397d155e324afea84303cb2e",
+        "sha256_in_prefix": "73e281d82de195ebf2ab96f6ae87d1769667ab066dc3d32c893bbf3002315c50",
+        "size_in_bytes": 111616
+      },
+      {
+        "_path": "bin/gio-querymodules",
+        "path_type": "hardlink",
+        "sha256": "22af1f68d134f47c6ba779276bd6d04348fe1c7b29dbdb726e5339d525aa211c",
+        "sha256_in_prefix": "22af1f68d134f47c6ba779276bd6d04348fe1c7b29dbdb726e5339d525aa211c",
+        "size_in_bytes": 22288
+      },
+      {
+        "_path": "bin/glib-compile-resources",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/glib-split_1623370056560/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "650f534751ef97d12e3ea4d77dd3b720088019366ec25dbe8aed757547fa7308",
+        "sha256_in_prefix": "520de89fe2006dd828787471548ebea38fe79f03a2266b86d0d4283d88754081",
+        "size_in_bytes": 55976
+      },
+      {
+        "_path": "bin/glib-compile-schemas",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/glib-split_1623370056560/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "4974c9a02bf8e9d6c0af2fee07f76e41f0d5e18c690bb3b21779919ce4ad5244",
+        "sha256_in_prefix": "df2fb6645e431d41839ece9e92fd258d855151ca260b92ab4f4f5846e0393fb1",
+        "size_in_bytes": 57008
+      },
+      {
+        "_path": "share/bash-completion/completions/gio",
+        "path_type": "hardlink",
+        "sha256": "5da96db9ea9295e068a1c6c046b5ee32718489af43a949425b7d8c6cdc2ca493",
+        "sha256_in_prefix": "5da96db9ea9295e068a1c6c046b5ee32718489af43a949425b7d8c6cdc2ca493",
+        "size_in_bytes": 3830
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "faaf23e089f8bf8a5c33610162764f049c37553e87529df1601f85a47881ed1d",
+  "size": 88338,
+  "subdir": "linux-64",
+  "timestamp": 1623370622937,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.68.3-h9c3ff4c_0.tar.bz2",
+  "version": "2.68.3"
+}

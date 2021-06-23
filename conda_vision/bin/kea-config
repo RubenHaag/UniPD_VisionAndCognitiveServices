@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+usage()
+{
+    cat <<EOF
+Usage: kea-config [OPTIONS]
+Options:
+     [--prefix]
+     [--version]
+     [--libs]
+     [--cflags]
+     [--ldflags]
+     [--includes]
+     [--hdfincludes]
+     [--hdfcflags]
+     [--hdflibs]
+EOF
+    exit $1
+}
+if test $# -eq 0; then
+  usage 1 1>&2
+fi
+while test $# -gt 0; do
+case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+esac
+case $1 in
+    --prefix)
+    echo -n "/home/ruben/vision-course/conda_vision "
+     ;;
+	--version)
+    echo -n "1.4.14 "
+     ;;
+    --cflags)
+    echo -n "-I/home/ruben/vision-course/conda_vision/include "
+      ;;
+    --libs)
+      echo -n "-L/home/ruben/vision-course/conda_vision/lib -lkea "
+      ;;
+    --ldflags)
+      echo -n "/home/ruben/vision-course/conda_vision/lib "
+      ;;
+    --includes)
+      echo -n "/home/ruben/vision-course/conda_vision/include "
+      ;;
+	--hdfincludes)
+      echo -n " /home/ruben/vision-course/conda_vision/include "
+      ;;
+	--hdfcflags)
+      echo -n " -I/home/ruben/vision-course/conda_vision/include "
+      ;;
+	--hdflibs)
+      echo -n " -L/home/ruben/vision-course/conda_vision/lib -lhdf5_cpp -lhdf5 "
+      ;;
+  esac
+  shift
+done
+echo

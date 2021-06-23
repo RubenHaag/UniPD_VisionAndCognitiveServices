@@ -1,0 +1,176 @@
+{
+  "build": "h7f98852_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/jxrlib-1.1-h7f98852_2",
+  "features": "",
+  "files": [
+    "bin/JxrDecApp",
+    "bin/JxrEncApp",
+    "include/jxrlib/JXRGlue.h",
+    "include/jxrlib/JXRMeta.h",
+    "include/jxrlib/JXRTest.h",
+    "include/jxrlib/guiddef.h",
+    "include/jxrlib/windowsmediaphoto.h",
+    "include/jxrlib/wmsal.h",
+    "include/jxrlib/wmspecstring.h",
+    "include/jxrlib/wmspecstrings_adt.h",
+    "include/jxrlib/wmspecstrings_strict.h",
+    "include/jxrlib/wmspecstrings_undef.h",
+    "lib/libjpegxr.so",
+    "lib/libjpegxr.so.0",
+    "lib/libjpegxr.so.1.1",
+    "lib/libjxrglue.so",
+    "lib/libjxrglue.so.0",
+    "lib/libjxrglue.so.1.1"
+  ],
+  "fn": "jxrlib-1.1-h7f98852_2.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/jxrlib-1.1-h7f98852_2",
+    "type": 1
+  },
+  "md5": "8e787b08fe19986d99d034b839df2961",
+  "name": "jxrlib",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/jxrlib-1.1-h7f98852_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/JxrDecApp",
+        "path_type": "hardlink",
+        "sha256": "007fca5b582df1cf78b505ac7ca18dac1a1de5502f8aa8d79c84514748f1f970",
+        "sha256_in_prefix": "007fca5b582df1cf78b505ac7ca18dac1a1de5502f8aa8d79c84514748f1f970",
+        "size_in_bytes": 32008
+      },
+      {
+        "_path": "bin/JxrEncApp",
+        "path_type": "hardlink",
+        "sha256": "e73e495e238e38422c982bd50644a365039b77d5e45756414bce16b8d71c1cab",
+        "sha256_in_prefix": "e73e495e238e38422c982bd50644a365039b77d5e45756414bce16b8d71c1cab",
+        "size_in_bytes": 33680
+      },
+      {
+        "_path": "include/jxrlib/JXRGlue.h",
+        "path_type": "hardlink",
+        "sha256": "9f7d3c1c73994401be28c9b3c5787cec8e7b069a3ba4432f8780e30e802370ae",
+        "sha256_in_prefix": "9f7d3c1c73994401be28c9b3c5787cec8e7b069a3ba4432f8780e30e802370ae",
+        "size_in_bytes": 29598
+      },
+      {
+        "_path": "include/jxrlib/JXRMeta.h",
+        "path_type": "hardlink",
+        "sha256": "121933695b12006a29152c3a41a4201ef885c34ec4e27c54a6ea786d53e60b53",
+        "sha256_in_prefix": "121933695b12006a29152c3a41a4201ef885c34ec4e27c54a6ea786d53e60b53",
+        "size_in_bytes": 9263
+      },
+      {
+        "_path": "include/jxrlib/JXRTest.h",
+        "path_type": "hardlink",
+        "sha256": "78d08d4ca5bc3bcfb570ace1aa48175016e8773934208b3d860bd247822aa6e9",
+        "sha256_in_prefix": "78d08d4ca5bc3bcfb570ace1aa48175016e8773934208b3d860bd247822aa6e9",
+        "size_in_bytes": 5638
+      },
+      {
+        "_path": "include/jxrlib/guiddef.h",
+        "path_type": "hardlink",
+        "sha256": "59b2b126a261bd803401cd309576dbb70b7e49a0fdc9e36ad7e2408df89ba1ba",
+        "sha256_in_prefix": "59b2b126a261bd803401cd309576dbb70b7e49a0fdc9e36ad7e2408df89ba1ba",
+        "size_in_bytes": 6470
+      },
+      {
+        "_path": "include/jxrlib/windowsmediaphoto.h",
+        "path_type": "hardlink",
+        "sha256": "2ebf4f1cff5d8f9262727b785d845c4e8d799a94cf2aa815aabb83182fffcaf4",
+        "sha256_in_prefix": "2ebf4f1cff5d8f9262727b785d845c4e8d799a94cf2aa815aabb83182fffcaf4",
+        "size_in_bytes": 16549
+      },
+      {
+        "_path": "include/jxrlib/wmsal.h",
+        "path_type": "hardlink",
+        "sha256": "20be70d7a9e152b7889ef7f769c07a320e47929138528a740e4caa388b5a285c",
+        "sha256_in_prefix": "20be70d7a9e152b7889ef7f769c07a320e47929138528a740e4caa388b5a285c",
+        "size_in_bytes": 47506
+      },
+      {
+        "_path": "include/jxrlib/wmspecstring.h",
+        "path_type": "hardlink",
+        "sha256": "0f87ccdd9cb4fc84d280e2b55ec67d30ec2aa4c5c78eb1cb302aa0e1bd9fb42b",
+        "sha256_in_prefix": "0f87ccdd9cb4fc84d280e2b55ec67d30ec2aa4c5c78eb1cb302aa0e1bd9fb42b",
+        "size_in_bytes": 23581
+      },
+      {
+        "_path": "include/jxrlib/wmspecstrings_adt.h",
+        "path_type": "hardlink",
+        "sha256": "4047c48f7adeaa382c000222b5f5088059aaa18ef543d65e42d71a8ceef833af",
+        "sha256_in_prefix": "4047c48f7adeaa382c000222b5f5088059aaa18ef543d65e42d71a8ceef833af",
+        "size_in_bytes": 3282
+      },
+      {
+        "_path": "include/jxrlib/wmspecstrings_strict.h",
+        "path_type": "hardlink",
+        "sha256": "dcf870905455ce70baa67aebe976d98628773c1cbe2cf188d511cbe13024a704",
+        "sha256_in_prefix": "dcf870905455ce70baa67aebe976d98628773c1cbe2cf188d511cbe13024a704",
+        "size_in_bytes": 59942
+      },
+      {
+        "_path": "include/jxrlib/wmspecstrings_undef.h",
+        "path_type": "hardlink",
+        "sha256": "8e5ffe3ffae3ee6e4f1797553c384eb6e8332559c0b34eedbd3caf219c811cc9",
+        "sha256_in_prefix": "8e5ffe3ffae3ee6e4f1797553c384eb6e8332559c0b34eedbd3caf219c811cc9",
+        "size_in_bytes": 12055
+      },
+      {
+        "_path": "lib/libjpegxr.so",
+        "path_type": "softlink",
+        "sha256": "3542a6565dd896f84597eb1454f51aa24ea0d0b13a8e269e5aff460978be3516",
+        "size_in_bytes": 287888
+      },
+      {
+        "_path": "lib/libjpegxr.so.0",
+        "path_type": "softlink",
+        "sha256": "3542a6565dd896f84597eb1454f51aa24ea0d0b13a8e269e5aff460978be3516",
+        "size_in_bytes": 287888
+      },
+      {
+        "_path": "lib/libjpegxr.so.1.1",
+        "path_type": "hardlink",
+        "sha256": "3542a6565dd896f84597eb1454f51aa24ea0d0b13a8e269e5aff460978be3516",
+        "sha256_in_prefix": "3542a6565dd896f84597eb1454f51aa24ea0d0b13a8e269e5aff460978be3516",
+        "size_in_bytes": 287888
+      },
+      {
+        "_path": "lib/libjxrglue.so",
+        "path_type": "softlink",
+        "sha256": "4d5c6d6cf0ed68e77175f4660d6530a4fd08fc6294dfbff1f7f7e02701ee16bc",
+        "size_in_bytes": 173800
+      },
+      {
+        "_path": "lib/libjxrglue.so.0",
+        "path_type": "softlink",
+        "sha256": "4d5c6d6cf0ed68e77175f4660d6530a4fd08fc6294dfbff1f7f7e02701ee16bc",
+        "size_in_bytes": 173800
+      },
+      {
+        "_path": "lib/libjxrglue.so.1.1",
+        "path_type": "hardlink",
+        "sha256": "4d5c6d6cf0ed68e77175f4660d6530a4fd08fc6294dfbff1f7f7e02701ee16bc",
+        "sha256_in_prefix": "4d5c6d6cf0ed68e77175f4660d6530a4fd08fc6294dfbff1f7f7e02701ee16bc",
+        "size_in_bytes": 173800
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3ffc19c2ca272e6d5b8edc7cfc5bb71763dfdfa1810dd4b8820cc6b212ecbd95",
+  "size": 240904,
+  "subdir": "linux-64",
+  "timestamp": 1607309174409,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jxrlib-1.1-h7f98852_2.tar.bz2",
+  "version": "1.1"
+}

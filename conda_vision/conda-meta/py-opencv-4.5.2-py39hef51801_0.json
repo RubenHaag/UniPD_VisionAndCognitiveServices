@@ -1,0 +1,37 @@
+{
+  "build": "py39hef51801_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libopencv 4.5.2 py39h2406f9b_0",
+    "numpy >=1.19.5,<2.0a0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/py-opencv-4.5.2-py39hef51801_0",
+  "features": "",
+  "files": [],
+  "fn": "py-opencv-4.5.2-py39hef51801_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/py-opencv-4.5.2-py39hef51801_0",
+    "type": 1
+  },
+  "md5": "d06eaee629ac82671c778f80493ac10f",
+  "name": "py-opencv",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/py-opencv-4.5.2-py39hef51801_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1071359598161ebb81ce318d761e19634895b3a81bd78e188407ad757e2db2fe",
+  "size": 1153683,
+  "subdir": "linux-64",
+  "timestamp": 1619751987048,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/py-opencv-4.5.2-py39hef51801_0.tar.bz2",
+  "version": "4.5.2"
+}

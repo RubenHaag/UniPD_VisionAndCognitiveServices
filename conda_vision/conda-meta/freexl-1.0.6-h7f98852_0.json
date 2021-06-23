@@ -1,0 +1,84 @@
+{
+  "build": "h7f98852_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/freexl-1.0.6-h7f98852_0",
+  "features": "",
+  "files": [
+    "include/freexl.h",
+    "lib/libfreexl.a",
+    "lib/libfreexl.so",
+    "lib/libfreexl.so.1",
+    "lib/libfreexl.so.1.1.0",
+    "lib/pkgconfig/freexl.pc"
+  ],
+  "fn": "freexl-1.0.6-h7f98852_0.tar.bz2",
+  "license": "MPL-1.1",
+  "license_family": "MOZILLA",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/freexl-1.0.6-h7f98852_0",
+    "type": 1
+  },
+  "md5": "fb707484f02b122edec5fe3d1f3f552f",
+  "name": "freexl",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/freexl-1.0.6-h7f98852_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/freexl.h",
+        "path_type": "hardlink",
+        "sha256": "2ef344c11819d0a6925ec5ae3146f5b9dfae004a6ec8e3b0c77a9e20b4ad7a92",
+        "sha256_in_prefix": "2ef344c11819d0a6925ec5ae3146f5b9dfae004a6ec8e3b0c77a9e20b4ad7a92",
+        "size_in_bytes": 23704
+      },
+      {
+        "_path": "lib/libfreexl.a",
+        "path_type": "hardlink",
+        "sha256": "aaf489126be7348ce6790d32418ebf508c534c7ec182c4fcec84c72dc9965751",
+        "sha256_in_prefix": "aaf489126be7348ce6790d32418ebf508c534c7ec182c4fcec84c72dc9965751",
+        "size_in_bytes": 64114
+      },
+      {
+        "_path": "lib/libfreexl.so",
+        "path_type": "softlink",
+        "sha256": "a82432df6112b66d7d91ad2c645eaad1cbb4952e1772053de1f424734dba46bf",
+        "size_in_bytes": 47672
+      },
+      {
+        "_path": "lib/libfreexl.so.1",
+        "path_type": "softlink",
+        "sha256": "a82432df6112b66d7d91ad2c645eaad1cbb4952e1772053de1f424734dba46bf",
+        "size_in_bytes": 47672
+      },
+      {
+        "_path": "lib/libfreexl.so.1.1.0",
+        "path_type": "hardlink",
+        "sha256": "a82432df6112b66d7d91ad2c645eaad1cbb4952e1772053de1f424734dba46bf",
+        "sha256_in_prefix": "a82432df6112b66d7d91ad2c645eaad1cbb4952e1772053de1f424734dba46bf",
+        "size_in_bytes": 47672
+      },
+      {
+        "_path": "lib/pkgconfig/freexl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/freexl_1615577875557/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "58c7cc7713c1987789c9e89e0e589b2d730159b74646d0cc7ac4510188e514be",
+        "sha256_in_prefix": "c4bdbb4b9705828fef4d0e362ba01fd957762124f7f7c12188b0da4f6811e712",
+        "size_in_bytes": 538
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "712624a78a389e3681fbc59fe2dfec87501d374c156abea18494511f0d35b856",
+  "size": 48975,
+  "subdir": "linux-64",
+  "timestamp": 1615577989819,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/freexl-1.0.6-h7f98852_0.tar.bz2",
+  "version": "1.0.6"
+}

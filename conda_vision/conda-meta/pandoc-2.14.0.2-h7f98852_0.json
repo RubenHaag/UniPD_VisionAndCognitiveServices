@@ -1,0 +1,42 @@
+{
+  "build": "h7f98852_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/pandoc-2.14.0.2-h7f98852_0",
+  "features": "",
+  "files": [
+    "bin/pandoc"
+  ],
+  "fn": "pandoc-2.14.0.2-h7f98852_0.tar.bz2",
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/pandoc-2.14.0.2-h7f98852_0",
+    "type": 1
+  },
+  "md5": "f5d45a9df49c200ad27231a753fe129f",
+  "name": "pandoc",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/pandoc-2.14.0.2-h7f98852_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pandoc",
+        "path_type": "hardlink",
+        "sha256": "5d18bfa124919b24abb3c9df2e514ccb976b379ca18b764759bcba9f04798eeb",
+        "sha256_in_prefix": "5d18bfa124919b24abb3c9df2e514ccb976b379ca18b764759bcba9f04798eeb",
+        "size_in_bytes": 75946672
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f356fdbf44d4487a83ef1862ce2de18034dc107d6db47e7ff9451da11440f97b",
+  "size": 12576946,
+  "subdir": "linux-64",
+  "timestamp": 1623687833378,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.14.0.2-h7f98852_0.tar.bz2",
+  "version": "2.14.0.2"
+}

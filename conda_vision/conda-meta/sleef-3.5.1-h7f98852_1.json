@@ -1,0 +1,128 @@
+{
+  "build": "h7f98852_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "_openmp_mutex >=4.5",
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/sleef-3.5.1-h7f98852_1",
+  "features": "",
+  "files": [
+    "include/sleef.h",
+    "include/sleefdft.h",
+    "lib/libsleef.so",
+    "lib/libsleef.so.3",
+    "lib/libsleef.so.3.5.1",
+    "lib/libsleefdft.so",
+    "lib/libsleefdft.so.3",
+    "lib/libsleefdft.so.3.5.1",
+    "lib/libsleefgnuabi.so",
+    "lib/libsleefgnuabi.so.3",
+    "lib/libsleefgnuabi.so.3.5",
+    "lib/pkgconfig/sleef.pc"
+  ],
+  "fn": "sleef-3.5.1-h7f98852_1.tar.bz2",
+  "license": "BSL-1.0",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/sleef-3.5.1-h7f98852_1",
+    "type": 1
+  },
+  "md5": "d056368f56556fb71bbda21289c3945b",
+  "name": "sleef",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/sleef-3.5.1-h7f98852_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/sleef.h",
+        "path_type": "hardlink",
+        "sha256": "4767a87a3b926714ce5ef5fcb9daf7de1faa683b7c8746150972279c9aeba050",
+        "sha256_in_prefix": "4767a87a3b926714ce5ef5fcb9daf7de1faa683b7c8746150972279c9aeba050",
+        "size_in_bytes": 231640
+      },
+      {
+        "_path": "include/sleefdft.h",
+        "path_type": "hardlink",
+        "sha256": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "sha256_in_prefix": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "lib/libsleef.so",
+        "path_type": "softlink",
+        "sha256": "4a87cae4452d14cd035ed9d13e0a41b4e27eadaff6cce2c36b03de4487838dd8",
+        "size_in_bytes": 2556016
+      },
+      {
+        "_path": "lib/libsleef.so.3",
+        "path_type": "softlink",
+        "sha256": "4a87cae4452d14cd035ed9d13e0a41b4e27eadaff6cce2c36b03de4487838dd8",
+        "size_in_bytes": 2556016
+      },
+      {
+        "_path": "lib/libsleef.so.3.5.1",
+        "path_type": "hardlink",
+        "sha256": "4a87cae4452d14cd035ed9d13e0a41b4e27eadaff6cce2c36b03de4487838dd8",
+        "sha256_in_prefix": "4a87cae4452d14cd035ed9d13e0a41b4e27eadaff6cce2c36b03de4487838dd8",
+        "size_in_bytes": 2556016
+      },
+      {
+        "_path": "lib/libsleefdft.so",
+        "path_type": "softlink",
+        "sha256": "2b8f8557fd90c830e90987b0ef6e68c04d22f2b6bd85f6e5a29d3ffed36a0a94",
+        "size_in_bytes": 4365960
+      },
+      {
+        "_path": "lib/libsleefdft.so.3",
+        "path_type": "softlink",
+        "sha256": "2b8f8557fd90c830e90987b0ef6e68c04d22f2b6bd85f6e5a29d3ffed36a0a94",
+        "size_in_bytes": 4365960
+      },
+      {
+        "_path": "lib/libsleefdft.so.3.5.1",
+        "path_type": "hardlink",
+        "sha256": "2b8f8557fd90c830e90987b0ef6e68c04d22f2b6bd85f6e5a29d3ffed36a0a94",
+        "sha256_in_prefix": "2b8f8557fd90c830e90987b0ef6e68c04d22f2b6bd85f6e5a29d3ffed36a0a94",
+        "size_in_bytes": 4365960
+      },
+      {
+        "_path": "lib/libsleefgnuabi.so",
+        "path_type": "softlink",
+        "sha256": "e288d78ac8ab7e8d20b139422c2b0162b9d8728e8070c2e8744f6f2bb55a9d3a",
+        "size_in_bytes": 707720
+      },
+      {
+        "_path": "lib/libsleefgnuabi.so.3",
+        "path_type": "softlink",
+        "sha256": "e288d78ac8ab7e8d20b139422c2b0162b9d8728e8070c2e8744f6f2bb55a9d3a",
+        "size_in_bytes": 707720
+      },
+      {
+        "_path": "lib/libsleefgnuabi.so.3.5",
+        "path_type": "hardlink",
+        "sha256": "e288d78ac8ab7e8d20b139422c2b0162b9d8728e8070c2e8744f6f2bb55a9d3a",
+        "sha256_in_prefix": "e288d78ac8ab7e8d20b139422c2b0162b9d8728e8070c2e8744f6f2bb55a9d3a",
+        "size_in_bytes": 707720
+      },
+      {
+        "_path": "lib/pkgconfig/sleef.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/sleef_1608382679877/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d7b62f602e30365e74fe8f07c2d0f4d40f4accaef5a55c49b1751c29b61581db",
+        "sha256_in_prefix": "628c7c67b5c0ed4c85eedafc1c81a70b70e0442ab71e776459c2d053f3848496",
+        "size_in_bytes": 970
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cdcc8d876c516a6130add6c1d64b799f5248041de3d462906d32a65f8355ac36",
+  "size": 1570842,
+  "subdir": "linux-64",
+  "timestamp": 1608382928387,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sleef-3.5.1-h7f98852_1.tar.bz2",
+  "version": "3.5.1"
+}

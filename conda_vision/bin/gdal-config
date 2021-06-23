@@ -1,0 +1,74 @@
+#!/bin/sh
+CONFIG_LIBS="-L/home/ruben/vision-course/conda_vision/lib -lgdal"
+CONFIG_DEP_LIBS="-lcrypto -L/home/ruben/vision-course/conda_vision/lib -ltiledb -L/home/ruben/vision-course/conda_vision/lib -lpoppler -ljson-c -L/home/ruben/vision-course/conda_vision/lib -L/home/ruben/vision-course/conda_vision/lib -lfreexl -L/home/ruben/vision-course/conda_vision/lib -lgeos_c -L/home/ruben/vision-course/conda_vision/lib -lwebp -L/home/ruben/vision-course/conda_vision/lib -lkmlbase -lkmldom -lkmlengine -lkmlxsd -lkmlregionator -L/home/ruben/vision-course/conda_vision/lib -lexpat -L/home/ruben/vision-course/conda_vision/lib -lxerces-c -lpthread -L/home/ruben/vision-course/conda_vision/lib -lopenjp2 -L/home/ruben/vision-course/conda_vision/lib -lnetcdf -L/home/ruben/vision-course/conda_vision/lib -lhdf5  -L/home/ruben/vision-course/conda_vision/lib -lmfhdf -ldf -lgif -L/home/ruben/vision-course/conda_vision -L/home/ruben/vision-course/conda_vision/lib -ljpeg -L/home/ruben/vision-course/conda_vision/lib -lgeotiff -L/home/ruben/vision-course/conda_vision -L/home/ruben/vision-course/conda_vision/lib -lpng -L/home/ruben/vision-course/conda_vision -L/home/ruben/vision-course/conda_vision/lib -lcfitsio -L/home/ruben/vision-course/conda_vision/lib -lpq -L/home/ruben/vision-course/conda_vision/lib -lzstd -llzma -L/home/ruben/vision-course/conda_vision/lib -lsqlite3 -L/home/ruben/vision-course/conda_vision/lib -lproj  -L/home/ruben/vision-course/conda_vision/lib -lsqlite3 -L/home/ruben/vision-course/conda_vision/lib -ltiff -ldeflate -lz -L/home/ruben/vision-course/conda_vision -L/home/ruben/vision-course/conda_vision/lib -lpthread -lm -lrt -ldl  -L/home/ruben/vision-course/conda_vision/lib -lspatialite -L/home/ruben/vision-course/conda_vision/lib64 -L/home/ruben/vision-course/conda_vision/lib -ldap -ldapserver -ldapclient -L/home/ruben/vision-course/conda_vision/lib -lcurl -L/home/ruben/vision-course/conda_vision/lib -lxml2 -L/home/ruben/vision-course/conda_vision/lib -lz -L/home/ruben/vision-course/conda_vision/lib -llzma -lpthread -L/home/ruben/vision-course/conda_vision/lib -liconv -L/home/ruben/vision-course/conda_vision/lib -licui18n -licuuc -licudata -lm -ldl -lpthread -luuid  -lpcre   -L/home/ruben/vision-course/conda_vision/lib -lcurl          -liconv  -L/home/ruben/vision-course/conda_vision/lib -lxml2      -L/home/ruben/vision-course/conda_vision/lib -lkea  -L/home/ruben/vision-course/conda_vision/lib -lhdf5_cpp -lhdf5 "
+CONFIG_PREFIX="/home/ruben/vision-course/conda_vision"
+CONFIG_CFLAGS="-I/home/ruben/vision-course/conda_vision/include"
+CONFIG_DATA="/home/ruben/vision-course/conda_vision/share/gdal"
+CONFIG_VERSION="3.2.2"
+CONFIG_OGR_ENABLED=yes
+CONFIG_GNM_ENABLED=yes
+CONFIG_FORMATS="derived gtiff hfa mem vrt  aaigrid adrg aigrid airsar arg blx bmp bsb cals ceos ceos2 coasp cosar ctg dimap dted e00grid elas envisat ers esric fit gff gsg gxf hf2 idrisi ignfheightasciigrid ilwis ingr iris iso8211 jaxapalsar jdem kmlsuperoverlay l1b leveller map mrf msgn ngsgeoid nitf northwood pds prf r raw rmf rs2 safe saga sdts sentinel2 sgi sigdem srtmhgt terragen tga til tsx usgsdem xpm xyz zmap rik ozi eeda plmosaic rda wcs wms wmts daas ogcapi rasterlite mbtiles grib pdf tiledb webp dods openjpeg netcdf kea hdf5 hdf4 gif jpeg png pcraster fits  pcidsk postgisraster"
+usage()
+{
+	cat <<EOF
+Usage: gdal-config [OPTIONS]
+Options:
+	[--prefix[=DIR]]
+	[--libs]
+	[--dep-libs]
+	[--cflags]
+	[--datadir]
+	[--version]
+	[--ogr-enabled]
+	[--gnm-enabled]
+	[--formats]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo $CONFIG_LIBS
+    ;;
+
+  --dep-libs)
+    echo $CONFIG_DEP_LIBS
+    ;;
+
+  --cflags)
+    echo $CONFIG_CFLAGS
+    ;;
+
+  --datadir)
+    echo $CONFIG_DATA
+    ;;
+
+  --prefix)
+    echo $CONFIG_PREFIX
+    ;;
+
+  --version)
+    echo $CONFIG_VERSION
+    ;;
+
+  --ogr-enabled)
+    echo yes
+    ;;
+
+  --gnm-enabled)
+    echo $CONFIG_GNM_ENABLED
+    ;;
+
+  --formats)
+    echo $CONFIG_FORMATS
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

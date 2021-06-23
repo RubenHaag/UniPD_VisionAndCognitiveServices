@@ -1,0 +1,307 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "jupyter_server >=1.8.0,<2.0.0",
+    "notebook <7",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/nbclassic-0.3.1-pyhd8ed1ab_1",
+  "features": "",
+  "files": [
+    "etc/jupyter/jupyter_server_config.d/nbclassic.json",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/nbclassic-0.3.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/nbclassic/__init__.py",
+    "lib/python3.9/site-packages/nbclassic/__version__.py",
+    "lib/python3.9/site-packages/nbclassic/edit/__init__.py",
+    "lib/python3.9/site-packages/nbclassic/edit/handlers.py",
+    "lib/python3.9/site-packages/nbclassic/nbserver.py",
+    "lib/python3.9/site-packages/nbclassic/notebook/__init__.py",
+    "lib/python3.9/site-packages/nbclassic/notebook/handlers.py",
+    "lib/python3.9/site-packages/nbclassic/notebookapp.py",
+    "lib/python3.9/site-packages/nbclassic/shim.py",
+    "lib/python3.9/site-packages/nbclassic/terminal/__init__.py",
+    "lib/python3.9/site-packages/nbclassic/terminal/handlers.py",
+    "lib/python3.9/site-packages/nbclassic/traits.py",
+    "lib/python3.9/site-packages/nbclassic/tree/__init__.py",
+    "lib/python3.9/site-packages/nbclassic/tree/handlers.py",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/__version__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/edit/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/edit/__pycache__/handlers.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/nbserver.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/notebook/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/notebook/__pycache__/handlers.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/notebookapp.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/shim.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/terminal/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/terminal/__pycache__/handlers.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/__pycache__/traits.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/tree/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbclassic/tree/__pycache__/handlers.cpython-39.pyc",
+    "bin/jupyter-nbclassic"
+  ],
+  "fn": "nbclassic-0.3.1-pyhd8ed1ab_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/nbclassic-0.3.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "aa4f94da9fafb5b774493b26b631ad3f",
+  "name": "nbclassic",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/nbclassic-0.3.1-pyhd8ed1ab_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/jupyter/jupyter_server_config.d/nbclassic.json",
+        "path_type": "hardlink",
+        "sha256": "6c2769cacd10e2e58c15e4947aadb3a59f1437d19f26f7fbded6e684f8fdfbf7",
+        "sha256_in_prefix": "6c2769cacd10e2e58c15e4947aadb3a59f1437d19f26f7fbded6e684f8fdfbf7",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1b6e23938760e7dd00285e2cd9f5b7f3649ec445d2415dbf71b4d8fd8586cf98",
+        "sha256_in_prefix": "1b6e23938760e7dd00285e2cd9f5b7f3649ec445d2415dbf71b4d8fd8586cf98",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c763746e315ebef7dace9b7db7c94d0ddaa2dfbf78115bfc380d598c227ee1ac",
+        "sha256_in_prefix": "c763746e315ebef7dace9b7db7c94d0ddaa2dfbf78115bfc380d598c227ee1ac",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "da73e0079c2e46362d19a87c65b09c2280da346332495e99fb712a606e57f7f3",
+        "sha256_in_prefix": "da73e0079c2e46362d19a87c65b09c2280da346332495e99fb712a606e57f7f3",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "671fd0c0443ae4c15247a4927aadc37d791a6e8273041b4fa746ecad26db630d",
+        "sha256_in_prefix": "671fd0c0443ae4c15247a4927aadc37d791a6e8273041b4fa746ecad26db630d",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "58c39501ec5e4e0a381ebdf719af865508f554c59db087f1bb4265c4ce6d30b3",
+        "sha256_in_prefix": "58c39501ec5e4e0a381ebdf719af865508f554c59db087f1bb4265c4ce6d30b3",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/nbclassic-0.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6eb33e95edc28cd55fea64b31e0f7bc6ea44123ca7ccf01d7487a5d4a3c1a49d",
+        "sha256_in_prefix": "6eb33e95edc28cd55fea64b31e0f7bc6ea44123ca7ccf01d7487a5d4a3c1a49d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/nbclassic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "12040470a42191f55a570d462b349b5051d03d963db2e062d05c0e5659bde51a",
+        "sha256_in_prefix": "12040470a42191f55a570d462b349b5051d03d963db2e062d05c0e5659bde51a",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "site-packages/nbclassic/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "af8c4016284e7fbd96f530fe969322ea7b564932933f64a5cca3f5cad92345b2",
+        "sha256_in_prefix": "af8c4016284e7fbd96f530fe969322ea7b564932933f64a5cca3f5cad92345b2",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/nbclassic/edit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclassic/edit/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "50fa5a211968bed112ac9b25d67816044f0c28e44aa2d2aa165741690fa8b3de",
+        "sha256_in_prefix": "50fa5a211968bed112ac9b25d67816044f0c28e44aa2d2aa165741690fa8b3de",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "site-packages/nbclassic/nbserver.py",
+        "path_type": "hardlink",
+        "sha256": "9af1927745336e3f79be7c60a4c282e42b86f9a0535c7bd09648686ac2436bda",
+        "sha256_in_prefix": "9af1927745336e3f79be7c60a4c282e42b86f9a0535c7bd09648686ac2436bda",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "site-packages/nbclassic/notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclassic/notebook/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "1c1428061c956eeee53c40c5a849b025e17b5829f5d96529af2fd19a8746b1ae",
+        "sha256_in_prefix": "1c1428061c956eeee53c40c5a849b025e17b5829f5d96529af2fd19a8746b1ae",
+        "size_in_bytes": 4516
+      },
+      {
+        "_path": "site-packages/nbclassic/notebookapp.py",
+        "path_type": "hardlink",
+        "sha256": "09ce350c228b0690e68192472c7d83a54ff25f43d138d841e4df7c9713ad3268",
+        "sha256_in_prefix": "09ce350c228b0690e68192472c7d83a54ff25f43d138d841e4df7c9713ad3268",
+        "size_in_bytes": 8821
+      },
+      {
+        "_path": "site-packages/nbclassic/shim.py",
+        "path_type": "hardlink",
+        "sha256": "00060ab0083a1716b7adf604209c5698f56f51a901214e38e2e7ded5f8a611da",
+        "sha256_in_prefix": "00060ab0083a1716b7adf604209c5698f56f51a901214e38e2e7ded5f8a611da",
+        "size_in_bytes": 11804
+      },
+      {
+        "_path": "site-packages/nbclassic/terminal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclassic/terminal/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "465d7f03fe1cd08243c0739230710150e5fc59457fd05eb9efba02edbe5a283c",
+        "sha256_in_prefix": "465d7f03fe1cd08243c0739230710150e5fc59457fd05eb9efba02edbe5a283c",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/nbclassic/traits.py",
+        "path_type": "hardlink",
+        "sha256": "e182ae767e62d0eb74bc747e48375e72155ce12987a065bae5604052cc1785d6",
+        "sha256_in_prefix": "e182ae767e62d0eb74bc747e48375e72155ce12987a065bae5604052cc1785d6",
+        "size_in_bytes": 5095
+      },
+      {
+        "_path": "site-packages/nbclassic/tree/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclassic/tree/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "a299deb2f5d2ed4fc978a652b303c6be3ef41d9455255d2c71b7c5c141795bf4",
+        "sha256_in_prefix": "a299deb2f5d2ed4fc978a652b303c6be3ef41d9455255d2c71b7c5c141795bf4",
+        "size_in_bytes": 3081
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/__version__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/edit/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/edit/__pycache__/handlers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/nbserver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/notebook/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/notebook/__pycache__/handlers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/notebookapp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/shim.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/terminal/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/terminal/__pycache__/handlers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/__pycache__/traits.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/tree/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbclassic/tree/__pycache__/handlers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/jupyter-nbclassic",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "589d7ebdb6f8177afc48970bda8e5c81ef4ac1426cc1867f182988575919864d",
+  "size": 18000,
+  "subdir": "noarch",
+  "timestamp": 1621947474683,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbclassic-0.3.1-pyhd8ed1ab_1.tar.bz2",
+  "version": "0.3.1"
+}

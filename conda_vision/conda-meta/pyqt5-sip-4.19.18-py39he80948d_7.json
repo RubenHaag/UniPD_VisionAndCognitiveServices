@@ -1,0 +1,129 @@
+{
+  "build": "py39he80948d_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/pyqt5-sip-4.19.18-py39he80948d_7",
+  "features": "",
+  "files": [
+    "bin/sip",
+    "include/python3.9/sip.h",
+    "lib/python3.9/site-packages/PyQt5/sip.pyi",
+    "lib/python3.9/site-packages/PyQt5/sip.so",
+    "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/METADATA",
+    "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/RECORD",
+    "lib/python3.9/site-packages/__pycache__/sipconfig.cpython-39.pyc",
+    "lib/python3.9/site-packages/__pycache__/sipdistutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/sipconfig.py",
+    "lib/python3.9/site-packages/sipdistutils.py"
+  ],
+  "fn": "pyqt5-sip-4.19.18-py39he80948d_7.tar.bz2",
+  "license": "LicenseRef-Commercial or GPL-2.0-only or GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/pyqt5-sip-4.19.18-py39he80948d_7",
+    "type": 1
+  },
+  "md5": "efdd7803dc1df15d715e6d4a6ef03856",
+  "name": "pyqt5-sip",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/pyqt5-sip-4.19.18-py39he80948d_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sip",
+        "path_type": "hardlink",
+        "sha256": "04773d7643735cd2d1adb494b5ec5aee5bbd69f7e4025913827bf5400e18e52f",
+        "sha256_in_prefix": "04773d7643735cd2d1adb494b5ec5aee5bbd69f7e4025913827bf5400e18e52f",
+        "size_in_bytes": 432888
+      },
+      {
+        "_path": "include/python3.9/sip.h",
+        "path_type": "hardlink",
+        "sha256": "b6917c7aa06229749fdbb92950d9a666a9fec728bdd5b9bcaee93deed5f4a922",
+        "sha256_in_prefix": "b6917c7aa06229749fdbb92950d9a666a9fec728bdd5b9bcaee93deed5f4a922",
+        "size_in_bytes": 67950
+      },
+      {
+        "_path": "lib/python3.9/site-packages/PyQt5/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "sha256_in_prefix": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/python3.9/site-packages/PyQt5/sip.so",
+        "path_type": "hardlink",
+        "sha256": "ddf0b6ce75761a669ac725a2bc43c5999808545bdc358afc68ee2eabde29dadb",
+        "sha256_in_prefix": "ddf0b6ce75761a669ac725a2bc43c5999808545bdc358afc68ee2eabde29dadb",
+        "size_in_bytes": 144648
+      },
+      {
+        "_path": "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e2938e1cd58a90a0dfed202ba109cd4bb405645a2e7f9e8c97604c084fe4efb6",
+        "sha256_in_prefix": "e2938e1cd58a90a0dfed202ba109cd4bb405645a2e7f9e8c97604c084fe4efb6",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.9/site-packages/PyQt5_sip-4.19.18.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6baf1f94cdf11ddbd9f5d3aae13d15fb98187af0b929763b34b6952121e6fbfe",
+        "sha256_in_prefix": "6baf1f94cdf11ddbd9f5d3aae13d15fb98187af0b929763b34b6952121e6fbfe",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/sipconfig.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ae1093eebca74f17e9d33ea7ed0dfb99e1bb045a38d90ce0c3e64aa222d4cb5",
+        "sha256_in_prefix": "8ae1093eebca74f17e9d33ea7ed0dfb99e1bb045a38d90ce0c3e64aa222d4cb5",
+        "size_in_bytes": 60707
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/sipdistutils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ee560516513509572080804a2fd398ef76efdcc135b748b5dd73ecee01c25f6",
+        "sha256_in_prefix": "1ee560516513509572080804a2fd398ef76efdcc135b748b5dd73ecee01c25f6",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sipconfig.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pyqt_split_1610492941531/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "55bd247d3b2e8a853345f5c20d3c4e629b236f5b2cc816efc41638a99a07da8c",
+        "sha256_in_prefix": "3f71bc89e05cb0e650388989edbc08f083176244536be822913b6606003ced6f",
+        "size_in_bytes": 99080
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sipdistutils.py",
+        "path_type": "hardlink",
+        "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "sha256_in_prefix": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "size_in_bytes": 6041
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b4b87d636b31aba2d97a0a99b70dfa3b2de8781a9b08d3c6faf2f8538b7dcfb3",
+  "size": 317839,
+  "subdir": "linux-64",
+  "timestamp": 1610493272927,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyqt5-sip-4.19.18-py39he80948d_7.tar.bz2",
+  "version": "4.19.18"
+}
