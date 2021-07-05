@@ -288,3 +288,14 @@
 +conda-forge/noarch::joblib-1.0.1-pyhd8ed1ab_0
 +conda-forge/noarch::threadpoolctl-2.1.0-pyh5ca1d4c_0
 # update specs: ['scikit-learn']
+==> 2021-07-05 16:49:56 <==
+# cmd: /home/ruben/anaconda3/bin/conda install -c conda-forge jupyterlab-git
+# conda version: 4.10.1
++conda-forge/noarch::colorama-0.4.4-pyh9f0ad1d_0
++conda-forge/noarch::gitdb-4.0.7-pyhd8ed1ab_0
++conda-forge/noarch::gitpython-3.1.18-pyhd8ed1ab_0
++conda-forge/noarch::jupyter-server-mathjax-0.2.3-pyhd8ed1ab_0
++conda-forge/noarch::jupyterlab-git-0.30.1-pyhd8ed1ab_0
++conda-forge/noarch::nbdime-3.1.0-pyhd8ed1ab_0
++conda-forge/noarch::smmap-3.0.5-pyh44b312d_0
+# update specs: ['jupyterlab-git']
