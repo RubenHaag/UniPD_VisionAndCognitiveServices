@@ -11,13 +11,13 @@ import os
 class MountainDataset(Dataset):
     
     '''Mountain Peaks Dataset'''
-    def __init__(self, rootDir, bigRam = False):
+    def __init__(self, rootDir, bigRam = False, maxlen = 0):
         '''
         Args:
             root: root directory
             Naming should be same for DEM and Peak files
         '''
-        
+        self.maxlen = maxlen
         self.rootDir = rootDir
         
         self.bigRam = bigRam
@@ -34,12 +34,16 @@ class MountainDataset(Dataset):
         return ret
         
     def __len__(self):
-        return len([file for file in os.listdir(self.rootDir) if file.endswith("_dem.tif")])
+        if self.maxlen>0:
+            return min((self.maxlen, len([file for file in os.listdir(self.rootDir) if file.endswith("_dem.tif")])))
+        else:
+            return len([file for file in os.listdir(self.rootDir) if file.endswith("_dem.tif")])
     
     def __getitem__(self, idx):
         if torch.is_tensor(idx):
             idx = idx.toList()
-        
+        if idx>len(self):
+            raise ValueError
         dem_name = os.path.join(self.rootDir, f"{idx}_dem.tif")
         peaks_name = os.path.join(self.rootDir, f"{idx}_peaks.tif")
         image_dem = np.expand_dims(io.imread(dem_name), 0)
