@@ -31,3 +31,5 @@ class UNet(nn.Module):
         x = self.up4(x, x1)
         logits = self.outc(x)
         return logits
+    def save_model(self, path):
+        torch.save(self, path)
