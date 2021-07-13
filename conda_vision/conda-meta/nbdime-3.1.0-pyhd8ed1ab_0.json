@@ -1,0 +1,2245 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorama",
+    "gitpython !=2.1.4,!=2.1.5,!=2.1.6",
+    "jinja2 >=2.9",
+    "jupyter-server-mathjax >=0.2.2",
+    "jupyter_server",
+    "nbformat",
+    "pygments",
+    "python >=3.6",
+    "requests",
+    "six",
+    "tornado"
+  ],
+  "extracted_package_dir": "/home/ruben/anaconda3/pkgs/nbdime-3.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "etc/jupyter/jupyter_notebook_config.d/nbdime.json",
+    "etc/jupyter/jupyter_server_config.d/nbdime.json",
+    "etc/jupyter/nbconfig/notebook.d/nbdime.json",
+    "share/jupyter/lab/extensions/nbdime-jupyterlab-2.1.0.tgz",
+    "share/jupyter/labextensions/nbdime-jupyterlab/package.json",
+    "share/jupyter/labextensions/nbdime-jupyterlab/schemas/nbdime-jupyterlab/package.json.orig",
+    "share/jupyter/labextensions/nbdime-jupyterlab/schemas/nbdime-jupyterlab/plugin.json",
+    "share/jupyter/labextensions/nbdime-jupyterlab/static/568.5295826576c742a3cc92.js",
+    "share/jupyter/labextensions/nbdime-jupyterlab/static/663.c7b1504a0e95f55ad15b.js",
+    "share/jupyter/labextensions/nbdime-jupyterlab/static/remoteEntry.8511fe06ff367ce48f15.js",
+    "share/jupyter/labextensions/nbdime-jupyterlab/static/style.js",
+    "share/jupyter/nbextensions/nbdime/index.js",
+    "share/jupyter/nbextensions/nbdime/nbdime.yaml",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/LICENSE.md",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/nbdime-3.1.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/nbdime/__init__.py",
+    "lib/python3.9/site-packages/nbdime/__main__.py",
+    "lib/python3.9/site-packages/nbdime/_version.py",
+    "lib/python3.9/site-packages/nbdime/args.py",
+    "lib/python3.9/site-packages/nbdime/config.py",
+    "lib/python3.9/site-packages/nbdime/diff_format.py",
+    "lib/python3.9/site-packages/nbdime/diff_format.schema.json",
+    "lib/python3.9/site-packages/nbdime/diff_utils.py",
+    "lib/python3.9/site-packages/nbdime/diffing/__init__.py",
+    "lib/python3.9/site-packages/nbdime/diffing/directorydiff.py",
+    "lib/python3.9/site-packages/nbdime/diffing/generic.py",
+    "lib/python3.9/site-packages/nbdime/diffing/lcs.py",
+    "lib/python3.9/site-packages/nbdime/diffing/notebooks.py",
+    "lib/python3.9/site-packages/nbdime/diffing/seq_bruteforce.py",
+    "lib/python3.9/site-packages/nbdime/diffing/seq_difflib.py",
+    "lib/python3.9/site-packages/nbdime/diffing/seq_myers.py",
+    "lib/python3.9/site-packages/nbdime/diffing/sequences.py",
+    "lib/python3.9/site-packages/nbdime/diffing/snakes.py",
+    "lib/python3.9/site-packages/nbdime/gitfiles.py",
+    "lib/python3.9/site-packages/nbdime/ignorables.py",
+    "lib/python3.9/site-packages/nbdime/labextension/package.json",
+    "lib/python3.9/site-packages/nbdime/labextension/schemas/nbdime-jupyterlab/package.json.orig",
+    "lib/python3.9/site-packages/nbdime/labextension/schemas/nbdime-jupyterlab/plugin.json",
+    "lib/python3.9/site-packages/nbdime/labextension/static/568.5295826576c742a3cc92.js",
+    "lib/python3.9/site-packages/nbdime/labextension/static/663.c7b1504a0e95f55ad15b.js",
+    "lib/python3.9/site-packages/nbdime/labextension/static/remoteEntry.8511fe06ff367ce48f15.js",
+    "lib/python3.9/site-packages/nbdime/labextension/static/style.js",
+    "lib/python3.9/site-packages/nbdime/log.py",
+    "lib/python3.9/site-packages/nbdime/merge_format.schema.json",
+    "lib/python3.9/site-packages/nbdime/merging/__init__.py",
+    "lib/python3.9/site-packages/nbdime/merging/autoresolve.py",
+    "lib/python3.9/site-packages/nbdime/merging/chunks.py",
+    "lib/python3.9/site-packages/nbdime/merging/decisions.py",
+    "lib/python3.9/site-packages/nbdime/merging/generic.py",
+    "lib/python3.9/site-packages/nbdime/merging/notebooks.py",
+    "lib/python3.9/site-packages/nbdime/merging/strategies.py",
+    "lib/python3.9/site-packages/nbdime/nbdiffapp.py",
+    "lib/python3.9/site-packages/nbdime/nbmergeapp.py",
+    "lib/python3.9/site-packages/nbdime/nbpatchapp.py",
+    "lib/python3.9/site-packages/nbdime/nbshowapp.py",
+    "lib/python3.9/site-packages/nbdime/notebook_ext/index.js",
+    "lib/python3.9/site-packages/nbdime/notebook_ext/nbdime.yaml",
+    "lib/python3.9/site-packages/nbdime/patching.py",
+    "lib/python3.9/site-packages/nbdime/prettyprint.py",
+    "lib/python3.9/site-packages/nbdime/profiling.py",
+    "lib/python3.9/site-packages/nbdime/tests/__init__.py",
+    "lib/python3.9/site-packages/nbdime/tests/conftest.py",
+    "lib/python3.9/site-packages/nbdime/tests/files/apap--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/apap--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/apap--3.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/apap.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/attachment--change_attachment.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/attachment--empty_attachments_list.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/attachment--remove_attachment.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/attachment.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/empty.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/error--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/error--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/foo--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/foo--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/inline-conflict--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/inline-conflict--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/inline-conflict--3.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/markdown-only--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/markdown-only--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/mixed-conflicts--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/mixed-conflicts--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/mixed-conflicts--3.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multi_cell_nb--cellchange.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multi_cell_nb--local.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multi_cell_nb--remote.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multi_cell_nb.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multilevel-test-base-local-diff.json",
+    "lib/python3.9/site-packages/nbdime/tests/files/multilevel-test-base.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multilevel-test-local.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multilevel-test-merged.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/multilevel-test-remote.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/output-conflict--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/output-conflict--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/output-conflict--3.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_ec.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_metadata.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_output.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_source.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_source_output.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--changed_source_output_ec.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--json_output.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb--json_output_changed.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/single_cell_nb.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/source-conflict--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/source-conflict--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/source-conflict--3.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/src-and-output--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/src-and-output--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/test-data-singlecell--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/test-data-singlecell--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/unicode--1.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/files/unicode--2.ipynb",
+    "lib/python3.9/site-packages/nbdime/tests/filters/add_helper.py",
+    "lib/python3.9/site-packages/nbdime/tests/filters/noop.py",
+    "lib/python3.9/site-packages/nbdime/tests/filters/strip_outputs.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_apply_merge.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_args.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_autoresolve.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_cli_apps.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_decision_tools.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_format.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_gitrefs.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_json_conversion.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_performance.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_sequence.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_sequence_bruteforce.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_diff_sequence_difflib.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_directory_differ.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_git_diffdriver.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_git_filter_integration.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_hg_differ.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_js_artifacts_installed.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_merge.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_merge_format.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_merge_notebooks.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_merge_notebooks_inline.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_myers.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_notebook_diff.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_package.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_patch.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_prettyprint.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_server_extension.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_utils.py",
+    "lib/python3.9/site-packages/nbdime/tests/test_web.py",
+    "lib/python3.9/site-packages/nbdime/tests/utils.py",
+    "lib/python3.9/site-packages/nbdime/utils.py",
+    "lib/python3.9/site-packages/nbdime/vcs/__init__.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__init__.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/diffdriver.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/difftool.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/filter_integration.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/mergedriver.py",
+    "lib/python3.9/site-packages/nbdime/vcs/git/mergetool.py",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__init__.py",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/diff.py",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/diffweb.py",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/merge.py",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/mergeweb.py",
+    "lib/python3.9/site-packages/nbdime/webapp/__init__.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nb_server_extension.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nbdifftool.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nbdiffweb.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nbdimeserver.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nbmergetool.py",
+    "lib/python3.9/site-packages/nbdime/webapp/nbmergeweb.py",
+    "lib/python3.9/site-packages/nbdime/webapp/static/099a9556e1a63ece24f8a99859c94c7d.woff",
+    "lib/python3.9/site-packages/nbdime/webapp/static/0bb428459c8ecfa61b22a03def1706e6.svg",
+    "lib/python3.9/site-packages/nbdime/webapp/static/1.nbdime.js",
+    "lib/python3.9/site-packages/nbdime/webapp/static/1.nbdime.js.map",
+    "lib/python3.9/site-packages/nbdime/webapp/static/1042e8ca1ce821518a2d3e7055410839.eot",
+    "lib/python3.9/site-packages/nbdime/webapp/static/1f77739ca9ff2188b539c36f30ffa2be.ttf",
+    "lib/python3.9/site-packages/nbdime/webapp/static/2.nbdime.js",
+    "lib/python3.9/site-packages/nbdime/webapp/static/2.nbdime.js.map",
+    "lib/python3.9/site-packages/nbdime/webapp/static/30cc681d4487d2f561035ba24a68c629.eot",
+    "lib/python3.9/site-packages/nbdime/webapp/static/376c1f97f6553dea1ca9b3f9081889bd.svg",
+    "lib/python3.9/site-packages/nbdime/webapp/static/3b89dd103490708d19a95adcae52210e.ttf",
+    "lib/python3.9/site-packages/nbdime/webapp/static/605ed7926cf39a2ad5ec2d1f9d391d3d.ttf",
+    "lib/python3.9/site-packages/nbdime/webapp/static/7124eb50fc8227c78269f2d995637ff5.woff",
+    "lib/python3.9/site-packages/nbdime/webapp/static/7630483dd4b0c48639d2ac54a894b450.eot",
+    "lib/python3.9/site-packages/nbdime/webapp/static/9fe5a17c8ab036d20e6c5ba3fd2ac511.woff",
+    "lib/python3.9/site-packages/nbdime/webapp/static/ba7ed552362f64d30f6d844974d89114.svg",
+    "lib/python3.9/site-packages/nbdime/webapp/static/e8a427e15cc502bef99cfd722b37ea98.woff2",
+    "lib/python3.9/site-packages/nbdime/webapp/static/f0f8230116992e521526097a28f54066.woff2",
+    "lib/python3.9/site-packages/nbdime/webapp/static/f7307680c7fe85959f3ecf122493ea7d.woff2",
+    "lib/python3.9/site-packages/nbdime/webapp/static/favicon.ico",
+    "lib/python3.9/site-packages/nbdime/webapp/static/nbdime.js",
+    "lib/python3.9/site-packages/nbdime/webapp/static/nbdime.js.map",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/compare.html",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/diff.html",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/difftool.html",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/merge.html",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/mergetool.html",
+    "lib/python3.9/site-packages/nbdime/webapp/templates/nbdimepage.html",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/base.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/cellchange.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/local.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/remote.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/scrollA.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/testnotebooks/scrollB.ipynb",
+    "lib/python3.9/site-packages/nbdime/webapp/webutil.py",
+    "lib/python3.9/site-packages/nbdime/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/args.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/diff_format.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/diff_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/directorydiff.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/generic.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/lcs.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/notebooks.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_bruteforce.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_difflib.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_myers.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/sequences.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/diffing/__pycache__/snakes.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/gitfiles.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/ignorables.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/autoresolve.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/chunks.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/decisions.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/generic.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/notebooks.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/merging/__pycache__/strategies.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/nbdiffapp.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/nbmergeapp.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/nbpatchapp.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/nbshowapp.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/patching.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/prettyprint.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/profiling.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/add_helper.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/noop.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/strip_outputs.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_apply_merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_args.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_autoresolve.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_cli_apps.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_decision_tools.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_format.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_gitrefs.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_json_conversion.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_performance.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence_bruteforce.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence_difflib.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_directory_differ.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_git_diffdriver.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_git_filter_integration.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_hg_differ.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_js_artifacts_installed.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_format.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_notebooks.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_notebooks_inline.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_myers.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_notebook_diff.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_package.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_patch.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_prettyprint.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_server_extension.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_web.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/tests/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/diffdriver.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/difftool.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/filter_integration.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/mergedriver.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/mergetool.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/diff.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/diffweb.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/mergeweb.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nb_server_extension.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdifftool.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdiffweb.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdimeserver.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbmergetool.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbmergeweb.cpython-39.pyc",
+    "lib/python3.9/site-packages/nbdime/webapp/__pycache__/webutil.cpython-39.pyc",
+    "bin/nbdime",
+    "bin/nbshow",
+    "bin/nbdiff",
+    "bin/nbdiff-web",
+    "bin/nbmerge",
+    "bin/nbmerge-web",
+    "bin/git-nbdiffdriver",
+    "bin/git-nbdifftool",
+    "bin/git-nbmergedriver",
+    "bin/git-nbmergetool",
+    "bin/hg-nbdiff",
+    "bin/hg-nbdiffweb",
+    "bin/hg-nbmerge",
+    "bin/hg-nbmergeweb"
+  ],
+  "fn": "nbdime-3.1.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ruben/anaconda3/pkgs/nbdime-3.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "01a2197677952bf94a26f8995f8703fe",
+  "name": "nbdime",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ruben/anaconda3/pkgs/nbdime-3.1.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/jupyter/jupyter_notebook_config.d/nbdime.json",
+        "path_type": "hardlink",
+        "sha256": "93e8d3b6c8bd4b914c76d712eb9ea3158b4bc92aab443f0b0a1eccf95bbb92e6",
+        "sha256_in_prefix": "93e8d3b6c8bd4b914c76d712eb9ea3158b4bc92aab443f0b0a1eccf95bbb92e6",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "etc/jupyter/jupyter_server_config.d/nbdime.json",
+        "path_type": "hardlink",
+        "sha256": "ef638c9ee643abdb55b27e7e0159e7d23ce72eaff0c7d5cbdaf515a0ab97252b",
+        "sha256_in_prefix": "ef638c9ee643abdb55b27e7e0159e7d23ce72eaff0c7d5cbdaf515a0ab97252b",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "etc/jupyter/nbconfig/notebook.d/nbdime.json",
+        "path_type": "hardlink",
+        "sha256": "056692fce567a6928ef295d2a3f61f4df31ba891ac7dc679338147732fff988f",
+        "sha256_in_prefix": "056692fce567a6928ef295d2a3f61f4df31ba891ac7dc679338147732fff988f",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "share/jupyter/lab/extensions/nbdime-jupyterlab-2.1.0.tgz",
+        "path_type": "hardlink",
+        "sha256": "bf5330daafe3ee72444f28c5b6e7d3ea14b3a1a16da0c52dfdeab8464932104d",
+        "sha256_in_prefix": "bf5330daafe3ee72444f28c5b6e7d3ea14b3a1a16da0c52dfdeab8464932104d",
+        "size_in_bytes": 12048
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/package.json",
+        "path_type": "hardlink",
+        "sha256": "c569e86ddf51a94ef42d460a67a8961f8d98db081e21648b1d31d05791624272",
+        "sha256_in_prefix": "c569e86ddf51a94ef42d460a67a8961f8d98db081e21648b1d31d05791624272",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/schemas/nbdime-jupyterlab/package.json.orig",
+        "path_type": "hardlink",
+        "sha256": "d657cbfc9d2ceb81224afa01939c5b06951efd0221bc887d2fb5c2fa1cb33f6f",
+        "sha256_in_prefix": "d657cbfc9d2ceb81224afa01939c5b06951efd0221bc887d2fb5c2fa1cb33f6f",
+        "size_in_bytes": 2814
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/schemas/nbdime-jupyterlab/plugin.json",
+        "path_type": "hardlink",
+        "sha256": "c29df4b7243bc284da455785dd139f6942424f323303b6b812ca99bae14f569d",
+        "sha256_in_prefix": "c29df4b7243bc284da455785dd139f6942424f323303b6b812ca99bae14f569d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/static/568.5295826576c742a3cc92.js",
+        "path_type": "hardlink",
+        "sha256": "3077645d414e14a456d5667e76828535ff84575b30492ad73b4ec4bba0e0c8c4",
+        "sha256_in_prefix": "3077645d414e14a456d5667e76828535ff84575b30492ad73b4ec4bba0e0c8c4",
+        "size_in_bytes": 139032
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/static/663.c7b1504a0e95f55ad15b.js",
+        "path_type": "hardlink",
+        "sha256": "137da0ac3badc13785eebf97e7c68e512dc97a4451c3861894e2d53d6976f036",
+        "sha256_in_prefix": "137da0ac3badc13785eebf97e7c68e512dc97a4451c3861894e2d53d6976f036",
+        "size_in_bytes": 22673
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/static/remoteEntry.8511fe06ff367ce48f15.js",
+        "path_type": "hardlink",
+        "sha256": "fe388098a0076d4d0c2ec036f80db2b091b7c7a29accfc89f28ca8a08cd995f9",
+        "sha256_in_prefix": "fe388098a0076d4d0c2ec036f80db2b091b7c7a29accfc89f28ca8a08cd995f9",
+        "size_in_bytes": 7537
+      },
+      {
+        "_path": "share/jupyter/labextensions/nbdime-jupyterlab/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "sha256_in_prefix": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "share/jupyter/nbextensions/nbdime/index.js",
+        "path_type": "hardlink",
+        "sha256": "2f1cdbdb94ee8ad00cbbecb0d334c880025d4629205d8047de3c731d7599838f",
+        "sha256_in_prefix": "2f1cdbdb94ee8ad00cbbecb0d334c880025d4629205d8047de3c731d7599838f",
+        "size_in_bytes": 6529
+      },
+      {
+        "_path": "share/jupyter/nbextensions/nbdime/nbdime.yaml",
+        "path_type": "hardlink",
+        "sha256": "7fc8a745d57e694a2e4feaa4c4838f0ad0c47309113c04dddfd8228defbdb1d5",
+        "sha256_in_prefix": "7fc8a745d57e694a2e4feaa4c4838f0ad0c47309113c04dddfd8228defbdb1d5",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "9e1b01d83e7efe5fefcb139fbfe9d1045343db43f0d0ffcedf87578dd66e664d",
+        "sha256_in_prefix": "9e1b01d83e7efe5fefcb139fbfe9d1045343db43f0d0ffcedf87578dd66e664d",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2b99cf4af25bf1c9a7823b28aaaeff3838d3f90ec84f1f8e02bceb2fc52b6c40",
+        "sha256_in_prefix": "2b99cf4af25bf1c9a7823b28aaaeff3838d3f90ec84f1f8e02bceb2fc52b6c40",
+        "size_in_bytes": 5816
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d84227401b16c51feb99e152b774854131716b0a041fec87e743fae69e59b04e",
+        "sha256_in_prefix": "d84227401b16c51feb99e152b774854131716b0a041fec87e743fae69e59b04e",
+        "size_in_bytes": 26111
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a331351510c7f8185cf2d48a7d48d57c6ee37c34305560022a091bb84874118c",
+        "sha256_in_prefix": "a331351510c7f8185cf2d48a7d48d57c6ee37c34305560022a091bb84874118c",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "8e9755665f3e345b7acf9158b9013e1d93945a03bf07661cfd26008fdc226797",
+        "sha256_in_prefix": "8e9755665f3e345b7acf9158b9013e1d93945a03bf07661cfd26008fdc226797",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "site-packages/nbdime-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "944df3cfad3226c890201bf96139f33057487f50503b99d85a06b200a8df9b7a",
+        "sha256_in_prefix": "944df3cfad3226c890201bf96139f33057487f50503b99d85a06b200a8df9b7a",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/nbdime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e74733df030dc3793c2b015244b9e2992bd0afc984929f8924e2845541edeaf9",
+        "sha256_in_prefix": "e74733df030dc3793c2b015244b9e2992bd0afc984929f8924e2845541edeaf9",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "site-packages/nbdime/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "32fb353c62812626fad3ea858d381d602980f0c46c39462c7617ded24d24b928",
+        "sha256_in_prefix": "32fb353c62812626fad3ea858d381d602980f0c46c39462c7617ded24d24b928",
+        "size_in_bytes": 5355
+      },
+      {
+        "_path": "site-packages/nbdime/_version.py",
+        "path_type": "hardlink",
+        "sha256": "77f7373a109e91857484f02926ff4954373ddb163b48bd8320127cc38cd4fbd6",
+        "sha256_in_prefix": "77f7373a109e91857484f02926ff4954373ddb163b48bd8320127cc38cd4fbd6",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/nbdime/args.py",
+        "path_type": "hardlink",
+        "sha256": "6e1cf6bd440065d31c2cfcbea49c3470008af6416f03ec44f08bef8b5340002c",
+        "sha256_in_prefix": "6e1cf6bd440065d31c2cfcbea49c3470008af6416f03ec44f08bef8b5340002c",
+        "size_in_bytes": 20000
+      },
+      {
+        "_path": "site-packages/nbdime/config.py",
+        "path_type": "hardlink",
+        "sha256": "fb95a217c2c765cd5fd24c089532aaefb1f4a199130a4561f98d50ff942ed109",
+        "sha256_in_prefix": "fb95a217c2c765cd5fd24c089532aaefb1f4a199130a4561f98d50ff942ed109",
+        "size_in_bytes": 8587
+      },
+      {
+        "_path": "site-packages/nbdime/diff_format.py",
+        "path_type": "hardlink",
+        "sha256": "e53d43c712b30aa0f0766d0baa57d24f0996f7cba537d10d5fd6371529e90603",
+        "sha256_in_prefix": "e53d43c712b30aa0f0766d0baa57d24f0996f7cba537d10d5fd6371529e90603",
+        "size_in_bytes": 8130
+      },
+      {
+        "_path": "site-packages/nbdime/diff_format.schema.json",
+        "path_type": "hardlink",
+        "sha256": "94d94922f0e0788ac7451cced4918cc8b903d21285d9faeb03bec2c7521766fc",
+        "sha256_in_prefix": "94d94922f0e0788ac7451cced4918cc8b903d21285d9faeb03bec2c7521766fc",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "site-packages/nbdime/diff_utils.py",
+        "path_type": "hardlink",
+        "sha256": "137a3aef8fb527b1f03c5ba964f93fc1e75d3716560290c50fbce73cfb535d16",
+        "sha256_in_prefix": "137a3aef8fb527b1f03c5ba964f93fc1e75d3716560290c50fbce73cfb535d16",
+        "size_in_bytes": 8255
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d2a538fe9dc0b26cc017f2a4ccb16081be5a484d55954ed7219f0985b17d126f",
+        "sha256_in_prefix": "d2a538fe9dc0b26cc017f2a4ccb16081be5a484d55954ed7219f0985b17d126f",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/directorydiff.py",
+        "path_type": "hardlink",
+        "sha256": "e25d55b99c8eb62639275e280e7a2bd112ed3a7da37115a18ae4d1f86a9fdecb",
+        "sha256_in_prefix": "e25d55b99c8eb62639275e280e7a2bd112ed3a7da37115a18ae4d1f86a9fdecb",
+        "size_in_bytes": 4394
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/generic.py",
+        "path_type": "hardlink",
+        "sha256": "28e1a41ff3415bb8209b660c4841fbe4d0732a852bb7615bcd90690e9ca4380e",
+        "sha256_in_prefix": "28e1a41ff3415bb8209b660c4841fbe4d0732a852bb7615bcd90690e9ca4380e",
+        "size_in_bytes": 8791
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/lcs.py",
+        "path_type": "hardlink",
+        "sha256": "d388e20070874c16bde1fa3a5867822d781332affd06cdbd565d23e0b369982a",
+        "sha256_in_prefix": "d388e20070874c16bde1fa3a5867822d781332affd06cdbd565d23e0b369982a",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/notebooks.py",
+        "path_type": "hardlink",
+        "sha256": "98018d7178b0ec91d3aa56dd4138cd88ff91e6e91546a341587f102cd04b2df5",
+        "sha256_in_prefix": "98018d7178b0ec91d3aa56dd4138cd88ff91e6e91546a341587f102cd04b2df5",
+        "size_in_bytes": 19000
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/seq_bruteforce.py",
+        "path_type": "hardlink",
+        "sha256": "ca6573c78946d40c1ac6dfdf7aaa4d82005503a580d50e4ae0f486992595e2d7",
+        "sha256_in_prefix": "ca6573c78946d40c1ac6dfdf7aaa4d82005503a580d50e4ae0f486992595e2d7",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/seq_difflib.py",
+        "path_type": "hardlink",
+        "sha256": "16174c49450ce601c339fb788084a8152b8312a3505a976c2eb1e94824559999",
+        "sha256_in_prefix": "16174c49450ce601c339fb788084a8152b8312a3505a976c2eb1e94824559999",
+        "size_in_bytes": 1789
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/seq_myers.py",
+        "path_type": "hardlink",
+        "sha256": "c62633c492ba99135f850b6c37573ef87a82f9dc2ab9944308f84bb434cfa6fb",
+        "sha256_in_prefix": "c62633c492ba99135f850b6c37573ef87a82f9dc2ab9944308f84bb434cfa6fb",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/sequences.py",
+        "path_type": "hardlink",
+        "sha256": "69cfcac12375cfd84ee3ef2f41f3574984aa3f8ca9add314ff7ab3b1d452bfe8",
+        "sha256_in_prefix": "69cfcac12375cfd84ee3ef2f41f3574984aa3f8ca9add314ff7ab3b1d452bfe8",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "site-packages/nbdime/diffing/snakes.py",
+        "path_type": "hardlink",
+        "sha256": "d9fe148e766f2f5220bb90b420863f51ea00efe8bbf9a419db5318a943674181",
+        "sha256_in_prefix": "d9fe148e766f2f5220bb90b420863f51ea00efe8bbf9a419db5318a943674181",
+        "size_in_bytes": 3122
+      },
+      {
+        "_path": "site-packages/nbdime/gitfiles.py",
+        "path_type": "hardlink",
+        "sha256": "9f84204b2b37dbe577bd80384e499fb7ba3140734ef44f34e255678d847d2954",
+        "sha256_in_prefix": "9f84204b2b37dbe577bd80384e499fb7ba3140734ef44f34e255678d847d2954",
+        "size_in_bytes": 6132
+      },
+      {
+        "_path": "site-packages/nbdime/ignorables.py",
+        "path_type": "hardlink",
+        "sha256": "d7da63b9b6f4a4d60d8bb442dfede0fab56a230b1044948cc2ca257b981527ff",
+        "sha256_in_prefix": "d7da63b9b6f4a4d60d8bb442dfede0fab56a230b1044948cc2ca257b981527ff",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/package.json",
+        "path_type": "hardlink",
+        "sha256": "c569e86ddf51a94ef42d460a67a8961f8d98db081e21648b1d31d05791624272",
+        "sha256_in_prefix": "c569e86ddf51a94ef42d460a67a8961f8d98db081e21648b1d31d05791624272",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/schemas/nbdime-jupyterlab/package.json.orig",
+        "path_type": "hardlink",
+        "sha256": "d657cbfc9d2ceb81224afa01939c5b06951efd0221bc887d2fb5c2fa1cb33f6f",
+        "sha256_in_prefix": "d657cbfc9d2ceb81224afa01939c5b06951efd0221bc887d2fb5c2fa1cb33f6f",
+        "size_in_bytes": 2814
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/schemas/nbdime-jupyterlab/plugin.json",
+        "path_type": "hardlink",
+        "sha256": "c29df4b7243bc284da455785dd139f6942424f323303b6b812ca99bae14f569d",
+        "sha256_in_prefix": "c29df4b7243bc284da455785dd139f6942424f323303b6b812ca99bae14f569d",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/static/568.5295826576c742a3cc92.js",
+        "path_type": "hardlink",
+        "sha256": "3077645d414e14a456d5667e76828535ff84575b30492ad73b4ec4bba0e0c8c4",
+        "sha256_in_prefix": "3077645d414e14a456d5667e76828535ff84575b30492ad73b4ec4bba0e0c8c4",
+        "size_in_bytes": 139032
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/static/663.c7b1504a0e95f55ad15b.js",
+        "path_type": "hardlink",
+        "sha256": "137da0ac3badc13785eebf97e7c68e512dc97a4451c3861894e2d53d6976f036",
+        "sha256_in_prefix": "137da0ac3badc13785eebf97e7c68e512dc97a4451c3861894e2d53d6976f036",
+        "size_in_bytes": 22673
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/static/remoteEntry.8511fe06ff367ce48f15.js",
+        "path_type": "hardlink",
+        "sha256": "fe388098a0076d4d0c2ec036f80db2b091b7c7a29accfc89f28ca8a08cd995f9",
+        "sha256_in_prefix": "fe388098a0076d4d0c2ec036f80db2b091b7c7a29accfc89f28ca8a08cd995f9",
+        "size_in_bytes": 7537
+      },
+      {
+        "_path": "site-packages/nbdime/labextension/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "sha256_in_prefix": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "site-packages/nbdime/log.py",
+        "path_type": "hardlink",
+        "sha256": "0374d32e05c8e74e5b827b55bc58d73730b5d2f9d45c5568a29b83b07d8be81c",
+        "sha256_in_prefix": "0374d32e05c8e74e5b827b55bc58d73730b5d2f9d45c5568a29b83b07d8be81c",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "site-packages/nbdime/merge_format.schema.json",
+        "path_type": "hardlink",
+        "sha256": "c5531c3ebf40444b9ff0e3c7229eb1ff8852b6533db1aac18f6402062976a528",
+        "sha256_in_prefix": "c5531c3ebf40444b9ff0e3c7229eb1ff8852b6533db1aac18f6402062976a528",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "site-packages/nbdime/merging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2dde3477a03cf9453da74eb5e18227d3c4c7f78dc00c076e696c236c34745fdd",
+        "sha256_in_prefix": "2dde3477a03cf9453da74eb5e18227d3c4c7f78dc00c076e696c236c34745fdd",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "site-packages/nbdime/merging/autoresolve.py",
+        "path_type": "hardlink",
+        "sha256": "012de0fe7272c0a413d28343d1aee09235891f1d124749bbd24877330c2c697f",
+        "sha256_in_prefix": "012de0fe7272c0a413d28343d1aee09235891f1d124749bbd24877330c2c697f",
+        "size_in_bytes": 2945
+      },
+      {
+        "_path": "site-packages/nbdime/merging/chunks.py",
+        "path_type": "hardlink",
+        "sha256": "941c1723e642d52f1da1b95bfa7601ca34ad4ea2b6b505ae9126f66d37122020",
+        "sha256_in_prefix": "941c1723e642d52f1da1b95bfa7601ca34ad4ea2b6b505ae9126f66d37122020",
+        "size_in_bytes": 6071
+      },
+      {
+        "_path": "site-packages/nbdime/merging/decisions.py",
+        "path_type": "hardlink",
+        "sha256": "51ca8e9935ee9e2724e695a1c78622882d5202bff1e3502f786da1354a82feb1",
+        "sha256_in_prefix": "51ca8e9935ee9e2724e695a1c78622882d5202bff1e3502f786da1354a82feb1",
+        "size_in_bytes": 28790
+      },
+      {
+        "_path": "site-packages/nbdime/merging/generic.py",
+        "path_type": "hardlink",
+        "sha256": "33c405a653fe402ebe90cde59ad2d76e76c99d673db0744ac56f5530e0ea6f30",
+        "sha256_in_prefix": "33c405a653fe402ebe90cde59ad2d76e76c99d673db0744ac56f5530e0ea6f30",
+        "size_in_bytes": 36756
+      },
+      {
+        "_path": "site-packages/nbdime/merging/notebooks.py",
+        "path_type": "hardlink",
+        "sha256": "cd9263677772c7d29bbf5b771aa6381f8283d0ce15933c62f0c1d915bcd9e0be",
+        "sha256_in_prefix": "cd9263677772c7d29bbf5b771aa6381f8283d0ce15933c62f0c1d915bcd9e0be",
+        "size_in_bytes": 7364
+      },
+      {
+        "_path": "site-packages/nbdime/merging/strategies.py",
+        "path_type": "hardlink",
+        "sha256": "565924467efd00e65b48bdb5bbb79f1f5da93766723b2165bd20c321b02de15e",
+        "sha256_in_prefix": "565924467efd00e65b48bdb5bbb79f1f5da93766723b2165bd20c321b02de15e",
+        "size_in_bytes": 26490
+      },
+      {
+        "_path": "site-packages/nbdime/nbdiffapp.py",
+        "path_type": "hardlink",
+        "sha256": "133cc72e74384ce143701f4e18ad83181cfac8a8a16ec4c2a555d98b8afeb283",
+        "sha256_in_prefix": "133cc72e74384ce143701f4e18ad83181cfac8a8a16ec4c2a555d98b8afeb283",
+        "size_in_bytes": 4395
+      },
+      {
+        "_path": "site-packages/nbdime/nbmergeapp.py",
+        "path_type": "hardlink",
+        "sha256": "ce645f492eb7b43ea785ab6c8fd47454055be2648ff08a9351eeb1c91eb4de5e",
+        "sha256_in_prefix": "ce645f492eb7b43ea785ab6c8fd47454055be2648ff08a9351eeb1c91eb4de5e",
+        "size_in_bytes": 5130
+      },
+      {
+        "_path": "site-packages/nbdime/nbpatchapp.py",
+        "path_type": "hardlink",
+        "sha256": "85b03e2a6e2d702921910f87d45d98216bc3a73151153d41d252e6c79f7bbeb6",
+        "sha256_in_prefix": "85b03e2a6e2d702921910f87d45d98216bc3a73151153d41d252e6c79f7bbeb6",
+        "size_in_bytes": 2654
+      },
+      {
+        "_path": "site-packages/nbdime/nbshowapp.py",
+        "path_type": "hardlink",
+        "sha256": "b4e78a20ae8115aaa0897606516c9e7a3789f2a7f21a04309c930e5f627b3f07",
+        "sha256_in_prefix": "b4e78a20ae8115aaa0897606516c9e7a3789f2a7f21a04309c930e5f627b3f07",
+        "size_in_bytes": 3379
+      },
+      {
+        "_path": "site-packages/nbdime/notebook_ext/index.js",
+        "path_type": "hardlink",
+        "sha256": "2f1cdbdb94ee8ad00cbbecb0d334c880025d4629205d8047de3c731d7599838f",
+        "sha256_in_prefix": "2f1cdbdb94ee8ad00cbbecb0d334c880025d4629205d8047de3c731d7599838f",
+        "size_in_bytes": 6529
+      },
+      {
+        "_path": "site-packages/nbdime/notebook_ext/nbdime.yaml",
+        "path_type": "hardlink",
+        "sha256": "7fc8a745d57e694a2e4feaa4c4838f0ad0c47309113c04dddfd8228defbdb1d5",
+        "sha256_in_prefix": "7fc8a745d57e694a2e4feaa4c4838f0ad0c47309113c04dddfd8228defbdb1d5",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "site-packages/nbdime/patching.py",
+        "path_type": "hardlink",
+        "sha256": "b683202885fbf90b2dbc9e37f1b4baf72c5a313bfa0f57ab6accb4afa3e2d2bb",
+        "sha256_in_prefix": "b683202885fbf90b2dbc9e37f1b4baf72c5a313bfa0f57ab6accb4afa3e2d2bb",
+        "size_in_bytes": 4893
+      },
+      {
+        "_path": "site-packages/nbdime/prettyprint.py",
+        "path_type": "hardlink",
+        "sha256": "686bfb361e1498e580023d71336fc7fdde619cc1d0324b0876969937853b42ad",
+        "sha256_in_prefix": "686bfb361e1498e580023d71336fc7fdde619cc1d0324b0876969937853b42ad",
+        "size_in_bytes": 32421
+      },
+      {
+        "_path": "site-packages/nbdime/profiling.py",
+        "path_type": "hardlink",
+        "sha256": "631a9bdb3c1d91ae582c1fe7eb77edfcd7801bfe689028d163050bf6904ecc45",
+        "sha256_in_prefix": "631a9bdb3c1d91ae582c1fe7eb77edfcd7801bfe689028d163050bf6904ecc45",
+        "size_in_bytes": 3507
+      },
+      {
+        "_path": "site-packages/nbdime/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "44a742d77b93e80149ab6bac541093d625653985ed8f00af3faedccc3de5a7c6",
+        "sha256_in_prefix": "44a742d77b93e80149ab6bac541093d625653985ed8f00af3faedccc3de5a7c6",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/nbdime/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "4229dea1e01ac933cbd26b582d12086dc106daf1f8afd8117d2883919c3bb4d8",
+        "sha256_in_prefix": "4229dea1e01ac933cbd26b582d12086dc106daf1f8afd8117d2883919c3bb4d8",
+        "size_in_bytes": 14110
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/apap--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b7e0209ccb4086d94869b5ecb8e05976a498f114a04d551b54ecf8f8f3aa01d8",
+        "sha256_in_prefix": "b7e0209ccb4086d94869b5ecb8e05976a498f114a04d551b54ecf8f8f3aa01d8",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/apap--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "071cdaab2e8571d819d20d2f0c6a0aded39e7a4f67f5a33ed1245d16d8f68aa6",
+        "sha256_in_prefix": "071cdaab2e8571d819d20d2f0c6a0aded39e7a4f67f5a33ed1245d16d8f68aa6",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/apap--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9e995adf99b35aca64c335b9b104ea7e480b304ce731daf4a84d022d770fec43",
+        "sha256_in_prefix": "9e995adf99b35aca64c335b9b104ea7e480b304ce731daf4a84d022d770fec43",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/apap.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d2dd2e6ff058c7ee7dc3739a4ac0d9f51aeec7726b8e0e052cfe1df25eb951dc",
+        "sha256_in_prefix": "d2dd2e6ff058c7ee7dc3739a4ac0d9f51aeec7726b8e0e052cfe1df25eb951dc",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/attachment--change_attachment.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9cea603eb524aca1534cc6831e205d74122e049a9adac3e3925f70366bdf36b3",
+        "sha256_in_prefix": "9cea603eb524aca1534cc6831e205d74122e049a9adac3e3925f70366bdf36b3",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/attachment--empty_attachments_list.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7e81f485f22a627a219822ba60e88ed52bd65f96ca51936a234db2a002a047de",
+        "sha256_in_prefix": "7e81f485f22a627a219822ba60e88ed52bd65f96ca51936a234db2a002a047de",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/attachment--remove_attachment.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fb1cb2027f4ff15356410b54ba30629a9733527dc6fc5c35bb99f34ea5ad8e4c",
+        "sha256_in_prefix": "fb1cb2027f4ff15356410b54ba30629a9733527dc6fc5c35bb99f34ea5ad8e4c",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/attachment.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3395cbce74a09ee0c9175cdda45fc70b02643206456f869795a4a3f7cbe24745",
+        "sha256_in_prefix": "3395cbce74a09ee0c9175cdda45fc70b02643206456f869795a4a3f7cbe24745",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/empty.ipynb",
+        "path_type": "hardlink",
+        "sha256": "860eee1d94bed86f8a60f62773086d46e8bf1f36fa31bf8c75868df02a7c9bfd",
+        "sha256_in_prefix": "860eee1d94bed86f8a60f62773086d46e8bf1f36fa31bf8c75868df02a7c9bfd",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/error--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "aafe57bd611447458d2647dfe3bc3b34fa3b9e007047487173d0c7c1d54c5aeb",
+        "sha256_in_prefix": "aafe57bd611447458d2647dfe3bc3b34fa3b9e007047487173d0c7c1d54c5aeb",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/error--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a59bb27ce2a3c6f13e8d737f63f53fc14992462f13c6ebd4a30c09f6ac596917",
+        "sha256_in_prefix": "a59bb27ce2a3c6f13e8d737f63f53fc14992462f13c6ebd4a30c09f6ac596917",
+        "size_in_bytes": 2422
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/foo--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c8623a4d2d4038a420d6193b4e5f7472eaabf7f41dc2dd0f21f6842b5a934338",
+        "sha256_in_prefix": "c8623a4d2d4038a420d6193b4e5f7472eaabf7f41dc2dd0f21f6842b5a934338",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/foo--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "355698c6d92688abe6d7f4ae44e98f8c2fee51405302756a1a70859645691d8b",
+        "sha256_in_prefix": "355698c6d92688abe6d7f4ae44e98f8c2fee51405302756a1a70859645691d8b",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/inline-conflict--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b93558f6d7be97731919bae6348bba004336b28f3c1ac07cce7416d14f3f82b0",
+        "sha256_in_prefix": "b93558f6d7be97731919bae6348bba004336b28f3c1ac07cce7416d14f3f82b0",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/inline-conflict--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "92a2e029b83fd5474615e50c3b8c8e0087ef9587b3287c15d43915cf50a50f95",
+        "sha256_in_prefix": "92a2e029b83fd5474615e50c3b8c8e0087ef9587b3287c15d43915cf50a50f95",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/inline-conflict--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "69d5a270b2b5670082b27d2d4afce368934e2ff2c4a3aef530bab768658b5003",
+        "sha256_in_prefix": "69d5a270b2b5670082b27d2d4afce368934e2ff2c4a3aef530bab768658b5003",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/markdown-only--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e3cdb0aab9d792a28759666d288b11d71c53227c2713ac9dbaa31cfb8d8fb23f",
+        "sha256_in_prefix": "e3cdb0aab9d792a28759666d288b11d71c53227c2713ac9dbaa31cfb8d8fb23f",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/markdown-only--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f2d1b6aa21018ef4eab3383b0025355756120083b3d872690ee448634432fb7d",
+        "sha256_in_prefix": "f2d1b6aa21018ef4eab3383b0025355756120083b3d872690ee448634432fb7d",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/mixed-conflicts--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "efb12e8053c5f91fd29317c17f8cd2d0b3a6979e563cb5e3ca3a968245023c6b",
+        "sha256_in_prefix": "efb12e8053c5f91fd29317c17f8cd2d0b3a6979e563cb5e3ca3a968245023c6b",
+        "size_in_bytes": 38179
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/mixed-conflicts--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8650a50fda8236910b93db2bdd963a1a7b40ef6e831a43127a3a14d994042da0",
+        "sha256_in_prefix": "8650a50fda8236910b93db2bdd963a1a7b40ef6e831a43127a3a14d994042da0",
+        "size_in_bytes": 25410
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/mixed-conflicts--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "cdad09492c63194a4c0b371f3b5891b97e809ca3f0a77203e90d88512defce81",
+        "sha256_in_prefix": "cdad09492c63194a4c0b371f3b5891b97e809ca3f0a77203e90d88512defce81",
+        "size_in_bytes": 40355
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multi_cell_nb--cellchange.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d26c1f8f91f9119d95d027cf3e58eca4e0ad45f21c4e5f67ce82ba94a1a9b6bc",
+        "sha256_in_prefix": "d26c1f8f91f9119d95d027cf3e58eca4e0ad45f21c4e5f67ce82ba94a1a9b6bc",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multi_cell_nb--local.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8b5dae0d895bb7a730e4b10d48bd8ddf5cac3f46df149eb8a002a7e6eae7ba2f",
+        "sha256_in_prefix": "8b5dae0d895bb7a730e4b10d48bd8ddf5cac3f46df149eb8a002a7e6eae7ba2f",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multi_cell_nb--remote.ipynb",
+        "path_type": "hardlink",
+        "sha256": "ad1ad634fb9cfad142f47f82ac70d2b78fccfb5cc2588888d7ba6b53d12ab934",
+        "sha256_in_prefix": "ad1ad634fb9cfad142f47f82ac70d2b78fccfb5cc2588888d7ba6b53d12ab934",
+        "size_in_bytes": 1727
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multi_cell_nb.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a77afb0c68e11f72cbd59daada3ddf787b60d6f8709d7bfeb94ac32fadcb4b99",
+        "sha256_in_prefix": "a77afb0c68e11f72cbd59daada3ddf787b60d6f8709d7bfeb94ac32fadcb4b99",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multilevel-test-base-local-diff.json",
+        "path_type": "hardlink",
+        "sha256": "7caace57cb657de0a7b9bc724f047d386e38258fcdaff8a2ef8e140936646944",
+        "sha256_in_prefix": "7caace57cb657de0a7b9bc724f047d386e38258fcdaff8a2ef8e140936646944",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multilevel-test-base.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7dc989ce99f2ed68f45f5d4561cc81fd9fbab452a6d2cc7522531c11be962508",
+        "sha256_in_prefix": "7dc989ce99f2ed68f45f5d4561cc81fd9fbab452a6d2cc7522531c11be962508",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multilevel-test-local.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b7b913fbd014fe58fc21903fe10b6d2dc2fe311fe42d91a8f22afff59136b21f",
+        "sha256_in_prefix": "b7b913fbd014fe58fc21903fe10b6d2dc2fe311fe42d91a8f22afff59136b21f",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multilevel-test-merged.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b1fe0fafcbf213d280fd23714f88c66da55830b7f79105f9a9865b42479bb912",
+        "sha256_in_prefix": "b1fe0fafcbf213d280fd23714f88c66da55830b7f79105f9a9865b42479bb912",
+        "size_in_bytes": 1820
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/multilevel-test-remote.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2758f2402eead090ddeac14d922898405d55a7f4f8c2544a744a3b9b0781bb51",
+        "sha256_in_prefix": "2758f2402eead090ddeac14d922898405d55a7f4f8c2544a744a3b9b0781bb51",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/output-conflict--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0bd4f81a98b9b8a366426b53216f97f69299c1952d237a17abb655ad8c1f98bc",
+        "sha256_in_prefix": "0bd4f81a98b9b8a366426b53216f97f69299c1952d237a17abb655ad8c1f98bc",
+        "size_in_bytes": 16999
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/output-conflict--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b13bd07f04b1c7da269622b7ac4dc92ca63510a163ef103712462df032e8f7b9",
+        "sha256_in_prefix": "b13bd07f04b1c7da269622b7ac4dc92ca63510a163ef103712462df032e8f7b9",
+        "size_in_bytes": 22909
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/output-conflict--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4ad75b5e75aa8e0205d5643b39e3b7e914c8891155f48660dc585ec46bddf437",
+        "sha256_in_prefix": "4ad75b5e75aa8e0205d5643b39e3b7e914c8891155f48660dc585ec46bddf437",
+        "size_in_bytes": 31818
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_ec.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9f9fed0de2fa3ccd042b0238c3ca691005e93555b20a2b3ba3e51e4384981175",
+        "sha256_in_prefix": "9f9fed0de2fa3ccd042b0238c3ca691005e93555b20a2b3ba3e51e4384981175",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_metadata.ipynb",
+        "path_type": "hardlink",
+        "sha256": "1643d867b23782255614decc5a4a893ea502a38f15a749f7912d07f221fba3e5",
+        "sha256_in_prefix": "1643d867b23782255614decc5a4a893ea502a38f15a749f7912d07f221fba3e5",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_output.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c17d29b7e7b5adf9881d6f1055559eb6a40da95fc4aa3c8026ce3ee0d3f691a5",
+        "sha256_in_prefix": "c17d29b7e7b5adf9881d6f1055559eb6a40da95fc4aa3c8026ce3ee0d3f691a5",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_source.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4275578cbbbbe36dd0654ae8cc6e4d31788bcd8e800300839c26f01ef0fb0204",
+        "sha256_in_prefix": "4275578cbbbbe36dd0654ae8cc6e4d31788bcd8e800300839c26f01ef0fb0204",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_source_output.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7843a5e7e1beeb2ce5760706003365653c7b3248718dc3ae7564d0e4b9bf6dd7",
+        "sha256_in_prefix": "7843a5e7e1beeb2ce5760706003365653c7b3248718dc3ae7564d0e4b9bf6dd7",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--changed_source_output_ec.ipynb",
+        "path_type": "hardlink",
+        "sha256": "22678446ae4aff0666cd2c2b501ed0bae1378d01a1bb367d6fb464999fafcbd4",
+        "sha256_in_prefix": "22678446ae4aff0666cd2c2b501ed0bae1378d01a1bb367d6fb464999fafcbd4",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--json_output.ipynb",
+        "path_type": "hardlink",
+        "sha256": "85640768e45a1147a623559a335760b53a417f05412afde9c0469f932daea23c",
+        "sha256_in_prefix": "85640768e45a1147a623559a335760b53a417f05412afde9c0469f932daea23c",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb--json_output_changed.ipynb",
+        "path_type": "hardlink",
+        "sha256": "6bc8474d305ef68bbbeb0945945339a34831f7b718b18fcf136b61e62e5eef66",
+        "sha256_in_prefix": "6bc8474d305ef68bbbeb0945945339a34831f7b718b18fcf136b61e62e5eef66",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/single_cell_nb.ipynb",
+        "path_type": "hardlink",
+        "sha256": "cf93c2af35248ee383538b778a756bf3bc406101b117f582a3aa5fe146a7d0e7",
+        "sha256_in_prefix": "cf93c2af35248ee383538b778a756bf3bc406101b117f582a3aa5fe146a7d0e7",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/source-conflict--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "583ede8ed33b29f9cbf773f1b931d21eee2fcf0f69ae5b5e8625648985c6d423",
+        "sha256_in_prefix": "583ede8ed33b29f9cbf773f1b931d21eee2fcf0f69ae5b5e8625648985c6d423",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/source-conflict--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a227c2caafaed00d6a74e5ab166825a18f1c33093530146b830c50ba999037c9",
+        "sha256_in_prefix": "a227c2caafaed00d6a74e5ab166825a18f1c33093530146b830c50ba999037c9",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/source-conflict--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "44ea4c60d2f3c5e097020250d882264d0ca2c250a395a4c91aa85d078293a43b",
+        "sha256_in_prefix": "44ea4c60d2f3c5e097020250d882264d0ca2c250a395a4c91aa85d078293a43b",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/src-and-output--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "70b40d4373d10f375f01cf1b9035b8c23314c4f99b4d0c0f7cfaab5d2626fd7d",
+        "sha256_in_prefix": "70b40d4373d10f375f01cf1b9035b8c23314c4f99b4d0c0f7cfaab5d2626fd7d",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/src-and-output--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4261a5a260932b2e96c6a364775fb542335f0e031d85f894cf8bc7c12e56cfea",
+        "sha256_in_prefix": "4261a5a260932b2e96c6a364775fb542335f0e031d85f894cf8bc7c12e56cfea",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/test-data-singlecell--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d934a1de26f5e7ee12174d6465586e061741672221627a6d6b386ca66f65c374",
+        "sha256_in_prefix": "d934a1de26f5e7ee12174d6465586e061741672221627a6d6b386ca66f65c374",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/test-data-singlecell--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "370ccadea1693bc17f9be2f5543aa11965a87758d277721d9b6ee788e051fa37",
+        "sha256_in_prefix": "370ccadea1693bc17f9be2f5543aa11965a87758d277721d9b6ee788e051fa37",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/unicode--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0343f6365292fbadca6f107826b9fc8249aff7926fb051b19b8ac13f098457e4",
+        "sha256_in_prefix": "0343f6365292fbadca6f107826b9fc8249aff7926fb051b19b8ac13f098457e4",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "site-packages/nbdime/tests/files/unicode--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "1e434b87edba97024e3bee9274621e152626335e00066636ae9bf8de0798b7a0",
+        "sha256_in_prefix": "1e434b87edba97024e3bee9274621e152626335e00066636ae9bf8de0798b7a0",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/nbdime/tests/filters/add_helper.py",
+        "path_type": "hardlink",
+        "sha256": "d94ea84940ab8288a9c28d3208fd56d30ff919c4772cfac570ddd117860b07c4",
+        "sha256_in_prefix": "d94ea84940ab8288a9c28d3208fd56d30ff919c4772cfac570ddd117860b07c4",
+        "size_in_bytes": 1910
+      },
+      {
+        "_path": "site-packages/nbdime/tests/filters/noop.py",
+        "path_type": "hardlink",
+        "sha256": "17eea08df417bcef37a415d702903517c8065dc52b9789b9d6858cf09945d81b",
+        "sha256_in_prefix": "17eea08df417bcef37a415d702903517c8065dc52b9789b9d6858cf09945d81b",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "site-packages/nbdime/tests/filters/strip_outputs.py",
+        "path_type": "hardlink",
+        "sha256": "a254c6c3bb087d86b324aa37ee075985994e86d55a1e84ff240268cc1c9268a2",
+        "sha256_in_prefix": "a254c6c3bb087d86b324aa37ee075985994e86d55a1e84ff240268cc1c9268a2",
+        "size_in_bytes": 1312
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_apply_merge.py",
+        "path_type": "hardlink",
+        "sha256": "89a6207991451652cc2303e6f0fc90ab85596af8f8566698c210b2c069229738",
+        "sha256_in_prefix": "89a6207991451652cc2303e6f0fc90ab85596af8f8566698c210b2c069229738",
+        "size_in_bytes": 3952
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_args.py",
+        "path_type": "hardlink",
+        "sha256": "3d8075b97085814bf029319b54b560ddb902297cb59b9af3809de8d9b56e6661",
+        "sha256_in_prefix": "3d8075b97085814bf029319b54b560ddb902297cb59b9af3809de8d9b56e6661",
+        "size_in_bytes": 4207
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_autoresolve.py",
+        "path_type": "hardlink",
+        "sha256": "91657c33780b4aac24e510438a902d460b994f76221a09bbf1d2c4dd012f920b",
+        "sha256_in_prefix": "91657c33780b4aac24e510438a902d460b994f76221a09bbf1d2c4dd012f920b",
+        "size_in_bytes": 4494
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_cli_apps.py",
+        "path_type": "hardlink",
+        "sha256": "5ce963dd364c1eadc21ed8ef5ae5cadfd5e4c12267ca23de0be3173802ab0d96",
+        "sha256_in_prefix": "5ce963dd364c1eadc21ed8ef5ae5cadfd5e4c12267ca23de0be3173802ab0d96",
+        "size_in_bytes": 25346
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_decision_tools.py",
+        "path_type": "hardlink",
+        "sha256": "6e5a491921930d7620d19217807ff22c8e5480839b4169027e62e0ad9b6c6df4",
+        "sha256_in_prefix": "6e5a491921930d7620d19217807ff22c8e5480839b4169027e62e0ad9b6c6df4",
+        "size_in_bytes": 5295
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff.py",
+        "path_type": "hardlink",
+        "sha256": "fe09e986b8a428ea8bd55afc5a2e5b28657443282e748cfad1ee5eacd89464e9",
+        "sha256_in_prefix": "fe09e986b8a428ea8bd55afc5a2e5b28657443282e748cfad1ee5eacd89464e9",
+        "size_in_bytes": 4261
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_format.py",
+        "path_type": "hardlink",
+        "sha256": "78e928baa293243f7492f282f954d316a3db84b270167b3a9557f01b77da9e41",
+        "sha256_in_prefix": "78e928baa293243f7492f282f954d316a3db84b270167b3a9557f01b77da9e41",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_gitrefs.py",
+        "path_type": "hardlink",
+        "sha256": "4573c4b065669e5a503959e835120243b3f050dedfa4c93f578517e078d657bb",
+        "sha256_in_prefix": "4573c4b065669e5a503959e835120243b3f050dedfa4c93f578517e078d657bb",
+        "size_in_bytes": 7830
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_json_conversion.py",
+        "path_type": "hardlink",
+        "sha256": "1588e999c2ca5c53a458b7abd00a29c005389f2a6732ab5fb751ed29c629ca50",
+        "sha256_in_prefix": "1588e999c2ca5c53a458b7abd00a29c005389f2a6732ab5fb751ed29c629ca50",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_performance.py",
+        "path_type": "hardlink",
+        "sha256": "a7af1c248662e40317217eddb40a94c73dc6d320b02de890b51dcd63a3182281",
+        "sha256_in_prefix": "a7af1c248662e40317217eddb40a94c73dc6d320b02de890b51dcd63a3182281",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_sequence.py",
+        "path_type": "hardlink",
+        "sha256": "8973429f32315090832e054d19fda3e709804a45a1a0c4a49231a00922f86081",
+        "sha256_in_prefix": "8973429f32315090832e054d19fda3e709804a45a1a0c4a49231a00922f86081",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_sequence_bruteforce.py",
+        "path_type": "hardlink",
+        "sha256": "dc2d359a45729b360a5641c5debaa727d05856cb65a13cb258714e23412f5247",
+        "sha256_in_prefix": "dc2d359a45729b360a5641c5debaa727d05856cb65a13cb258714e23412f5247",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_diff_sequence_difflib.py",
+        "path_type": "hardlink",
+        "sha256": "c625128c39663ff169c31498228884958617965dafb4f219cae78f3c483a15a0",
+        "sha256_in_prefix": "c625128c39663ff169c31498228884958617965dafb4f219cae78f3c483a15a0",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_directory_differ.py",
+        "path_type": "hardlink",
+        "sha256": "ce7cfc0588a47f437c662dcdd79e9b3f367dc55100ac31ecc7b311c790b15d4a",
+        "sha256_in_prefix": "ce7cfc0588a47f437c662dcdd79e9b3f367dc55100ac31ecc7b311c790b15d4a",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_git_diffdriver.py",
+        "path_type": "hardlink",
+        "sha256": "66a7ef2ad8095bfa6dddd1bad65b4e25a6a45af00c94467a3865e2026963ef2b",
+        "sha256_in_prefix": "66a7ef2ad8095bfa6dddd1bad65b4e25a6a45af00c94467a3865e2026963ef2b",
+        "size_in_bytes": 9988
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_git_filter_integration.py",
+        "path_type": "hardlink",
+        "sha256": "c0ba7077f65d82e2210e96524c10ebc186510606dcdd9b0d0973736b120c275e",
+        "sha256_in_prefix": "c0ba7077f65d82e2210e96524c10ebc186510606dcdd9b0d0973736b120c275e",
+        "size_in_bytes": 3254
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_hg_differ.py",
+        "path_type": "hardlink",
+        "sha256": "b17e51359cc67a62da014c12e4bad437ac1c467b33402371663f391e2edbf4ed",
+        "sha256_in_prefix": "b17e51359cc67a62da014c12e4bad437ac1c467b33402371663f391e2edbf4ed",
+        "size_in_bytes": 3854
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_js_artifacts_installed.py",
+        "path_type": "hardlink",
+        "sha256": "5e54e8365e33916940581f599546106a216fe60bf8260737fb69a190b1c0b5d0",
+        "sha256_in_prefix": "5e54e8365e33916940581f599546106a216fe60bf8260737fb69a190b1c0b5d0",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_merge.py",
+        "path_type": "hardlink",
+        "sha256": "96cd4af3a35d237177d9e8c46c56bf9d16a27016f01f88a82db16a60c7eb047b",
+        "sha256_in_prefix": "96cd4af3a35d237177d9e8c46c56bf9d16a27016f01f88a82db16a60c7eb047b",
+        "size_in_bytes": 24174
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_merge_format.py",
+        "path_type": "hardlink",
+        "sha256": "90b39a85c8630ee3efa3e3a10dd1662c7b6f91a35c6c51ac6e96f828d78dcb68",
+        "sha256_in_prefix": "90b39a85c8630ee3efa3e3a10dd1662c7b6f91a35c6c51ac6e96f828d78dcb68",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_merge_notebooks.py",
+        "path_type": "hardlink",
+        "sha256": "e6f8f03214e544bbcff7d3540829182174093178404c9a6e9e37adc75449c824",
+        "sha256_in_prefix": "e6f8f03214e544bbcff7d3540829182174093178404c9a6e9e37adc75449c824",
+        "size_in_bytes": 36057
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_merge_notebooks_inline.py",
+        "path_type": "hardlink",
+        "sha256": "f9391055d22cd25efcd2e4b2bf965bb05acd399a897fac7bf0d9a33f7b6d3b69",
+        "sha256_in_prefix": "f9391055d22cd25efcd2e4b2bf965bb05acd399a897fac7bf0d9a33f7b6d3b69",
+        "size_in_bytes": 43976
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_myers.py",
+        "path_type": "hardlink",
+        "sha256": "ddf1412b4a2dace9329a2b1ca0e22bcedfcd55fc57828f4af59b3622828a3fac",
+        "sha256_in_prefix": "ddf1412b4a2dace9329a2b1ca0e22bcedfcd55fc57828f4af59b3622828a3fac",
+        "size_in_bytes": 15313
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_notebook_diff.py",
+        "path_type": "hardlink",
+        "sha256": "4490f6465ec5f50e8fd9be66cc86abf2bfdb4c2b34c1362025a811e007db2351",
+        "sha256_in_prefix": "4490f6465ec5f50e8fd9be66cc86abf2bfdb4c2b34c1362025a811e007db2351",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_package.py",
+        "path_type": "hardlink",
+        "sha256": "cc634e662dcdae5ff425ce5e7d54602736f797c6969deeee36ad7ffc91cc0b32",
+        "sha256_in_prefix": "cc634e662dcdae5ff425ce5e7d54602736f797c6969deeee36ad7ffc91cc0b32",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_patch.py",
+        "path_type": "hardlink",
+        "sha256": "a08752785a402ff9cbc4a266a287b721603c1e6bb758892178ba9c6682aec1f2",
+        "sha256_in_prefix": "a08752785a402ff9cbc4a266a287b721603c1e6bb758892178ba9c6682aec1f2",
+        "size_in_bytes": 3975
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_prettyprint.py",
+        "path_type": "hardlink",
+        "sha256": "a2edac988b01d17a62308675f6743c585b492bf0dfceaa05a9f8310ac5e15af3",
+        "sha256_in_prefix": "a2edac988b01d17a62308675f6743c585b492bf0dfceaa05a9f8310ac5e15af3",
+        "size_in_bytes": 9019
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_server_extension.py",
+        "path_type": "hardlink",
+        "sha256": "ad525c2a8067cbf218bba8eda797c0bfc41d32c18679c82721141023db0c4aab",
+        "sha256_in_prefix": "ad525c2a8067cbf218bba8eda797c0bfc41d32c18679c82721141023db0c4aab",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d21809602e643e2b822e818748507949023a809b4221d63c5d28df56c1685161",
+        "sha256_in_prefix": "d21809602e643e2b822e818748507949023a809b4221d63c5d28df56c1685161",
+        "size_in_bytes": 1837
+      },
+      {
+        "_path": "site-packages/nbdime/tests/test_web.py",
+        "path_type": "hardlink",
+        "sha256": "e64d7c392b27fd666787aafcaa1752abe0ca0f39d574a5a1d0315496d5396af4",
+        "sha256_in_prefix": "e64d7c392b27fd666787aafcaa1752abe0ca0f39d574a5a1d0315496d5396af4",
+        "size_in_bytes": 4896
+      },
+      {
+        "_path": "site-packages/nbdime/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "10f115e7a8458ede92f240396a5ad127722b2a05aecc66f77e5bcd150c3391a8",
+        "sha256_in_prefix": "10f115e7a8458ede92f240396a5ad127722b2a05aecc66f77e5bcd150c3391a8",
+        "size_in_bytes": 5531
+      },
+      {
+        "_path": "site-packages/nbdime/utils.py",
+        "path_type": "hardlink",
+        "sha256": "53fa13f7ca70ce1f827b1dae42ea6cf861ca84196e57ee71c64781ae87dab0e7",
+        "sha256_in_prefix": "53fa13f7ca70ce1f827b1dae42ea6cf861ca84196e57ee71c64781ae87dab0e7",
+        "size_in_bytes": 10909
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f985664969ea5e8dbd5346e15147cd05c79f62447422cd50148121c57fc04afd",
+        "sha256_in_prefix": "f985664969ea5e8dbd5346e15147cd05c79f62447422cd50148121c57fc04afd",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0bf508edb6c47b6239c0fdb841de1419438c111aa35fba2d49e16a6d8806f5fa",
+        "sha256_in_prefix": "0bf508edb6c47b6239c0fdb841de1419438c111aa35fba2d49e16a6d8806f5fa",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/diffdriver.py",
+        "path_type": "hardlink",
+        "sha256": "379ac225593d30a8ed8083033e7ecaa20786200b125cc55ce7cb31096c411956",
+        "sha256_in_prefix": "379ac225593d30a8ed8083033e7ecaa20786200b125cc55ce7cb31096c411956",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/difftool.py",
+        "path_type": "hardlink",
+        "sha256": "44de56cf79d067135a30e49f82865ac64bd425f77b44a27625b5af5be123d016",
+        "sha256_in_prefix": "44de56cf79d067135a30e49f82865ac64bd425f77b44a27625b5af5be123d016",
+        "size_in_bytes": 3645
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/filter_integration.py",
+        "path_type": "hardlink",
+        "sha256": "e47302335853aca135dfb23db23e0e792bb09629b329e7abf510f38a16da49e9",
+        "sha256_in_prefix": "e47302335853aca135dfb23db23e0e792bb09629b329e7abf510f38a16da49e9",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/mergedriver.py",
+        "path_type": "hardlink",
+        "sha256": "208284773ea1c670323febd891ce6eecd493ae1c2ab08703e7d65e554b8bab4b",
+        "sha256_in_prefix": "208284773ea1c670323febd891ce6eecd493ae1c2ab08703e7d65e554b8bab4b",
+        "size_in_bytes": 4151
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/git/mergetool.py",
+        "path_type": "hardlink",
+        "sha256": "1d6350f0a476620b02fc73629d62b93fe45fad64e6b0eb03a2ad251305f34217",
+        "sha256_in_prefix": "1d6350f0a476620b02fc73629d62b93fe45fad64e6b0eb03a2ad251305f34217",
+        "size_in_bytes": 2573
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/hg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "769839f6dc1d1f6de57bbbbae427bf16801d899e36d18c2d3fef676871c5d375",
+        "sha256_in_prefix": "769839f6dc1d1f6de57bbbbae427bf16801d899e36d18c2d3fef676871c5d375",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/hg/diff.py",
+        "path_type": "hardlink",
+        "sha256": "c5993b38f8b896efab0b2fd6a36a70d0fa0b26deee7de8bd7991e4a4e722b3e8",
+        "sha256_in_prefix": "c5993b38f8b896efab0b2fd6a36a70d0fa0b26deee7de8bd7991e4a4e722b3e8",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/hg/diffweb.py",
+        "path_type": "hardlink",
+        "sha256": "078c0d551e0226a0649b867484605f7c095f6abfbf083034bef3d28fd54242e4",
+        "sha256_in_prefix": "078c0d551e0226a0649b867484605f7c095f6abfbf083034bef3d28fd54242e4",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/hg/merge.py",
+        "path_type": "hardlink",
+        "sha256": "84da5dcee4713ecacb714dc7d78df06252db1682882e9be02ad7660ce7e1fbf3",
+        "sha256_in_prefix": "84da5dcee4713ecacb714dc7d78df06252db1682882e9be02ad7660ce7e1fbf3",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "site-packages/nbdime/vcs/hg/mergeweb.py",
+        "path_type": "hardlink",
+        "sha256": "317c8fbd4260ee2a5ff1d8f0b6962d2e704e92564be53191fd489f3d6a52855d",
+        "sha256_in_prefix": "317c8fbd4260ee2a5ff1d8f0b6962d2e704e92564be53191fd489f3d6a52855d",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "33d8f536e7b1b265d13b43bf2cb44dacb17b7c47cf007588c66f74842ea05772",
+        "sha256_in_prefix": "33d8f536e7b1b265d13b43bf2cb44dacb17b7c47cf007588c66f74842ea05772",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nb_server_extension.py",
+        "path_type": "hardlink",
+        "sha256": "691e67c23df823bd250484979978121065f5cc161915f1e7faa8efd4a5f6cabe",
+        "sha256_in_prefix": "691e67c23df823bd250484979978121065f5cc161915f1e7faa8efd4a5f6cabe",
+        "size_in_bytes": 12963
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nbdifftool.py",
+        "path_type": "hardlink",
+        "sha256": "811aef0c1f58aecf21ac6a35aa1d94ccf1c54bdc14dbcf5f988b0b614b74ffe2",
+        "sha256_in_prefix": "811aef0c1f58aecf21ac6a35aa1d94ccf1c54bdc14dbcf5f988b0b614b74ffe2",
+        "size_in_bytes": 1659
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nbdiffweb.py",
+        "path_type": "hardlink",
+        "sha256": "580f3564057659d31b28fcef7a864a8dd6bf55401302ac5b759d522f329858e5",
+        "sha256_in_prefix": "580f3564057659d31b28fcef7a864a8dd6bf55401302ac5b759d522f329858e5",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nbdimeserver.py",
+        "path_type": "hardlink",
+        "sha256": "dc03e9cea7dd272efc15e9c947697cc6981580b93664127058721b229e17c0bb",
+        "sha256_in_prefix": "dc03e9cea7dd272efc15e9c947697cc6981580b93664127058721b229e17c0bb",
+        "size_in_bytes": 16905
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nbmergetool.py",
+        "path_type": "hardlink",
+        "sha256": "8b5167f31bb8b6ef3c7a862cbd2eb5ba0b68833a8a70109a4682e727b3d32105",
+        "sha256_in_prefix": "8b5167f31bb8b6ef3c7a862cbd2eb5ba0b68833a8a70109a4682e727b3d32105",
+        "size_in_bytes": 1820
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/nbmergeweb.py",
+        "path_type": "hardlink",
+        "sha256": "68b5dea35b5577f402e78853de479d6a7093675cb9fd2103867244d7b7053c34",
+        "sha256_in_prefix": "68b5dea35b5577f402e78853de479d6a7093675cb9fd2103867244d7b7053c34",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/099a9556e1a63ece24f8a99859c94c7d.woff",
+        "path_type": "hardlink",
+        "sha256": "aff76e5c986f295d4bc6f8142a78e2a31888b101c2d025db89f79c75f64fd90b",
+        "sha256_in_prefix": "aff76e5c986f295d4bc6f8142a78e2a31888b101c2d025db89f79c75f64fd90b",
+        "size_in_bytes": 90060
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/0bb428459c8ecfa61b22a03def1706e6.svg",
+        "path_type": "hardlink",
+        "sha256": "2326849b6c3dfa217a0e9ecaec9553c910a4e2987c87315c85073d2b95a484f3",
+        "sha256_in_prefix": "2326849b6c3dfa217a0e9ecaec9553c910a4e2987c87315c85073d2b95a484f3",
+        "size_in_bytes": 144714
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/1.nbdime.js",
+        "path_type": "hardlink",
+        "sha256": "a7763e8bf32a30264997fa5851cdbbb5279a3e5aa4547bf1a66345ef703cf554",
+        "sha256_in_prefix": "a7763e8bf32a30264997fa5851cdbbb5279a3e5aa4547bf1a66345ef703cf554",
+        "size_in_bytes": 432262
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/1.nbdime.js.map",
+        "path_type": "hardlink",
+        "sha256": "73ac9dde096bbdfd64520dc7f92c4c1045a959e6cb8be9755ef2a63d828b59b7",
+        "sha256_in_prefix": "73ac9dde096bbdfd64520dc7f92c4c1045a959e6cb8be9755ef2a63d828b59b7",
+        "size_in_bytes": 1372248
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/1042e8ca1ce821518a2d3e7055410839.eot",
+        "path_type": "hardlink",
+        "sha256": "75a761159ae266c5332a4f266e07a5543712ffb76ee0260b07782195c04dc364",
+        "sha256_in_prefix": "75a761159ae266c5332a4f266e07a5543712ffb76ee0260b07782195c04dc364",
+        "size_in_bytes": 203030
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/1f77739ca9ff2188b539c36f30ffa2be.ttf",
+        "path_type": "hardlink",
+        "sha256": "c651b8a67d3193206f622c3c3b0fbca4a2f2727108c4212b52c1e2a2e84c9b31",
+        "sha256_in_prefix": "c651b8a67d3193206f622c3c3b0fbca4a2f2727108c4212b52c1e2a2e84c9b31",
+        "size_in_bytes": 33736
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/2.nbdime.js",
+        "path_type": "hardlink",
+        "sha256": "37b5f9544beaff0dd26324df1a41018e2bc0e2032c7b42c4c6f501fa501ff0d6",
+        "sha256_in_prefix": "37b5f9544beaff0dd26324df1a41018e2bc0e2032c7b42c4c6f501fa501ff0d6",
+        "size_in_bytes": 3290
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/2.nbdime.js.map",
+        "path_type": "hardlink",
+        "sha256": "b3a476d22d1b050ad2543b962d55eecc754d5559796629170dbf2cd55a08c213",
+        "sha256_in_prefix": "b3a476d22d1b050ad2543b962d55eecc754d5559796629170dbf2cd55a08c213",
+        "size_in_bytes": 6512
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/30cc681d4487d2f561035ba24a68c629.eot",
+        "path_type": "hardlink",
+        "sha256": "407a9723fc717c94e287496080d773e18e29c3cac49e2630172343c65c0864a8",
+        "sha256_in_prefix": "407a9723fc717c94e287496080d773e18e29c3cac49e2630172343c65c0864a8",
+        "size_in_bytes": 134346
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/376c1f97f6553dea1ca9b3f9081889bd.svg",
+        "path_type": "hardlink",
+        "sha256": "fa498fb2596a5235c5c86d7b68a7fbe76e9855c01af4b0e5ab41c41047c648e0",
+        "sha256_in_prefix": "fa498fb2596a5235c5c86d7b68a7fbe76e9855c01af4b0e5ab41c41047c648e0",
+        "size_in_bytes": 918991
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/3b89dd103490708d19a95adcae52210e.ttf",
+        "path_type": "hardlink",
+        "sha256": "06f4d00923ea24697df5df0b92984175991d8bd25776a02d531bb401e393ec42",
+        "sha256_in_prefix": "06f4d00923ea24697df5df0b92984175991d8bd25776a02d531bb401e393ec42",
+        "size_in_bytes": 134040
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/605ed7926cf39a2ad5ec2d1f9d391d3d.ttf",
+        "path_type": "hardlink",
+        "sha256": "3d06af1f31cd83ace7a265a014b8fb5dee15770ecac8f7a55555190e627e03c2",
+        "sha256_in_prefix": "3d06af1f31cd83ace7a265a014b8fb5dee15770ecac8f7a55555190e627e03c2",
+        "size_in_bytes": 202744
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/7124eb50fc8227c78269f2d995637ff5.woff",
+        "path_type": "hardlink",
+        "sha256": "14c9db4ff87fde08f67b0a69dd594bab6d87174812a0dbd34c59833bfed8cc0e",
+        "sha256_in_prefix": "14c9db4ff87fde08f67b0a69dd594bab6d87174812a0dbd34c59833bfed8cc0e",
+        "size_in_bytes": 16276
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/7630483dd4b0c48639d2ac54a894b450.eot",
+        "path_type": "hardlink",
+        "sha256": "cf83ffb8cf0023bd439dfdd5d02f1954b6ee027e85897d6cfc5f90bbca9ec1d2",
+        "sha256_in_prefix": "cf83ffb8cf0023bd439dfdd5d02f1954b6ee027e85897d6cfc5f90bbca9ec1d2",
+        "size_in_bytes": 34034
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/9fe5a17c8ab036d20e6c5ba3fd2ac511.woff",
+        "path_type": "hardlink",
+        "sha256": "74edc18b67c487e32f181719fdb347e2e77020744651f446e9acd7bd6821e2e7",
+        "sha256_in_prefix": "74edc18b67c487e32f181719fdb347e2e77020744651f446e9acd7bd6821e2e7",
+        "size_in_bytes": 101652
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/ba7ed552362f64d30f6d844974d89114.svg",
+        "path_type": "hardlink",
+        "sha256": "679b5a5216bbdf913cc22d6ae44778c1ef975ee387a6c4c5de87e75d19a22232",
+        "sha256_in_prefix": "679b5a5216bbdf913cc22d6ae44778c1ef975ee387a6c4c5de87e75d19a22232",
+        "size_in_bytes": 747545
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/e8a427e15cc502bef99cfd722b37ea98.woff2",
+        "path_type": "hardlink",
+        "sha256": "d0b4256abed72481585662971262eabee345c19f837af00d7ce24239d3b40eef",
+        "sha256_in_prefix": "d0b4256abed72481585662971262eabee345c19f837af00d7ce24239d3b40eef",
+        "size_in_bytes": 78196
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/f0f8230116992e521526097a28f54066.woff2",
+        "path_type": "hardlink",
+        "sha256": "8afc6e5e842baab16010c2ce6fcf48ec4ded8e1579a37c1f1bc027e120d04951",
+        "sha256_in_prefix": "8afc6e5e842baab16010c2ce6fcf48ec4ded8e1579a37c1f1bc027e120d04951",
+        "size_in_bytes": 13276
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/f7307680c7fe85959f3ecf122493ea7d.woff2",
+        "path_type": "hardlink",
+        "sha256": "43c072c16c9ee6d67acdfa6c6d6685ff1e74eb4237b7cc3c1348ab1c108b26af",
+        "sha256_in_prefix": "43c072c16c9ee6d67acdfa6c6d6685ff1e74eb4237b7cc3c1348ab1c108b26af",
+        "size_in_bytes": 76764
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/favicon.ico",
+        "path_type": "hardlink",
+        "sha256": "c2638a89fde3633617ec624088730c1dbe4daf18d4f2e44729ece89df3e60176",
+        "sha256_in_prefix": "c2638a89fde3633617ec624088730c1dbe4daf18d4f2e44729ece89df3e60176",
+        "size_in_bytes": 32038
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/nbdime.js",
+        "path_type": "hardlink",
+        "sha256": "41311613a516c5998929735ccbc02b8d0dde80318056af2acd4fce57e12aa192",
+        "sha256_in_prefix": "41311613a516c5998929735ccbc02b8d0dde80318056af2acd4fce57e12aa192",
+        "size_in_bytes": 3285467
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/static/nbdime.js.map",
+        "path_type": "hardlink",
+        "sha256": "4334548c482fceb994c000d332a7e64ebfca5d8c462c3623e153fe6f8109cd8c",
+        "sha256_in_prefix": "4334548c482fceb994c000d332a7e64ebfca5d8c462c3623e153fe6f8109cd8c",
+        "size_in_bytes": 8053758
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/compare.html",
+        "path_type": "hardlink",
+        "sha256": "9ce6912c7f46746e9bdea88d0574a6fbab959e14828475af960f414351b9e041",
+        "sha256_in_prefix": "9ce6912c7f46746e9bdea88d0574a6fbab959e14828475af960f414351b9e041",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/diff.html",
+        "path_type": "hardlink",
+        "sha256": "c6b170991c26b17e67ab2fc96e531ab15c43ff00ab8ba1dc492013e489d3c1fd",
+        "sha256_in_prefix": "c6b170991c26b17e67ab2fc96e531ab15c43ff00ab8ba1dc492013e489d3c1fd",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/difftool.html",
+        "path_type": "hardlink",
+        "sha256": "82d1cb06778db3b15f5251518eb7a0726e083c834ab5b9a6bc0494473541dc76",
+        "sha256_in_prefix": "82d1cb06778db3b15f5251518eb7a0726e083c834ab5b9a6bc0494473541dc76",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/merge.html",
+        "path_type": "hardlink",
+        "sha256": "21cfd9c9b2d5a8d107fd675225133b9bcb688501489e9a27de0b6a583f320fa9",
+        "sha256_in_prefix": "21cfd9c9b2d5a8d107fd675225133b9bcb688501489e9a27de0b6a583f320fa9",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/mergetool.html",
+        "path_type": "hardlink",
+        "sha256": "59f20b9b8d06fcc7dca8a83bdc94ab0bd334a0997fff05b5b016d87f7a582101",
+        "sha256_in_prefix": "59f20b9b8d06fcc7dca8a83bdc94ab0bd334a0997fff05b5b016d87f7a582101",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/templates/nbdimepage.html",
+        "path_type": "hardlink",
+        "sha256": "11a2ede81a95d02f5aa071e568565a89821e517d0ec8239257ada0a8ea0b9005",
+        "sha256_in_prefix": "11a2ede81a95d02f5aa071e568565a89821e517d0ec8239257ada0a8ea0b9005",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/base.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a77afb0c68e11f72cbd59daada3ddf787b60d6f8709d7bfeb94ac32fadcb4b99",
+        "sha256_in_prefix": "a77afb0c68e11f72cbd59daada3ddf787b60d6f8709d7bfeb94ac32fadcb4b99",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/cellchange.ipynb",
+        "path_type": "hardlink",
+        "sha256": "bf029e21474438c3fc6aa933ae187316030de7d3d41aa004e65fa0720073bd91",
+        "sha256_in_prefix": "bf029e21474438c3fc6aa933ae187316030de7d3d41aa004e65fa0720073bd91",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/local.ipynb",
+        "path_type": "hardlink",
+        "sha256": "6ab881928b9b897cbaabf1080e8a0d405362f2a1a1c86f851c5f4df4af92822e",
+        "sha256_in_prefix": "6ab881928b9b897cbaabf1080e8a0d405362f2a1a1c86f851c5f4df4af92822e",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/remote.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fa7ed6f672a2e3eea0e73f86cf0af79e6d1b01e4a083476dab121481754f7760",
+        "sha256_in_prefix": "fa7ed6f672a2e3eea0e73f86cf0af79e6d1b01e4a083476dab121481754f7760",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/scrollA.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7419c84a46306fadcdb5b9cd866b45d3def9f57691213040a00a7434e662f617",
+        "sha256_in_prefix": "7419c84a46306fadcdb5b9cd866b45d3def9f57691213040a00a7434e662f617",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/testnotebooks/scrollB.ipynb",
+        "path_type": "hardlink",
+        "sha256": "226ffcb33b84e87dee6be95ab9d4cb3916fbf54cc88748de09616dcad2c197bc",
+        "sha256_in_prefix": "226ffcb33b84e87dee6be95ab9d4cb3916fbf54cc88748de09616dcad2c197bc",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "site-packages/nbdime/webapp/webutil.py",
+        "path_type": "hardlink",
+        "sha256": "c40e627d9f7d1d2d1c10c4b071167539869ae3b6d8e2fa64f80cda5bb39137a4",
+        "sha256_in_prefix": "c40e627d9f7d1d2d1c10c4b071167539869ae3b6d8e2fa64f80cda5bb39137a4",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/args.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/diff_format.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/diff_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/directorydiff.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/generic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/lcs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/notebooks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_bruteforce.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_difflib.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/seq_myers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/sequences.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/diffing/__pycache__/snakes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/gitfiles.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/ignorables.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/autoresolve.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/chunks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/decisions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/generic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/notebooks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/merging/__pycache__/strategies.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/nbdiffapp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/nbmergeapp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/nbpatchapp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/nbshowapp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/patching.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/prettyprint.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/profiling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/add_helper.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/noop.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/filters/__pycache__/strip_outputs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_apply_merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_args.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_autoresolve.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_cli_apps.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_decision_tools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_format.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_gitrefs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_json_conversion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_performance.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence_bruteforce.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_diff_sequence_difflib.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_directory_differ.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_git_diffdriver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_git_filter_integration.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_hg_differ.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_js_artifacts_installed.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_format.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_notebooks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_merge_notebooks_inline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_myers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_notebook_diff.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_package.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_patch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_prettyprint.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_server_extension.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/test_web.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/tests/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/diffdriver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/difftool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/filter_integration.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/mergedriver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/git/__pycache__/mergetool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/diff.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/diffweb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/merge.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/vcs/hg/__pycache__/mergeweb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nb_server_extension.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdifftool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdiffweb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbdimeserver.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbmergetool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/nbmergeweb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nbdime/webapp/__pycache__/webutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/nbdime",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/nbshow",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/nbdiff",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/nbdiff-web",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/nbmerge",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/nbmerge-web",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/git-nbdiffdriver",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/git-nbdifftool",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/git-nbmergedriver",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/git-nbmergetool",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/hg-nbdiff",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/hg-nbdiffweb",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/hg-nbmerge",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/hg-nbmergeweb",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "28545a69b0cc9626e46e25103cdf6c26c8b2108e71f68a6d8ea571557a7f83a9",
+  "size": 4459283,
+  "subdir": "noarch",
+  "timestamp": 1621971111330,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbdime-3.1.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.1.0"
+}

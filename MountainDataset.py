@@ -43,12 +43,14 @@ class MountainDataset(Dataset):
         if torch.is_tensor(idx):
             idx = idx.toList()
         if idx>len(self):
-            raise ValueError
+            raise ValueError("idx > len(Dataset)")
+        
         dem_name = os.path.join(self.rootDir, f"{idx}_dem.tif")
         peaks_name = os.path.join(self.rootDir, f"{idx}_peaks.tif")
         image_dem = np.expand_dims(io.imread(dem_name), 0)
         image_peaks = np.expand_dims(io.imread(peaks_name), 0)
-        
+        if np.isnan(np.amax(image_dem))or np.isnan(np.amin(image_dem)):
+            raise ValueError(f"Tensor at idx={idx} exceeds max or min. max={np.amax(image_dem)} min={np.amin(image_dem)}")
         sample = (image_dem, image_peaks)
         
         return sample
